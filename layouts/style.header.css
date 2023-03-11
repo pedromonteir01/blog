@@ -3,5 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
   }
 
+body {
+    background-color: rgb(22, 20, 20);
+    color: #fff;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
