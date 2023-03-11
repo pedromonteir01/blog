@@ -1,39 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Blog</title>
     <link rel="stylesheet" type="text/css" href="style.header.css">
     <link rel="icon" type="image/x-icon" href="../assets/">
-
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-
-    <link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 
 <body>
     <header>
-        <a href="#" class="logo"><i class="ri-home-3-line"></i><span>Logo</span></a>
-        <nav>
-            <ul class="navbar">
-                <li><a href="#" class="active">home</a></li>
-                <li><a href="#"></a>about us</li>
-                <li><a href="#"></a>categories</li>
-                <li><a href="#"></a>feedback</li>
-                <li><a href="#"></a>contact</li>
+        <div class="navbar">
+            <div class="logo"><a href="../assets/">TOP</a></div>
+            <ul class="links">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">categories</a></li>
+                <li><a href="#">feedback</a></li>
+                <li><a href="#">contact</a></li>
             </ul>
-        </nav>
-
-        <div class="main">
-            <a href="#" class="user"><i class="ri-user-fill"></i>Sign In</a>
-            <a href="#" class="resgister">Register</a>
-            <div class="bxbx-menu" id="menu-icon"></div>
+            <a href="#" class="action_btn">get started</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        
+        <div class="dropdown_menu">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">categories</a></li>
+            <li><a href="#">feedback</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#" class="action_btn">get started</a></li>
         </div>
     </header>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+        
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+    </script>
 </body>
 
 </html>
