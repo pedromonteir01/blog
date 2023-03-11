@@ -25,18 +25,35 @@
                 <li><a href="#">contact</a></li>
             </ul>
             <a href="#" class="action_btn">get started</a>
-            <div class="toogle_btn">
+            <div class="toggle_btn">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </div>
-        <li><a href="#">home</a></li>
-        <li><a href="#">about us</a></li>
-        <li><a href="#">categories</a></li>
-        <li><a href="#">feedback</a></li>
-        <li><a href="#">contact</a></li>
-        <li><a href="#" class="action_btn">get started</a></li>
-        <div class="dropdown_menu"></div>
+        
+        <div class="dropdown_menu">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">categories</a></li>
+            <li><a href="#">feedback</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#" class="action_btn">get started</a></li>
+        </div>
     </header>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+        
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+    </script>
 </body>
 
 </html>
