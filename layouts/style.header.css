@@ -16,16 +16,35 @@ body {
 nav li {
     list-style: none;
     margin: 0 10px;
+    text-transform: uppercase;
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
     font-size: 1rem;
+    text-transform: uppercase;
+    position: relative;
 }
 
 nav a:hover {
-    color: orangered;
+    color: orange;
+    }
+
+nav a::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+    height: 2px;
+}
+
+nav a:hover::after {
+    width: 100%;
 }
 
 nav .navbar {
@@ -66,14 +85,18 @@ nav .action_btn {
     font-weight: bold;
     cursor: pointer;
     transition: scale 0.2 ease;
+    content: none;
+
 }
 
 nav .action_btn:hover {
     scale: 1.05;
     color: #fff;
+    content: none;
 }
 
 nav .action_btn:active {
     scale: 0.95;
 }
+
 
