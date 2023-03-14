@@ -33,3 +33,7 @@ aside{
     padding: 5%;
     border: 0%;
 }
+.patrocinadores{
+    display: flex;
+    margin: 2%;
+}
