@@ -1,4 +1,16 @@
 body {
     background-color: #8D7B68;
     text-align: center;
+    align-items: center;
+}
+#Mensagem {
+    margin: 30px;
+}
+#divnome {
+    margin: 30px;
+}
+#divemail {
+}
+#divmensagem {
+    height: 100px;
 }
