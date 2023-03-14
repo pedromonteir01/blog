@@ -12,8 +12,8 @@ h1, h2, h3, h4, p, a, li{
 
 #top{
     display: flex;
-    background-color: #635985;
-    border: 2px solid #443C68;
+    background-color: #C8B6A6;
+    border: 2px solid #A4907C;
 }
 
 #top h1{
@@ -29,9 +29,9 @@ h1, h2, h3, h4, p, a, li{
 #top img{
     margin-right: 150px;
     margin-top: 100px;
-    background-color: #393053;
-    border: 2px solid #443C68;
-    border-left:5px solid #18122B;
+    background-color: #A4907C;
+    border: 2px solid #C8B6A6;
+    border-left:5px solid #8D7B68;
     border-radius: 5px;
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
@@ -39,9 +39,9 @@ h1, h2, h3, h4, p, a, li{
 .plano_1{
     margin-top: 10px;
     margin-left: 150px;
-    background-color: #18122B;
-    border: 2px solid #443C68;
-    border-left:5px solid #18122B;
+    background-color: #A4907C;
+    border: 2px solid #C8B6A6;
+    border-left:5px solid #8D7B68;
     border-radius: 5px;
     width: 30%;
     height: 400px;
@@ -55,16 +55,16 @@ h1, h2, h3, h4, p, a, li{
     padding-left: 50px;
     margin-top: 85px;
     text-align: center;
-    background-color: #635985;
-    border: 2px solid #443C68;
+    background-color: #A4907C;
+    border: 2px solid #C8B6A6;
     border-radius: 25px;
     color: white;
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
 .plano_1 h5:hover{
-    background-color: #18122B;
-    border: 2px solid #635985;
+    background-color: #C8B6A6;
+    border: 2px solid #A4907C;
     border-radius: 25px;
     color: white;
 }
@@ -72,9 +72,9 @@ h1, h2, h3, h4, p, a, li{
 .plano_2{
     margin-top: 10px;
     margin-left: 150px;
-    background-color: #18122B;
-    border: 2px solid #443C68;
-    border-left:5px solid #18122B;
+    background-color: #A4907C;
+    border: 2px solid #C8B6A6;
+    border-left:5px solid #8D7B68;
     border-radius: 5px;
     width: 30%;
     height: 400px;
@@ -88,16 +88,16 @@ h1, h2, h3, h4, p, a, li{
     padding-left: 50px;
     margin-top: 50px;
     text-align: center;
-    background-color: #635985;
-    border: 2px solid #443C68;
+    background-color: #A4907C;
+    border: 2px solid #C8B6A6;
     border-radius: 25px;
     color: white;
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
 .plano_2 h5:hover{
-    background-color: #18122B;
-    border: 2px solid #635985;
+    background-color: #C8B6A6;
+    border: 2px solid #A4907C;
     border-radius: 25px;
     color: white;
 }
@@ -105,7 +105,7 @@ h1, h2, h3, h4, p, a, li{
 
 #middle{
     display: flex;
-    background-color: #393053;
-    border: 2px solid #443C68;
+    background-color: #C8B6A6;
+    border: 2px solid #A4907C;
 
 }

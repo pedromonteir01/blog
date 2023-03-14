@@ -1,5 +1,5 @@
 body{
-    background-color: #443C68;
+    background-color: #A4907C;
     margin: 0%;
 }
 
@@ -22,16 +22,16 @@ h3{
     margin-right: 50px;
     margin-top: 50px;
     text-align: center;
-    background-color: #635985;
-    border: 2px solid #443C68;
+    background-color: #C8B6A6;
+    border: 2px solid #A4907C;
     border-radius: 25px;
     color: white;
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
 h3:hover{
-    background-color: #18122B;
-    border: 2px solid #635985;
+    background-color: #8D7B68;
+    border: 2px solid #C8B6A6;
     border-radius: 25px;
     color: white;
 }
