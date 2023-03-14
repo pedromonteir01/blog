@@ -1,0 +1,72 @@
+body{
+    margin: 0%;
+    padding: 0;
+    background-color: #F1DEC9;
+}
+
+.buttons {
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    border: solid 3px #8D7B68;
+    background-color: #F1DEC9;
+    cursor: pointer;
+    width: 200px;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #C8B6A6;
+    transition: 0.2s linear;
+    scale: 1.05;
+}
+
+button:active {
+    background-color: #8D7B68 ;
+}
+
+
+
+#top {
+    display: flex;
+}
+
+#article_aside {
+    display: flex;
+}
+
+aside {
+    background-color: #8D7B68;
+    margin: 15px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.patrocinadores {
+    width: 500px;
+}
+
+main {
+    padding: 20px;
+}
+
+p {
+    font-family: content;
+    text-align: justify;
+}
+
+h1, h2 {
+    font-family: title;
+}
+
+@font-face {
+    font-family: title;
+    src: url(../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: content;
+    src: url(../../fonts/paragrafo/Lato-Regular.ttf);
+}
