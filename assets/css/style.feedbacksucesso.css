@@ -1,0 +1,23 @@
+img {
+    text-align: center;
+}
+
+
+body {
+    background-color: #C8B6A6;
+    text-align: center;
+    padding: 150px;
+}
+
+
+
+button {
+    background-color: black;
+    font-size: 21px;
+    border: solid black;
+    color: white;
+}
+
+h1 {
+    font-size: 24px;
+}
