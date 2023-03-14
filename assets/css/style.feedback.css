@@ -1,0 +1,92 @@
+.artigo {
+    background-color: #8D7B68;
+    text-align: justify;
+    height: 340px;
+    width: 250px;
+    padding: 150px;
+    flex-direction: column;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.artigo1 {
+    background-color: #C8B6A6;
+    text-align: justify;
+    height: 355px;
+    width: 430px;
+    padding: 135px;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    display: flex;
+}
+
+body {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    background-color: #C8B6A6;
+}
+
+.rain1 {
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #C8B6A6;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    border: solid black;
+    width: 130px;
+}
+
+#comentario {
+    padding-top: 12px;
+    padding-bottom: 50px;
+    border: solid white;   
+}
+
+input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 450px;
+    border: solid white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
