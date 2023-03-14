@@ -12,6 +12,7 @@
     background-color: #8D7B68;
     left: -280px;
     transition: all 0.3s linear;
+    z-index: 2;
 }
 
 .box_menu .sidebar_title {
