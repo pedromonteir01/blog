@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer_ {
+    display: flex;
+}
+
+.icons ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding-left: 20px;
+}
