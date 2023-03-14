@@ -1,0 +1,50 @@
+body{
+    background-color: #443C68;
+    margin: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+h1, h2, h3, h4, p, a, li{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.cadastro{
+    padding-top: 20px;
+    height: 500px;
+    text-align: center;
+    background-color: #18122B;
+}
+
+input{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.button{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #635985;
+    border: 2px solid #443C68;
+    border-radius: 25px;
+    color: white;
+}
+
+.button:hover{
+    background-color: #18122B;
+    border: 2px solid #635985;
+    border-radius: 25px;
+    color: white;
+}
+
