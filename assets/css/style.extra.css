@@ -48,13 +48,13 @@ h1, h2, h3, h4, p, a, li{
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
-.plano_1 input{
+.plano_1 h5{
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 100px;
-    padding-left: 100px;
-    margin-left: 55px;
+    padding-right: 50px;
+    padding-left: 50px;
     margin-top: 85px;
+    text-align: center;
     background-color: #635985;
     border: 2px solid #443C68;
     border-radius: 25px;
@@ -62,7 +62,7 @@ h1, h2, h3, h4, p, a, li{
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
-.plano_1 input:hover{
+.plano_1 h5:hover{
     background-color: #18122B;
     border: 2px solid #635985;
     border-radius: 25px;
@@ -81,13 +81,13 @@ h1, h2, h3, h4, p, a, li{
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
-.plano_2 input{
+.plano_2 h5{
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 100px;
-    padding-left: 100px;
-    margin-left: 55px;
+    padding-right: 50px;
+    padding-left: 50px;
     margin-top: 50px;
+    text-align: center;
     background-color: #635985;
     border: 2px solid #443C68;
     border-radius: 25px;
@@ -95,7 +95,7 @@ h1, h2, h3, h4, p, a, li{
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
-.plano_2 input:hover{
+.plano_2 h5:hover{
     background-color: #18122B;
     border: 2px solid #635985;
     border-radius: 25px;
