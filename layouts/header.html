@@ -6,22 +6,55 @@
     <title>Blog</title>
     <link rel="stylesheet" type="text/css" href="style.header.css">
     <link rel="icon" type="image/x-icon" href="../assets/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
     <nav>
-        <div class="navbar">
-            <div class="logo"><a href="../assets/">TOP</a></div>
-            <ul class="links">
-                <li><a href="#">home</a></li>
-                <li><a href="#">about us</a></li>
-                <li><a href="#">categories</a></li>
-                <li><a href="#">feedback</a></li>
-                <li><a href="#">contact</a></li>
-            </ul>
-            <a href="#" class="action_btn">get started</a>
-    </nav>
-    </div>
+        <div class="box_menu">
+            <input type="checkbox" id="check">
+            <div class="menu_icon">
+                <label for="check">
+                    <i class="fas fa-bars"></i>
+                </label>
+            </div>
+            <div class="sidebar_menu">
+                <div class="sidebar_title">
+                    <a href="#">Dashboard</a>
+                </div>
+                <div class="btn_close">
+                    <label for="check">
+                        <i class="fas fa-times"></i>
+                    </label>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <i class="fas fa-qrcode"></i>
+                            <a href="#">menu</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-link"></i>
+                            <a href="#">sobre nos</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-stream"></i>
+                            <a href="#">categorias</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-calendar-week"></i>
+                            <a href="#">feedback</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-questions-circle"></i>
+                            <a href="#">contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    <a href="#" class="action_btn">get started</a>
 </body>
 
 </html>
