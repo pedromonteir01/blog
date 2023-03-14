@@ -1,6 +1,9 @@
 body{
     margin: 0%;
 }
+article{
+    background-color: #F1DEC9;
+}
 h1{
     text-align: center;
 }
@@ -13,6 +16,7 @@ h1{
     transition: 0.3s; 
     width: 60%;
     margin-left: 20%;
+    background-color: white;
 }
 #container_grande{
     padding: 2px 16px;
@@ -25,6 +29,7 @@ h1{
     transition: 0.3s; 
     width: 30%;
     margin: 5%;
+    background-color: white;
 }
 .container{
     padding: 2px 16px;
@@ -32,6 +37,7 @@ h1{
 aside{
     padding: 5%;
     border: 0%;
+    background-color: #A4907C;
 }
 .patrocinadores{
     display: flex;
