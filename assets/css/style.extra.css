@@ -1,0 +1,111 @@
+body{
+    margin: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+h1, h2, h3, h4, p, a, li{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#top{
+    display: flex;
+    background-color: #C8B6A6;
+    border: 2px solid #A4907C;
+}
+
+#top h1{
+    font-size: 50px;
+    width: 70%;
+    margin-left: 20px;
+}
+
+#top li{
+    font-size: 25px;
+}
+
+#top img{
+    margin-right: 150px;
+    margin-top: 100px;
+    background-color: #A4907C;
+    border: 2px solid #C8B6A6;
+    border-left:5px solid #8D7B68;
+    border-radius: 5px;
+    box-shadow: 7px 7px 5px rgb(35, 35, 35);
+}
+
+.plano_1{
+    margin-top: 10px;
+    margin-left: 150px;
+    background-color: #A4907C;
+    border: 2px solid #C8B6A6;
+    border-left:5px solid #8D7B68;
+    border-radius: 5px;
+    width: 30%;
+    height: 400px;
+    box-shadow: 7px 7px 5px rgb(35, 35, 35);
+}
+
+.plano_1 h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 85px;
+    text-align: center;
+    background-color: #A4907C;
+    border: 2px solid #C8B6A6;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 7px 7px 5px rgb(35, 35, 35);
+}
+
+.plano_1 h5:hover{
+    background-color: #C8B6A6;
+    border: 2px solid #A4907C;
+    border-radius: 25px;
+    color: white;
+}
+
+.plano_2{
+    margin-top: 10px;
+    margin-left: 150px;
+    background-color: #A4907C;
+    border: 2px solid #C8B6A6;
+    border-left:5px solid #8D7B68;
+    border-radius: 5px;
+    width: 30%;
+    height: 400px;
+    box-shadow: 7px 7px 5px rgb(35, 35, 35);
+}
+
+.plano_2 h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #A4907C;
+    border: 2px solid #C8B6A6;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 7px 7px 5px rgb(35, 35, 35);
+}
+
+.plano_2 h5:hover{
+    background-color: #C8B6A6;
+    border: 2px solid #A4907C;
+    border-radius: 25px;
+    color: white;
+}
+
+
+#middle{
+    display: flex;
+    background-color: #C8B6A6;
+    border: 2px solid #A4907C;
+
+}
