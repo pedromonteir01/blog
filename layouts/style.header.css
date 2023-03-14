@@ -9,7 +9,7 @@
     width: 280px;
     position: fixed;
     overflow: hidden;
-    background-color: brown;
+    background-color: #8D7B68;
     left: -280px;
     transition: all 0.3s linear;
 }
@@ -19,6 +19,7 @@
     width: 100%;
     position: absolute;
     box-shadow: 0px 2px 4px #6e38382e;
+    font-family: title;
 }
 
 .box_menu .sidebar_title a{
@@ -43,10 +44,11 @@
     border-radius: 10px;
     transition: 0.3s;
     text-transform: uppercase;
+    font-family: content;
 }
 
 .sidebar_menu .menu li:hover {
-    background-color: red;   
+    background-color: #C8B6A6;   
 }
 
 .sidebar_menu .menu i {
@@ -87,4 +89,35 @@
 
 #check {
     display: none;
+}
+
+.menu #vip {
+    background-color: #F1DEC9;
+    color: #8D7B68;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    content: none;
+}
+
+.menu .vip_li:hover {
+    background-color: #8D7B68;
+    scale: 1.05;
+    color: #fff;
+    content: none;
+}
+
+@font-face {
+    font-family: title;
+    src: url(../assets/fonts/titulo/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: content;
+    src: url(../assets/fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
