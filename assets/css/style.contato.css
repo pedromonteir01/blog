@@ -1,3 +1,8 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+}
+
 body {
     margin: 0%;
     display: flex;
@@ -31,6 +36,7 @@ button {
     color: white;
     border: solid white;
     width: 130px;
+    font-family: montserrat;
 }
 input {
     padding-top: 8px;
@@ -42,5 +48,8 @@ input {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: montserrat;
+}
+label {
+    font-family: montserrat;
 }

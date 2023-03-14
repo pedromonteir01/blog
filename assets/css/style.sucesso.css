@@ -1,3 +1,8 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+}
+
 body {
     background-color: #8D7B68;
     text-align: center;
@@ -8,10 +13,12 @@ img {
 }
 button {
     width: 150px;
+    font-family: montserrat;
 }
 section {
     margin: 100px;
     border: 50px;
     padding: 25px;
+    font-family: montserrat;
 }
 
