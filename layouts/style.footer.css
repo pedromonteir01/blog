@@ -4,8 +4,29 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: title;
+    src: url(../assets/fonts/titulo/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: content;
+    src: url(../assets/fonts/titulo/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: #8D7B68;
+    color:white;
+    font-family: title;
+}
+
+.footer_all {
+    display: flex;
+}
+
 .footer_ {
     display: flex;
+    justify-content: space-between;
 }
 
 .icons ul {
@@ -15,4 +36,17 @@
 
 li {
     padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.copyright {
+    margin-left: 450px;
 }
