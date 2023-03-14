@@ -15,7 +15,7 @@ html {
 
 .column {
     float: left;
-    width: 33.3%;
+    width: 33%;
     float: left;
     padding: 0 8px;
 }
@@ -26,7 +26,7 @@ html {
 .sobrenos {
     padding: 50px;
     text-align: center;
-    background-color: rgb(68, 60, 104);
+    background-color: rgb(141, 123, 104);
     color: white;
 }
 
