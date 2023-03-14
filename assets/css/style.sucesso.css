@@ -12,7 +12,14 @@ img {
     width: 100px;
 }
 button {
-    width: 150px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #8D7B68;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: solid white;
+    width: 130px;
     font-family: montserrat;
 }
 section {
@@ -20,5 +27,9 @@ section {
     border: 50px;
     padding: 25px;
     font-family: montserrat;
+}
+h1 {
+    font-size: 30px;
+    color: white;
 }
 
