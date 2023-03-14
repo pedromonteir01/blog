@@ -37,7 +37,7 @@ h1, h2, h3, h4, p, a, li{
 }
 
 .plano_1{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 150px;
     background-color: #A4907C;
     border: 2px solid #C8B6A6;
@@ -46,31 +46,32 @@ h1, h2, h3, h4, p, a, li{
     width: 30%;
     height: 400px;
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
+    margin-bottom: 20px;
 }
 
-.plano_1 h5{
+.plano_1 button{
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 50px;
-    padding-left: 50px;
-    margin-top: 85px;
+    padding-right: 75px;
+    padding-left: 75px;
+    margin-top: 80px;
+    margin-left: 80px;
     text-align: center;
     background-color: #A4907C;
     border: 2px solid #C8B6A6;
-    border-radius: 25px;
     color: white;
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
-.plano_1 h5:hover{
+.plano_1 button:hover{
     background-color: #C8B6A6;
     border: 2px solid #A4907C;
-    border-radius: 25px;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .plano_2{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 150px;
     background-color: #A4907C;
     border: 2px solid #C8B6A6;
@@ -79,27 +80,28 @@ h1, h2, h3, h4, p, a, li{
     width: 30%;
     height: 400px;
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
+    margin-bottom: 20px;
 }
 
-.plano_2 h5{
+.plano_2 button{
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 75px;
+    padding-left: 75px;
     margin-top: 50px;
+    margin-left: 80px;
     text-align: center;
     background-color: #A4907C;
     border: 2px solid #C8B6A6;
-    border-radius: 25px;
     color: white;
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
-.plano_2 h5:hover{
-    background-color: #A4907C;
-    border: 2px solid #C8B6A6;
-    border-radius: 25px;
+.plano_2 button:hover{
+    background-color: #C8B6A6;
+    border: 2px solid #A4907C;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 

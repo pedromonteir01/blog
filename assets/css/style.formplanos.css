@@ -37,14 +37,12 @@ input{
     padding-bottom: 5px;
     background-color: #C8B6A6;
     border: 2px solid #A4907C;
-    border-radius: 25px;
     color: white;
 }
 
 .button:hover{
     background-color: #8D7B68;
     border: 2px solid #C8B6A6;
-    border-radius: 25px;
     color: white;
 }
 
