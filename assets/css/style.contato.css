@@ -32,3 +32,11 @@ button {
     border: solid white;
     width: 130px;
 }
+input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 450px;
+    border: solid white;
+    font-size: 15px;
+    font-style: italic;
+}
