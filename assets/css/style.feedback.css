@@ -1,5 +1,5 @@
 .artigo {
-    background-color: sienna;
+    background-color: #8D7B68;
     text-align: justify;
     height: 340px;
     width: 250px;
@@ -10,7 +10,7 @@
 }
 
 .artigo1 {
-    background-color: peru;
+    background-color: #C8B6A6;
     text-align: justify;
     height: 355px;
     width: 430px;
@@ -29,7 +29,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    background-color: peru;
+    background-color: #C8B6A6;
 }
 
 .rain1 {
@@ -54,7 +54,7 @@ form {
 button {
     margin-top: 20px;
     padding: 10px;
-    background-color: peru;
+    background-color: #C8B6A6;
     font-size: 15px;
     font-weight: bold;
     color: black;
@@ -62,3 +62,30 @@ button {
     width: 130px;
 }
 
+#comentario {
+    padding-top: 12px;
+    padding-bottom: 50px;
+    border: solid white;   
+}
+
+input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 450px;
+    border: solid white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
