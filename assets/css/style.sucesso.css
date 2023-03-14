@@ -7,5 +7,10 @@ img {
     width: 100px;
 }
 button {
-    width: 100px;
+    width: 150px;
+}
+section {
+    margin: 100px;
+    border: 50px;
+    padding: 25px;
 }
