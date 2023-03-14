@@ -48,7 +48,7 @@ h1, h2, h3, h4, p, a, li{
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
-.plano_1 h5{
+.plano_1 button{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 50px;
@@ -62,7 +62,7 @@ h1, h2, h3, h4, p, a, li{
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
-.plano_1 h5:hover{
+.plano_1 button:hover{
     background-color: #C8B6A6;
     border: 2px solid #A4907C;
     border-radius: 25px;
@@ -81,7 +81,7 @@ h1, h2, h3, h4, p, a, li{
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
-.plano_2 h5{
+.plano_2 button{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 50px;
@@ -95,13 +95,12 @@ h1, h2, h3, h4, p, a, li{
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
-.plano_2 h5:hover{
+.plano_2 button:hover{
     background-color: #C8B6A6;
     border: 2px solid #A4907C;
     border-radius: 25px;
     color: white;
 }
-
 
 #middle{
     display: flex;
