@@ -1,6 +1,7 @@
 body{
+    color: white;
     margin: 0%;
-    background-color: #A4907C
+    background-color: #A4907C;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
@@ -14,7 +15,7 @@ h1, h2, h3, h4, p, a, li{
 #top{
     display: flex;
     background-color: #A4907C;
-    border: 2px solid #C8B6A6;
+    border:2px solid #C8B6A6;
 }
 
 #top h1{
@@ -31,7 +32,7 @@ h1, h2, h3, h4, p, a, li{
     margin-right: 150px;
     margin-top: 100px;
     background-color: #A4907C;
-    border: 2px solid #C8B6A6;
+    border:2px solid #C8B6A6;
     border-left:5px solid #8D7B68;
     border-radius: 5px;
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
@@ -41,7 +42,7 @@ h1, h2, h3, h4, p, a, li{
     margin-top: 20px;
     margin-left: 150px;
     background-color: #A4907C;
-    border: 2px solid #C8B6A6;
+    border:2px solid #C8B6A6;
     border-left:5px solid #8D7B68;
     border-radius: 5px;
     width: 30%;
@@ -59,13 +60,13 @@ h1, h2, h3, h4, p, a, li{
     margin-left: 80px;
     text-align: center;
     background-color: #A4907C;
-    border: 2px solid #C8B6A6;
+    border:2px solid #C8B6A6;
     color: white;
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
 .plano_1 button:hover{
-    background-color: #C8B6A6;
+    background-color: #A4907C;
     border: 2px solid #A4907C;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -75,7 +76,7 @@ h1, h2, h3, h4, p, a, li{
     margin-top: 20px;
     margin-left: 150px;
     background-color: #A4907C;
-    border: 2px solid #C8B6A6;
+    border:2px solid #C8B6A6;
     border-left:5px solid #8D7B68;
     border-radius: 5px;
     width: 30%;
@@ -93,13 +94,13 @@ h1, h2, h3, h4, p, a, li{
     margin-left: 80px;
     text-align: center;
     background-color: #A4907C;
-    border: 2px solid #C8B6A6;
-    color: white;
+    border:2px solid #C8B6A6;
+    color: var(--color-text);
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
 .plano_2 button:hover{
-    background-color: #C8B6A6;
+    background-color: #A4907C;
     border: 2px solid #A4907C;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -109,7 +110,7 @@ h1, h2, h3, h4, p, a, li{
 #middle{
     display: flex;
     background-color: #A4907C;
-    border: 2px solid #C8B6A6;
+    border:2px solid #C8B6A6;
 
 }
 
@@ -135,10 +136,10 @@ h1, h2, h3, h4, p, a, li{
 }
 
 .comment{
-    background-color: #C8B6A6;
-    border: 2px solid #A4907C;
+    background-color: #A4907C;
+    border: 2px solid #C8B6A6;
     border-radius: 5px;
-    background-color: #8D7B68;
+    background-color: var(--background-color5);
     width: 33%;
     height: 300px;
     margin: 20px;
