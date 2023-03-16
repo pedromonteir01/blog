@@ -111,3 +111,40 @@ h1, h2, h3, h4, p, a, li{
     border: 2px solid #C8B6A6;
 
 }
+
+#bottom{
+    background-color: #8D7B68;
+    font-family: 'Montserrat', sans-serif;
+    height: 400px;
+    border-radius: 5px;
+    border: 2px solid #C8B6A6;
+    border-left: 5px solid #8D7B68;
+    margin: 30px;
+    display: flex;
+}
+
+.comment{
+    background-color: #C8B6A6;
+    border: 2px solid #A4907C;
+    border-radius: 5px;
+    background-color: #8D7B68;
+    width: 33%;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+.comment_txt{
+    width: 60%;
+}
+
+
+#image_ani{
+    margin: auto;
+    animation: mymove 3s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {transform: rotate(5deg);}
+  }
+  
