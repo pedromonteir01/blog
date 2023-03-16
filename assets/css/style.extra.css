@@ -1,7 +1,7 @@
 body{
     color: white;
     margin: 0%;
-    background-color: #A4907C;
+    background-color: #8D7B68;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
@@ -14,7 +14,7 @@ h1, h2, h3, h4, p, a, li{
 
 #top{
     display: flex;
-    background-color: #A4907C;
+    background-color: #8D7B68;
     border:2px solid #C8B6A6;
 }
 
@@ -66,8 +66,8 @@ h1, h2, h3, h4, p, a, li{
 }
 
 .plano_1 button:hover{
-    background-color: #A4907C;
-    border: 2px solid #A4907C;
+    background-color: #8D7B68;
+    border: 2px solid #C8B6A6;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
@@ -100,8 +100,8 @@ h1, h2, h3, h4, p, a, li{
 }
 
 .plano_2 button:hover{
-    background-color: #A4907C;
-    border: 2px solid #A4907C;
+    background-color: #8D7B68;
+    border: 2px solid #C8B6A6;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
@@ -109,7 +109,7 @@ h1, h2, h3, h4, p, a, li{
 
 #middle{
     display: flex;
-    background-color: #A4907C;
+    background-color: #8D7B68;
     border:2px solid #C8B6A6;
 
 }
