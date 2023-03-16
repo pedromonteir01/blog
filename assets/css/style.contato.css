@@ -1,3 +1,32 @@
+.depressao {
+    background-color: sienna;
+    text-align: justify;
+    height: 340px;
+    width: 250px;
+    padding: 150px;
+    flex-direction: column;
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+}
+
+
+.depressao1 {
+    background-color: peru;
+    text-align: justify;
+    height: 355px;
+    width: 430px;
+    padding: 135px;
+    flex-direction: column;
+    font-family: 'Source Serif Pro', serif;
+}
+
+
+div {
+    display: flex;
+}
+
+
+
 @font-face {
     font-family: montserrat;
     src: url(../fonts/titulo/Montserrat-VariableFont_wght.ttf);
