@@ -16,9 +16,25 @@ main h1{
     padding: 20px;
 }
 
+.decoration{
+    display: flex;
+}
+
+.personal{
+    display: flex;
+    border: 2px solid #C8B6A6;
+    border-radius: 5px;
+    margin: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.personal input{
+    width: 45%;
+}
 .cadastro{
     padding-top: 20px;
-    height: 500px;
+    height: 700px;
     text-align: center;
     background-color: #8D7B68;
 }
@@ -30,7 +46,16 @@ input{
     padding-bottom: 5px;
 }
 
+#flag{
+    font-size: 15px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .button{
+    margin-top: 10px;
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 5px;
@@ -45,4 +70,28 @@ input{
     border: 2px solid #C8B6A6;
     color: white;
 }
+
+.cartao{
+    width: 60%;
+    text-align: center;
+}
+
+.img_card{
+    border: 2px solid #C8B6A6;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 50px;
+    height: 225px;
+}
+
+#image_ani{
+    margin: auto;
+    animation: mymove 3s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {transform: rotate(5deg);}
+  }
+  
+
 
