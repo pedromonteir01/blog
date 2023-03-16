@@ -1,5 +1,5 @@
-.depressao {
-    background-color: sienna;
+.article {
+    background-color: #8D7B68;
     text-align: justify;
     height: 340px;
     width: 250px;
@@ -10,8 +10,8 @@
 }
 
 
-.depressao1 {
-    background-color: peru;
+.article1 {
+    background-color: #C8B6A6;
     text-align: justify;
     height: 355px;
     width: 430px;
@@ -33,11 +33,11 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    background-color: peru;
+    background-color: #C8B6A6;
 }
 
 
-.rain1 {
+.label {
     font-size: 16px;
     padding-top: 10px;
     font-weight: bold;
@@ -52,21 +52,21 @@ form {
 }
 
 
-.campos {
+.div {
     display: flex;
     flex-direction: column;
     width: 100%;
     font-family: 'Source Serif Pro', serif;
+    margin: 12px;
 }
 
 button {
     margin-top: 20px;
     padding: 10px;
-    background-color: ;
     font-size: 15px;
     font-weight: bold;
     color: black;
-    background-color: peru;
+    background-color: #C8B6A6;
     border: solid black;
     width: 130px;
 }
@@ -84,6 +84,7 @@ input {
     border: solid white;
     font-size: 18px;
     font-family: 'Source Serif Pro', serif;
+    border-radius: 5px;
 }
 
 h1 {
