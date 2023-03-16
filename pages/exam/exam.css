@@ -1,0 +1,19 @@
+body{
+    margin: 0%;
+    background-color: #F1DEC9;
+}
+h1{
+    text-align: center;
+}
+#article_aside{
+    display: flex;
+}
+aside{
+    padding: 5%;
+    border: 0%;
+    background-color: #A4907C;
+}
+.patrocinadores{
+    display: flex;
+    margin: 2%;
+}
