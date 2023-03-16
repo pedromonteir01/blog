@@ -43,3 +43,16 @@ aside {
 .noticias {
     width: 400px;
 }
+
+main {
+    padding: 20px;
+}
+
+p {
+    font-family: content;
+    text-align: justify;
+}
+
+h1 {
+    font-family:;
+}
