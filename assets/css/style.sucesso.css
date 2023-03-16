@@ -4,8 +4,9 @@
 }
 
 body {
-    background-color: #8D7B68;
+    background-color: #A4907C;
     text-align: center;
+    margin: 0;
 }
 img {
     height: 100px;
@@ -14,7 +15,7 @@ img {
 button {
     margin-top: 20px;
     padding: 10px;
-    background-color: #8D7B68;
+    background-color: #A4907C;
     font-size: 15px;
     font-weight: bold;
     color: white;
@@ -33,4 +34,6 @@ h1 {
     font-size: 30px;
     color: white;
 }
-
+#iframe_footer {
+    margin-bottom: -5px;
+}
