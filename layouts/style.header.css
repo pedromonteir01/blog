@@ -121,3 +121,7 @@
     font-family: content;
     src: url(../assets/fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
+
+nav .menu {
+    display: flex;
+}
