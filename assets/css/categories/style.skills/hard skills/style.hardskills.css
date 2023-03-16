@@ -1,0 +1,109 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(241, 222, 201);
+} 
+
+.buttons {
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+button {
+    border: solid, 3px, rgb(141, 123, 104);
+    background-color:rgb(200, 182, 166);
+    cursor: pointer;
+    width: 200px;
+    margin: 20px;
+    font-family: content;
+}
+
+button:hover {
+    background-color: rgb(200, 182, 166);
+    transition: 0.2s linear;
+    scale: 1.05;
+}
+
+button:active {
+    background-color: rgb(141, 123, 104);
+}
+
+#top {
+    display: flex;
+}
+
+#article_aside {
+    display: flex;
+}
+
+aside {
+    background-color: rgb(141, 123, 104);
+    margin: 15px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.noticias {
+    width: 400px;
+}
+
+main {
+    padding: 20px;
+}
+
+p {
+    font-family: content;
+    text-align: justify;
+}
+
+h1 {
+    font-family: title;
+    margin-bottom: 50px;
+    border: solid, 10px, rgb(141, 123, 104);
+    background-color: rgb(141, 123, 104);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+h1:hover {
+    color: white;
+    transition: 0.5s ease-in;
+    transition: 0.5s ease-out;
+}
+
+h2 {
+    font-family: title;
+}
+
+h2:hover {
+    color: white;
+    transition: 0.5s ease-in;
+    transition: 0.5s ease-out;
+}
+
+@font-face {
+    font-family: title;
+    src: url(../../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: content;
+    src: url(../../../../fonts/paragrafo/Lato-Regular.ttf);
+}
+
+#text_maincontent {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h3 {
+    font-family: title;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
