@@ -1,3 +1,4 @@
+
 body {
     padding: 0;
     margin: 0;
@@ -10,25 +11,23 @@ body {
     display: flex;
 }
 
-.pagina_anterior {
-    display: flex;
-}
-
 button {
     border: solid, 3px, rgb(141, 123, 104);
     background-color:rgb(200, 182, 166);
     cursor: pointer;
     width: 200px;
     margin: 20px;
+    font-family: content;
 }
 
 button:hover {
     background-color: rgb(200, 182, 166);
+    transition: 0.2, linear;
+    scale: 1.05;
 }
 
 button:active {
     background-color: rgb(141, 123, 104);
-   
 }
 
 #top {
@@ -69,8 +68,20 @@ h1 {
     padding: 5px;
 }
 
+h1:hover {
+    color: white;
+    transition: 0.5s ease-in;
+    transition: 0.5s ease-out;
+}
+
 h2 {
     font-family: title;
+}
+
+h2:hover {
+    color: white;
+    transition: 0.5s ease-in;
+    transition: 0.5s ease-out;
 }
 
 @font-face {
@@ -90,4 +101,9 @@ h2 {
 
 h3 {
     font-family: title;
+}
+
+a {
+    text-decoration: none;
+    color:black;
 }
