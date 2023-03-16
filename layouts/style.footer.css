@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* fontes */
 @font-face {
     font-family: title;
     src: url(../assets/fonts/titulo/Montserrat-VariableFont_wght.ttf);
@@ -13,22 +13,19 @@
     font-family: content;
     src: url(../assets/fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
-
+/* estilização do corpo da footer */
 body {
     background-color: #8D7B68;
     color:white;
     font-family: title;
 }
 
-.footer_all {
-    display: flex;
-}
-
+/* estilização da div footer */
 .footer_ {
     display: flex;
     justify-content: space-between;
 }
-
+/* estilização dos ícones */
 .icons ul {
     display: flex;
     list-style: none;
@@ -46,7 +43,11 @@ a {
 h2 {
     text-transform: uppercase;
 }
-
+/* estilização da div */
 .copyright {
     margin-left: 450px;
+}
+/* estilização do all */
+.all {
+    vertical-align:middle;
 }
