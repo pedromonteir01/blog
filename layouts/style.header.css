@@ -3,94 +3,69 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.box_menu .sidebar_menu {
-    height: 100vh;
-    width: 280px;
-    position: relative;
+/* estilização do menu e da barra de navegação */
+.box_menu .bar_menu {
     overflow: hidden;
-    background-color: #8D7B68;
+    background-color: #7d6e5d;
     left: -280px;
     transition: all 0.3s linear;
+    display: flex;
+    margin: 0;
+    z-index: -999;
 }
-
-.box_menu .sidebar_title {
+/* estilização do título do menu */
+.box_menu .bar_title {
     height: 60px;
     width: 100%;
-    position: absolute;
-    box-shadow: 0px 2px 4px #6e38382e;
     font-family: title;
+    text-align: center;
 }
 
-.box_menu .sidebar_title a{
+.box_menu .bar_title a {
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
-    position: absolute;
     left: 20px;
     line-height: 60px;
 }
-
-.sidebar_menu .menu {
-    position: absolute;
-    top: 80px;
-    width: 100%;
+/* estilização da navegação */
+.bar_menu .menu {
+    display: flex;
 }
 
-.sidebar_menu .menu li {
+.bar_menu .menu ul {
+    display: flex;
+}
+
+.bar_menu .menu li {
     margin: 10px;
     padding: 14px 20px;
     border-radius: 10px;
     transition: 0.3s;
     text-transform: uppercase;
     font-family: content;
+    display: flex;
 }
 
-.sidebar_menu .menu li:hover {
-    background-color: #C8B6A6;   
+.bar_menu .menu li:hover {
+    background-color: #C8B6A6;
+    scale: 1.05;
 }
 
-.sidebar_menu .menu i {
+.bar_menu .menu i {
     color: #fff;
     font-size: 20px;
     padding-right: 8px;
 }
 
-.sidebar_menu .menu a {
+.bar_menu .menu a {
     color: #fff;
     font-size: 20px;
     text-decoration: none;
 }
 
-
-.box_menu .menu_icon i {
-    color: black;
-    font-size: 30px;
-    font-weight: 700;
-    position: absolute;
-    left: 16px;
-    line-height: 60px;
-    cursor: pointer;
-}
-
-.sidebar_menu .btn_close {
-    font-size: 25px;
-    line-height: 60px;
-    position: absolute;
-    left: 240px;
-    color: white;
-    cursor: pointer;
-}
-
-#check:checked ~ .sidebar_menu  {
-    left: 0;
-}
-
-#check {
-    display: none;
-}
-
+/* estilização do get started */
 .menu #vip {
     background-color: #F1DEC9;
     color: #8D7B68;
@@ -112,6 +87,7 @@
     content: none;
 }
 
+/* fonte */
 @font-face {
     font-family: title;
     src: url(../assets/fonts/titulo/Montserrat-VariableFont_wght.ttf);
@@ -120,8 +96,4 @@
 @font-face {
     font-family: content;
     src: url(../assets/fonts/titulo/Montserrat-VariableFont_wght.ttf);
-}
-
-nav .menu {
-    display: flex;
 }

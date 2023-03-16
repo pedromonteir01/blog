@@ -9,56 +9,50 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 
 <body>
-    <nav>
-        <div class="box_menu">
-            <input type="checkbox" id="check">
-            <div class="menu_icon">
-                <label for="check">
-                    <i class="fas fa-bars"></i>
-                </label>
+    <!--Div que contém o header-->
+    <div class="box_menu">
+        <!--Barra do menu-->
+        <div class="bar_menu">
+            <!--Barra do título-->
+            <div class="bar_title">
+                <a href="#">Dashboard</a>
             </div>
-            <div class="sidebar_menu">
-                <div class="sidebar_title">
-                    <a href="#">Dashboard</a>
-                </div>
-                <div class="btn_close">
-                    <label for="check">
-                        <i class="fas fa-times"></i>
-                    </label>
-                </div>
-                <nav class="menu">
-                    <ul>
-                        <li>
-                            <i class="fa-sharp fa-solid fa-compass"></i>
-                            <a href="#">menu</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-users"></i>
-                            <a href="#">sobre nos</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-stream"></i>
-                            <a href="#">categorias</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-calendar-week"></i>
-                            <a href="#">feedback</a>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-envelope-open-text"></i>
-                            <a href="#">contato</a>
-                        </li>
-                        <li class="vip_li">
-                            <a href="#" id="vip">get started</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+                <!--navegação pelos itens-->
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <!--tag "i" para ícones-->
+                        <i class="fa-sharp fa-solid fa-compass"></i>
+                        <!--tag "a" para linkar em outras páginas-->
+                        <a href="../index.html">menu</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-users"></i>
+                        <a href="../pages/sobrenos.html">sobre nos</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-stream"></i>
+                        <a href="../pages/#">categorias</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-calendar-week"></i>
+                        <a href="../pages/#">feedback</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope-open-text"></i>
+                        <a href="../pages/#">contato</a>
+                    </li>
+                    <!--botão get started-->
+                    <li class="vip_li">
+                        <a href="../pages/extra.html" id="vip">get started</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
+    </div>
 </body>
 
 </html>
