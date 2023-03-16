@@ -5,6 +5,16 @@ body{
 h1{
     text-align: center;
 }
+main{
+    padding: 20px;
+}
+.main_contents{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#top{
+    display: flex;
+}
 .cards_vestibular{
     display: flex;
 }
@@ -22,11 +32,12 @@ h1{
     display: flex;
 }
 aside{
-    padding: 5%;
-    border: 0%;
+    
+    border-radius: 5px;
+    padding: 15px;
     background-color: #A4907C;
 }
 .patrocinadores{
     display: flex;
-    margin: 2%;
+    width: 400px;
 }
