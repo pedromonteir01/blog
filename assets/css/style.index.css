@@ -23,7 +23,6 @@ h1, h2, h3, h4, p, a{
 main{
     color: white;
     position: relative;
-    z-index: 0;
 }
 
 #top{
@@ -171,14 +170,13 @@ main{
     box-shadow: 10px 10px 5px rgb(49, 49, 49);
 }
 
-iframe {
-    display: none;
-	height: 100%;
-	position: fixed;
-	top: 0;
-	left: -300px;
-	width: 300px;
-	z-index: 9998;
+iframe { 
+    width: 100%;
+    top: 0;
+    height: 100px;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .icon {
@@ -192,5 +190,13 @@ iframe {
 	text-align: center;
 	top: 0;
 	width: 60px;
-	z-index: 9999;
+}
+
+#footer_ {
+    width: 100%;
+    top: 0;
+    height: 200px;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
 }

@@ -20,9 +20,6 @@ body {
     font-family: title;
 }
 
-.footer_all {
-    display: flex;
-}
 
 .footer_ {
     display: flex;
@@ -49,4 +46,8 @@ h2 {
 
 .copyright {
     margin-left: 450px;
+}
+
+.all {
+    vertical-align:middle;
 }
