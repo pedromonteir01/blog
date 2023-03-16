@@ -90,6 +90,30 @@ h1{
     margin: auto;
     animation: mymove 3s infinite;
   }
+.buttons {
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    border: solid 3px #8D7B68;
+    background-color: #F1DEC9;
+    cursor: pointer;
+    width: 250px;
+    height: 40px;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #C8B6A6;
+    transition: 0.2s linear;
+    scale: 1.05;
+}
+
+button:active {
+    background-color: #8D7B68 ;
+}
+
   
   @keyframes mymove {
     50% {transform: rotate(5deg);}
