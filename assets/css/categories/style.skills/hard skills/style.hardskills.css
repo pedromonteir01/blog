@@ -69,3 +69,12 @@ h2 {
 h2:hover {
     color: white;
 }
+
+@font-face {
+    font-family: title;
+}
+
+#text_maincontent {
+    padding-left: 15px;
+    padding-right: 15px;
+}
