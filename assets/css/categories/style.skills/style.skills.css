@@ -45,7 +45,7 @@ aside {
 }
 
 .patrocinadores {
-    width: 500px;
+    width: 400px;
 }
 
 main {
@@ -57,16 +57,46 @@ p {
     text-align: justify;
 }
 
-h1, h2 {
+h1 {
     font-family: title;
+    margin-bottom: 50px;
+    border: solid 10px #8D7B68;
+    background-color: #8D7B68;
+    border-radius: 5px;
+}
+
+h1:hover {
+    color: white;
+    transition: 0.5s ease-in;
+    transition: 0.5s ease-out;
+}
+
+h2 {
+    font-family: title;
+}
+
+h2:hover {
+    color: white;
+    transition: 0.5s ease-in;
+    transition: 0.5s ease-out;
 }
 
 @font-face {
     font-family: title;
-    src: url(../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: content;
-    src: url(../../fonts/paragrafo/Lato-Regular.ttf);
+    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
+}
+
+#text_maincontent {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
