@@ -1,0 +1,97 @@
+body{
+    margin: 0%;
+    background-color: #F1DEC9;
+}
+article{
+    background-color: #F1DEC9;
+}
+h1{
+    text-align: center;
+}
+
+#article_aside{
+    display: flex;
+}
+/*card grade*/
+#card_grande{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; 
+    width: 60%;
+    margin-left: 20%;
+    background-color: white;
+}
+#container_grande{
+    padding: 2px 16px;
+}
+/*cards pequenos*/
+#cards_menores{
+    display: flex;
+}
+.cards{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; 
+    width: 30%;
+    margin: 5%;
+    background-color: white;
+}
+.container{
+    padding: 2px 16px;
+}
+/*aside*/
+
+#iframe_footer {
+    margin-bottom: -5px;
+}
+
+#bottom{
+    background-color: #A4907C;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid #C8B6A6;
+    border-left: 5px solid #8D7B68;
+    margin: 30px;
+    box-shadow: 7px 7px 5px rgb(35, 35, 35);
+    height: 800px;
+}
+
+.comment{
+    background-color: #C8B6A6;
+    border: 2px solid #A4907C;
+    border-radius: 5px;
+    background-color: #8D7B68;
+    width: 325px;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    box-shadow: 7px 7px 5px rgb(35, 35, 35);
+    height: 180px;
+
+}
+
+.comment_txt{
+    height: 50px;
+    width: 60%;
+    padding: 10px;
+}
+
+.comment p{
+    font-size: 12px;
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+#image_ani{
+    margin: auto;
+    animation: mymove 3s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {transform: rotate(5deg);}
+  }
+  
