@@ -27,46 +27,54 @@ div {
 
 
 
-@font-face {
-    font-family: montserrat;
-    src: url(../fonts/titulo/Montserrat-VariableFont_wght.ttf);
-}
-
 body {
     margin: 0%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px;
-    background-color: #8D7B68;
+    padding: 0px;
+    background-color: peru;
 }
+
+
+.rain1 {
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: bold;
+
+}
+
+
 form {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
-#mensagem {
-    font-size: 16px;
-    padding-top: 10px;
-    font-weight: bold;
-}
-div {
+
+
+.campos {
     display: flex;
     flex-direction: column;
     width: 100%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 20px;
+    font-family: 'Source Serif Pro', serif;
 }
+
 button {
     margin-top: 20px;
     padding: 10px;
-    background-color: #8D7B68;
+    background-color: ;
     font-size: 15px;
     font-weight: bold;
-    color: white;
-    border: solid white;
+    color: black;
+    background-color: peru;
+    border: solid black;
     width: 130px;
-    font-family: montserrat;
+}
+
+#comentário {
+    padding-top: 12px;
+    padding-bottom: 50px;
+    border: solid white;
 }
 
 input {
@@ -74,13 +82,20 @@ input {
     padding-bottom: 8px;
     width: 450px;
     border: solid white;
-    font-size: 15px;
-    font-style: italic;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-family: 'Source Serif Pro', serif;
 }
+
 h1 {
-    font-family: montserrat;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-label {
-    font-family: montserrat;
+
+p {
+    text-align: left;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
 }
