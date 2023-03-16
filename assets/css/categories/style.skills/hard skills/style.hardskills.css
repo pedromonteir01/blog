@@ -3,14 +3,24 @@ body {
     margin: 0;
     background-color: rgb(241, 222, 201);
 } 
+
 .buttons {
     align-items: center;
     text-align: center;
 }
+
 button {
     border: solid, 3px, rgb(141, 123, 104);
     background-color: rgb(241, 222, 201);
     cursor: pointer;
     width: 200px;
     margin: 20px;
+}
+
+button:hover {
+    background-color: rgb(200, 182, 166);
+}
+
+button:active {
+    background-color: rgb(141, 123, 104);
 }
