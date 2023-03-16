@@ -55,12 +55,12 @@ main {
 }
 
 p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: content;
     text-align: justify;
 }
 
 h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: title;
     margin-bottom: 50px;
     border: solid, 10px, rgb(141, 123, 104);
     background-color: rgb(141, 123, 104);
@@ -79,6 +79,7 @@ h2 {
 }
 
 @font-face {
+    font-family: content;
     src: url(../../../../fonts/paragrafo/Lato-Regular.ttf);
 }
 
@@ -88,5 +89,5 @@ h2 {
 }
 
 h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: title;
 }
