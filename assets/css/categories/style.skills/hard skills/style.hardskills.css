@@ -54,5 +54,18 @@ p {
 }
 
 h1 {
-    font-family:;
+    font-family: title;
+    margin-bottom: 50px;
+    border: solid, 10px, rgb(141, 123, 104);
+    background-color: rgb(141, 123, 104);
+    border-radius: 5px;
+    color: white;
+}
+
+h2 {
+    font-family: title;
+}
+
+h2:hover {
+    color: white;
 }
