@@ -1,3 +1,11 @@
+@font-face {
+    font-family: title;
+    src: url(../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: paragrafo;
+    src: url(../fonts/paragrafo/Lato-Regular.ttf);
+}
 .article {
     background-color: #8D7B68;
     text-align: justify;
@@ -6,7 +14,7 @@
     padding: 150px;
     flex-direction: column;
     color: white;
-    font-family: 'Source Serif Pro', serif;
+    font-family: title;
 }
 
 
@@ -17,7 +25,7 @@
     width: 430px;
     padding: 135px;
     flex-direction: column;
-    font-family: 'Source Serif Pro', serif;
+    font-family: title;
 }
 
 
@@ -56,7 +64,14 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    font-family: 'Source Serif Pro', serif;
+    font-family: title;
+    margin: 12px;
+}
+.div1 {
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    font-family: title;
     margin: 12px;
 }
 
@@ -69,6 +84,7 @@ button {
     background-color: #C8B6A6;
     border: solid black;
     width: 130px;
+    border-radius: 5px;
 }
 
 #comentário {
@@ -83,13 +99,14 @@ input {
     width: 450px;
     border: solid white;
     font-size: 18px;
-    font-family: 'Source Serif Pro', serif;
+    font-family: title;
     border-radius: 5px;
+    font-style: italic;
 }
 
 h1 {
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: title;
 }
 
 p {
