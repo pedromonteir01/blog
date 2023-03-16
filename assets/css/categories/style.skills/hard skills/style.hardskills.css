@@ -24,3 +24,11 @@ button:hover {
 button:active {
     background-color: rgb(141, 123, 104);
 }
+
+#top {
+    display: flex;
+}
+
+#article_aside {
+    display: flex;
+}
