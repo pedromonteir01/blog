@@ -10,6 +10,11 @@ html {
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -23,6 +28,9 @@ html {
 
 .card {
     margin: 8px;
+    border: 2px solid #A4907C;
+    border-left: 5px solid #8D7B68;
+    border-radius: 5px;
 }
 
 .sobrenos {
@@ -32,11 +40,6 @@ html {
     color: white;
 }
 
-.container::after, .row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 (max-width: 650px)
 .column {
