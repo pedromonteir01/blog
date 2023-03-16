@@ -10,6 +10,7 @@ html {
     box-sizing: border-box;
 }
 
+/*tirando decoração de um link*/
 a{
     text-decoration: none;
     color: black;
@@ -26,6 +27,7 @@ a{
     padding: 0 8px;
 }
 
+/*personalização dos cards*/
 .card {
     margin: 8px;
     border: 2px solid #A4907C;
