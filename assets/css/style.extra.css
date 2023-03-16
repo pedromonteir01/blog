@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    background-color: #A4907C
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
@@ -12,8 +13,8 @@ h1, h2, h3, h4, p, a, li{
 
 #top{
     display: flex;
-    background-color: #C8B6A6;
-    border: 2px solid #A4907C;
+    background-color: #A4907C;
+    border: 2px solid #C8B6A6;
 }
 
 #top h1{
@@ -37,7 +38,7 @@ h1, h2, h3, h4, p, a, li{
 }
 
 .plano_1{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 150px;
     background-color: #A4907C;
     border: 2px solid #C8B6A6;
@@ -46,31 +47,32 @@ h1, h2, h3, h4, p, a, li{
     width: 30%;
     height: 400px;
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
+    margin-bottom: 20px;
 }
 
-.plano_1 h5{
+.plano_1 button{
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 50px;
-    padding-left: 50px;
-    margin-top: 85px;
+    padding-right: 75px;
+    padding-left: 75px;
+    margin-top: 80px;
+    margin-left: 80px;
     text-align: center;
     background-color: #A4907C;
     border: 2px solid #C8B6A6;
-    border-radius: 25px;
     color: white;
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
-.plano_1 h5:hover{
+.plano_1 button:hover{
     background-color: #C8B6A6;
     border: 2px solid #A4907C;
-    border-radius: 25px;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .plano_2{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 150px;
     background-color: #A4907C;
     border: 2px solid #C8B6A6;
@@ -79,33 +81,85 @@ h1, h2, h3, h4, p, a, li{
     width: 30%;
     height: 400px;
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
+    margin-bottom: 20px;
 }
 
-.plano_2 h5{
+.plano_2 button{
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 75px;
+    padding-left: 75px;
     margin-top: 50px;
+    margin-left: 80px;
     text-align: center;
     background-color: #A4907C;
     border: 2px solid #C8B6A6;
-    border-radius: 25px;
     color: white;
     box-shadow: 7px 7px 5px rgb(35, 35, 35);
 }
 
-.plano_2 h5:hover{
+.plano_2 button:hover{
     background-color: #C8B6A6;
     border: 2px solid #A4907C;
-    border-radius: 25px;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 #middle{
     display: flex;
-    background-color: #C8B6A6;
-    border: 2px solid #A4907C;
+    background-color: #A4907C;
+    border: 2px solid #C8B6A6;
 
 }
+
+.display{
+    display: flex;
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+#bottom{
+    background-color: #A4907C;
+    font-family: 'Montserrat', sans-serif;
+    height: 525px;
+    border-radius: 5px;
+    border: 2px solid #C8B6A6;
+    border-left: 5px solid #8D7B68;
+    margin: 30px;
+    box-shadow: 7px 7px 5px rgb(35, 35, 35);
+}
+
+.comment{
+    background-color: #C8B6A6;
+    border: 2px solid #A4907C;
+    border-radius: 5px;
+    background-color: #8D7B68;
+    width: 33%;
+    height: 300px;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    box-shadow: 7px 7px 5px rgb(35, 35, 35);
+}
+
+.comment_txt{
+    height: 50px;
+    width: 60%;
+    padding: 10px;
+}
+
+
+#image_ani{
+    margin: auto;
+    animation: mymove 3s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {transform: rotate(5deg);}
+  }
+  
