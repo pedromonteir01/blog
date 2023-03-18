@@ -71,3 +71,25 @@ main{
     text-decoration: underline;
     cursor: pointer;
 }
+
+.card_middle{
+    margin: 20px;
+    margin-top: 50px;
+    width: 33%;
+}
+
+.card_middle img{
+    border-radius: 5px;
+}
+
+.card_middle h5{
+    font-family: ginto;
+    color: #333;
+}
+
+.card_middle h5:hover{
+    color: #5865f2;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
