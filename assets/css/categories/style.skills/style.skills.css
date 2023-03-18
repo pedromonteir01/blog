@@ -67,6 +67,12 @@ aside {
     font-style: italic;
 }
 
+.posted_byU {
+    color: rgba(0, 0, 0, 0.3);
+    padding-left: 10px;
+    font-style: italic;
+}
+
 main {
     padding: 20px;
 }
