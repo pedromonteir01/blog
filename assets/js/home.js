@@ -1,7 +1,4 @@
-const label = document.querySelector('.label');
-const main = document.querySelector('main');
-
-label.onclick = function()
-{
-    
+function changeMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode")
 }

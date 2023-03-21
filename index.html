@@ -13,6 +13,12 @@
     <iframe id="menu" src="layouts/header.html" frameborder="0" scrolling="no" width="100%"></iframe>
 
     <main>
+        <div id="container">
+            <h3>Light / Dark Mode Toggle</h3>
+            <label class="switch">
+                <input type="checkbox" onclick="changeMode()">
+                <span class="slider"></span>
+            </label>
         <h1>Notice's Zer01</h1>
         <article id="top">
             <section class="side">
@@ -23,14 +29,6 @@
                 </div>
             </section>
         </article>
-        <div>
-            <input type="checkbox" class="checkbox" id="chk">
-            <label class="label" for="chk">
-                <img class="fas fa-sun" src="assets/images/sol.png" alt="sun" width="64px" height="64px">
-                <img class="fas fa-moon" src="assets/images/lua.png" alt="sun" width="64px" height="64px">
-                <div class="ball"></div>
-            </label>
-        </div>
         <div class="display">
             <article>
                 <section class="card_top">
@@ -90,6 +88,7 @@
                 <img src="assets/images/banner_ad.png" alt="banner" width="1275px" height="125px">
             </section>
         </article>
+    </div>
     </main>
 
 </body>
