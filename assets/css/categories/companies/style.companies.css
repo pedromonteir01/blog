@@ -54,3 +54,15 @@ h1 {
     font-family: paragrafo;
     font-size: 20px;
 }
+button {
+    border: solid 3px #8D7B68;
+    background-color: #F1DEC9;
+    cursor: pointer;
+    width: 200px;
+    margin: 20px;
+    height: 30px;
+}
+.buttons {
+    align-items: center;
+    text-align: center;
+}
