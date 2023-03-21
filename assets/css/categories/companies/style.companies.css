@@ -3,14 +3,54 @@ body {
     padding: 0;
     background-color: #f7f6f6;
 }
+main{
+    padding: 20px;
+}
 .posted{
     display: flex;
     font-size: 14px;
     align-items: center;
+}
+#posted_byH {
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+}
+
+#posted_byH:hover {
+    cursor: pointer;
+}
+#posted_byP {
+    width: 20px;
+    height: 20px;
 }
 .stars{
     font-size: 24px;
     margin-left: 500px;
     display: flex;
     align-items: center;
+}
+.star{
+    color: #ffe600;
+}
+#none{
+    color: rgb(165, 165, 165);
+}
+h1 {
+    font-family: title;
+    margin-bottom: 50px;
+    border: solid 10px #8D7B68;
+    background-color: #8D7B68;
+    border-radius: 5px;
+    margin-top: 0;
+    -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    text-transform: uppercase;
+}
+.text_maincontent{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: paragrafo;
+    font-size: 20px;
 }
