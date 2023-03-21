@@ -5,8 +5,9 @@
 
 body{
     margin: 0%;
-    font-family:'Ginto Nord', sans-serif;
+    font-family: ginto;
     background-color: #fff;
+    transition: .4s;
 }
 
 #container{
