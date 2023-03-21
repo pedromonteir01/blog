@@ -72,18 +72,22 @@ input:checked +.slider::before{
 
 .dark-mode h1{
     color: #fff;
+    transition: .4s;
 }
 
 .dark-mode h2{
     color: #fff;
+    transition: .4s;
 }
 
 .dark-mode h3{
     color: #5865f2;
+    transition: .4s;
 }
 
 .dark-mode h4{
     color: #fff;
+    transition: .4s;
 }
 
 
@@ -121,6 +125,7 @@ main{
 
 .banner img{
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .display{
@@ -138,13 +143,8 @@ main{
     margin-left: 40px;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.card_top img:hover{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
 }
-
 
 .card_top h5{
     font-family: ginto;
@@ -166,11 +166,7 @@ main{
 .card_middle img{
     border-radius: 5px;
     cursor: pointer;
-}
-
-.card_middle img:hover{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
 }
 
 .card_middle h5{
