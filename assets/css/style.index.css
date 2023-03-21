@@ -1,3 +1,4 @@
+/*Importação da fonte Ginto Nord*/
 @font-face {
     font-family: ginto;
     src: url(../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
@@ -9,7 +10,7 @@ body{
     background-color: #fff;
     transition: .4s;
 }
-
+/*Espaço do botão de Dark Mode*/
 #container{
     width: 100%;
     height: 100%;
@@ -18,7 +19,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-
+/*Tamanho do switch do botão*/
 .switch{
     position: relative;
     display: inline-block;
@@ -30,7 +31,7 @@ body{
 .switch input{
     display: none;
 }
-
+/*Espaço do botão*/
 .slider{
     position: absolute;
     cursor: pointer;
@@ -42,7 +43,7 @@ body{
     border-radius: 34px;
     transition: .4s;
 }
-
+/*Animação do switch*/
 .slider::before{
     content: '';
     position: absolute;
@@ -54,133 +55,147 @@ body{
     border-radius: 50%;
     transition: .4s;
 }
-
+/*Quando o botão estiver "ligado", o fundo vai ficar azul*/
 input:checked + .slider {
     background: #5865f2;
 }
-
+/*Animação do botão quando for "ligado"*/
 input:checked +.slider::before{
     transform: translateX(26px);
 }
-
+/*Classe dark mode do site*/
 .dark-mode{
     background: #23272a;
 }
-
-.dark-mode-main{
-    background: #2c2f33;
-}
-
+/*Estilizazação da tag de texto h1*/ 
 .dark-mode h1{
     color: #fff;
     transition: .4s;
 }
-
-.dark-mode h2{
+/*Estilizazação da tag de texto h2*/
+.dark-mode a h2{
     color: #fff;
     transition: .4s;
 }
-
-.dark-mode h3{
+/*Estilizazação da tag de texto h3*/
+.dark-mode a h3{
     color: #5865f2;
     transition: .4s;
 }
-
-.dark-mode h4{
+/*Estilizazação da tag de texto h4*/
+.dark-mode a h4{
     color: #fff;
     transition: .4s;
 }
-
-
+/*Estilizazação da tag de texto h5*/
+.dark-mode a h5{
+    color: #fff;
+    transition: .4s;
+}
+/*Estilizazação da tag de texto p*/
+.dark-mode p{
+    color: #fff;
+    transition: .4s;
+}
+/*Alinhamento, centralização e margem da tag h1 da main*/
 main h1{
     text-align: center;
     margin: 50px;
+    font-size: 50px;
 }
-
-#top h2, h3{
+/*Estilização das tags de texto, da parte superior do site*/
+#top h2, h3, p{
     text-align: left;
+    margin-left: 50px;
 }
-
-h1, h2, h3, h4, p, a{
+/*Estilização das tags de texto do site*/
+h1, h2, h3, h4, h6, a{
     font-family: ginto;
     color: #333;
     text-decoration: none;
 }
-
+/*Classe para colocar cor nas tags de texto*/
 .blue{
     color: #5865f2;
 }
-
-main{
-    font-size: 30px;
-}
-
+/*Cor de fundo transparente da parte superior do site*/
 #top{
     background-color: transparent;
  }
-
+/*Estilização da parte do banner do site*/
 .banner{
     margin: 20px;
     text-align: center;
 }
-
+/*Borda, e efeito de sombra no banner inicial do site*/
 .banner img{
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
+/*Estilização de um article, section e de div*/
 .display{
     display: flex;
     background-color: transparent;
+    margin-left: 30px;
+    margin-right: 30px;
 }
-
+/*Cards de noticía da parte superior do site*/
 .card_top{
     margin-top: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 50%;
 }
-
+/*Estilização da imagem dos cards do topo do site*/
 .card_top img{
     margin-left: 40px;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
-.card_top h5{
+/*Estilização do texto dos cards do topo do site*/
+.card_top h2{
+    margin-left: 40px;
     font-family: ginto;
     color: #333;
 }
-
-.card_top h4:hover{
+/*Estilização do texto com animação*/
+.card_top h2:hover{
     color: #5865f2;
     text-decoration: underline;
     cursor: pointer;
+    transition: .4s;
 }
-
+/*Cards de noticía do meio do site*/
 .card_middle{
     margin: 20px;
     margin-top: 50px;
     width: 33%;
 }
-
+/*Estilização da imagem dos cards do meio do site*/
 .card_middle img{
     border-radius: 5px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
-.card_middle h5{
+/*Estilização do texto dos cards do meio do site*/
+.card_middle h2{
     font-family: ginto;
     color: #333;
 }
-
-.card_middle h4:hover{
+/*Estilização do texto com animação*/
+.card_middle h2:hover{
     color: #5865f2;
     text-decoration: underline;
     cursor: pointer;
+    transition: .4s;
 }
 
 #aside_art{
     display: flex;
+}
+/*Estilização do anúncio*/
+#ad{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }

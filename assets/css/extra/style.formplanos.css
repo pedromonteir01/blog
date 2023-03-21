@@ -3,18 +3,18 @@ body{
     font-family: ginto;
     background-color: #fff;
 }
-
+/*Importação da fonte Ginto Nord*/
 @font-face {
     font-family: ginto;
     src: url(../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
 }
-
+/*Estilização das tags de texto do site*/
 h1, h2, h3, h4, p, a, li{
     color: #333;
     text-decoration: none;
     font-family: ginto;
 }
-
+/*Espaço do botão de Dark Mode*/
 #container{
     width: 100%;
     height: 100%;
@@ -23,7 +23,7 @@ h1, h2, h3, h4, p, a, li{
     justify-content: center;
     align-items: center;
 }
-
+/*Tamanho do switch do botão*/
 .switch{
     position: relative;
     display: inline-block;
@@ -35,7 +35,7 @@ h1, h2, h3, h4, p, a, li{
 .switch input{
     display: none;
 }
-
+/*Espaço do botão*/
 .slider{
     position: absolute;
     cursor: pointer;
@@ -47,7 +47,7 @@ h1, h2, h3, h4, p, a, li{
     border-radius: 34px;
     transition: .4s;
 }
-
+/*Animação do switch*/
 .slider::before{
     content: '';
     position: absolute;
@@ -59,52 +59,49 @@ h1, h2, h3, h4, p, a, li{
     border-radius: 50%;
     transition: .4s;
 }
-
+/*Quando o botão estiver "ligado", o fundo vai ficar azul*/
 input:checked + .slider {
     background: #5865f2;
 }
-
+/*Animação do botão quando for "ligado"*/
 input:checked +.slider::before{
     transform: translateX(26px);
 }
-
+/*Classe dark mode do site*/
 .dark-mode{
     background: #23272a;
 }
 
-.dark-mode-main{
-    background: #2c2f33;
-}
-
+/*Estilizazação da tag de texto h1*/
 .dark-mode h1{
     color: #fff;
     transition: .4s;
 }
-
+/*Estilizazação da tag de texto h2*/
 .dark-mode h2{
     color: #fff;
     transition: .4s;
 }
-
+/*Estilizazação da tag de texto h3*/
 .dark-mode h3{
     color: #5865f2;
     transition: .4s;
 }
-
+/*Estilizazação da tag de texto h4*/
 .dark-mode h4{
     color: #fff;
     transition: .4s;
 }
-
+/*Alinhamento, centralização e margem da tag h1 da main*/
 main h1{
     text-align: center;
     padding: 20px;
 }
-
+/*Estilização para separar duas sections*/
 .decoration{
     display: flex;
 }
-
+/*Partes de informações pessoais no cadastro da extra*/
 .personal{
     display: flex;
     border: 2px solid #f0f0f0;
@@ -113,10 +110,11 @@ main h1{
     padding-bottom: 20px;
     
 }
-
+/*Estilização das caixas de texto e seleção do cadastro*/
 .personal input{
     width: 45%;
 }
+/*Estruturação, tamanhos e cor de fundo dos cadastros*/
 .cadastro{
     padding-top: 20px;
     height: 700px;
@@ -124,7 +122,7 @@ main h1{
     background-color: transparent;
 
 }
-
+/*Edição das caixas de texto e seleção do cadastro*/
 input{
     padding-left: 70px;
     padding-right: 70px;
@@ -132,7 +130,7 @@ input{
     padding-bottom: 5px;
     border-radius: 5px;
 }
-
+/*Estilização da caixa de seleção das bandeiras de cartões*/
 #flag{
     font-size: 15px;
     padding-right: 100px;
@@ -140,7 +138,7 @@ input{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
+/*Estilização do botão*/
 .button{
     margin-top: 10px;
     padding-left: 70px;
@@ -151,17 +149,17 @@ input{
     border: 2px solid #f0f0f0;
 
 }
-
+/*Animação no botão do cadastro*/
 .button:hover{
     background-color: grey;
     border: 2px solid #fff;
 }
-
+/*Partes de informações do cartão no cadastro da extra*/
 .cartao{
     width: 60%;
     text-align: center;
 }
-
+/*Estilização da imagem do cartão*/
 .img_card{
     border: 2px solid #f0f0f0;
     border-radius: 5px;
@@ -169,12 +167,12 @@ input{
     padding: 50px;
     height: 225px;
 }
-
+/* Id para animação de rotação de imagem*/
 #image_ani{
     margin: auto;
     animation: mymove 3s infinite;
   }
-  
+  /*Animação de rotação da imagem com keyframe */
   @keyframes mymove {
     50% {transform: rotate(5deg);}
   }
