@@ -8,3 +8,9 @@ body {
     font-size: 14px;
     align-items: center;
 }
+.stars{
+    font-size: 24px;
+    margin-left: 500px;
+    display: flex;
+    align-items: center;
+}
