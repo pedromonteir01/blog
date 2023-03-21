@@ -1,49 +1,10 @@
-body{
+body {
     margin: 0%;
-    background-color: #F1DEC9;
+    padding: 0;
+    background-color: #f7f6f6;
 }
-article{
-    background-color: #F1DEC9;
-}
-h1{
-    text-align: center;
-}
-
-#article_aside{
+.posted{
     display: flex;
-}
-/*card grade*/
-#card_grande{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transition: 0.3s; 
-    width: 60%;
-    margin-left: 20%;
-    background-color: white;
-}
-#container_grande{
-    padding: 2px 16px;
-}
-/*cards pequenos*/
-#cards_menores{
-    display: flex;
-}
-.cards{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transition: 0.3s; 
-    width: 30%;
-    margin: 5%;
-    background-color: white;
-}
-.container{
-    padding: 2px 16px;
-}
-/*aside*/
-aside{
-    padding: 5%;
-    border: 0%;
-    background-color: #A4907C;
-}
-.patrocinadores{
-    display: flex;
-    margin: 2%;
+    font-size: 14px;
+    align-items: center;
 }
