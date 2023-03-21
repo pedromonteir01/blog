@@ -79,18 +79,10 @@ input:checked +.slider::before{
 }
 
 .dark-mode h3{
-    color: #fff;
+    color: #5865f2;
 }
 
 .dark-mode h4{
-    color: #fff;
-}
-
-.dark-mode h5{
-    color: #fff;
-}
-
-.dark-mode h6{
     color: #fff;
 }
 
@@ -119,7 +111,7 @@ main{
 }
 
 #top{
-    background-color: #fff;
+    background-color: transparent;
  }
 
 .banner{
@@ -133,7 +125,7 @@ main{
 
 .display{
     display: flex;
-    background-color: #f0f0f0;
+    background-color: transparent;
 }
 
 .card_top{
@@ -159,7 +151,7 @@ main{
     color: #333;
 }
 
-.card_top h5:hover{
+.card_top h4:hover{
     color: #5865f2;
     text-decoration: underline;
     cursor: pointer;
@@ -186,7 +178,7 @@ main{
     color: #333;
 }
 
-.card_middle h5:hover{
+.card_middle h4:hover{
     color: #5865f2;
     text-decoration: underline;
     cursor: pointer;
