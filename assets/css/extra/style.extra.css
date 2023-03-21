@@ -1,6 +1,6 @@
 @font-face {
     font-family: ginto;
-    src: url(../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
+    src: url(../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
 }
 
 body{
@@ -157,8 +157,8 @@ input:checked +.slider::before{
     padding-bottom: 10px;
     padding-right: 75px;
     padding-left: 75px;
-    margin-top: 80px;
-    margin-left: 80px;
+    margin-top: 50px;
+    margin-left: 45px;
     text-align: center;
     background-color: transparent;
     border:2px solid #f0f0f0;
@@ -191,8 +191,8 @@ input:checked +.slider::before{
     padding-bottom: 10px;
     padding-right: 75px;
     padding-left: 75px;
-    margin-top: 50px;
-    margin-left: 80px;
+    margin-top: 20px;
+    margin-left: 45px;
     text-align: center;
     background-color: transparent;
     border:2px solid #f0f0f0;
