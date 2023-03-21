@@ -32,6 +32,7 @@ button:active {
 
 #top {
     display: flex;
+    align-items: center;
 }
 
 #article_aside {
@@ -97,6 +98,7 @@ h1 {
     -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
     box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    text-transform: uppercase;
 }
 
 h1:hover {
@@ -215,7 +217,7 @@ a {
 
 .stars {
     font-size: 24px;
-    margin-left: 300px;
+    margin-left: 500px;
     display: flex;
     align-items: center;
   }
