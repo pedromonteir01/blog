@@ -3,60 +3,74 @@
 
 <head>
     <meta charset="UTF-8">
+    <!--Importação do css da página home-->
     <link rel="stylesheet" href="../../assets/css/extra/style.formplanos.css">
+    <!--Icone do site-->
     <link rel="icon" type="image/x-icon" href="">
+    <!--Título do site-->
     <title>Document</title>
 </head>
 
 <body>
+    <!--Importação do header através do iframe-->
     <header>
         <iframe src="../../layouts/header.html" frameborder="0" scrolling="no" width="100%" height="100%"></iframe>
     </header>
     <main>
+        <!--Espaço com o botão do dark mode-->
         <div id="container">
             <h3>Light / Dark Mode Toggle</h3>
             <label class="switch">
                 <input type="checkbox" onclick="changeMode()">
                 <span class="slider"></span>
             </label>
+            <!--Importação e programação do JavaScript diretamente no html-->
             <script>
                 function changeMode() {
     var element = document.body;
     element.classList.toggle("dark-mode")
 }
             </script>
-
+        <!--Área de cadastro da página extra-->
         <h1>Faça seu cadastro</h1>
         <article>
             <section class="cadastro">
                 <form action="sucessoextra.html">
                     <div class="personal">
+                        <!--Área de texto com nome-->
                     <label>
                         <h3>Nome:</h3>
                         <input type="text">
                     </label>
+                    <!--Área de texto com e-mail-->
                     <label>
                         <h3>E-mail:</h3>
                         <input type="email" name="" id="">
                     </label>
+                    <!--Área de texto com CPF-->
                     <label>
                         <h3>CPF</h3>
                         <input type="text">
                     </label>
+                    <!--Área de texto com senha-->
                     <label>
                         <h3>Senha:</h3>
                         <input type="password">
                     </div>
+                    <!--Estilização da parte de cartão-->
                     <div class="decoration">
                     <div class="cartao">
+                        <!--Área de texto com nome do cartão-->
                         <label>
                             <h3>Nome do Cartão</h3>
                             <input type="text">
                         </label>
+                        <!--Área de texto com número do cartão-->
                         <label>
                             <h3>Número do Cartão</h3>
                             <input type="text">
                         </label>
+                        <!--Área de texto com tipos de bandeira de cartão-->
                         <label>
                             <h3>Tipo de Cartão</h3>
                             <select name="Bandeira" id="flag">
@@ -67,16 +81,20 @@
                                 <option>Maestro</option>
                             </select>
                         </label>
+                        <!--Área de texto data de validade do cartão-->
                         <label>
                             <h3>Data de Validade</h3>
                             <input type="date">
                         </label>
+                        <!--Área de texto do código de segurança-->
                         <label>
                             <h3>Código de segurança (CSC)</h3>
                             <input type="text">
                         </label>
+                        <!--Botão de adimissão do cadastro-->
                         <button class="button">Cadastrar</button>
                     </div>
+                    <!--Exemplo de cartão-->
                     <div class="img_card">
                         <h2>Seu Cartão</h2>
                         <img id="image_ani" src="../../assets/images/card.png" alt="cartao" width="250px" height="225px">
@@ -89,6 +107,7 @@
     </div>
 
     </main>
+    <!--Importação do footer através do iframe-->
     <footer> 
         <iframe src="../../layouts/footer.html" frameborder="0" scrolling="no" width="100%" height="100%"></iframe> 
     </footer>

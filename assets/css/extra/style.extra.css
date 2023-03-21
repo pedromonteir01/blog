@@ -1,3 +1,4 @@
+/*Importação da fonte Ginto Nord*/
 @font-face {
     font-family: ginto;
     src: url(../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
@@ -10,17 +11,17 @@ body{
     font-family: ginto;
     transition: .4s;
 }
-
+/*Estilização das tags de texto do site*/
 h1, h2, h3, h4, p, a, li{
     color: #333;
     text-decoration: none;
     font-family: ginto;
 }
-
+/*Estilização do tamanho da fonte das tag p*/
 p{
     font-size: 15px;
 }
-
+/*Espaço do botão de Dark Mode*/
 #container{
     width: 100%;
     height: 100%;
@@ -29,7 +30,7 @@ p{
     justify-content: center;
     align-items: center;
 }
-
+/*Tamanho do switch do botão*/
 .switch{
     position: relative;
     display: inline-block;
@@ -41,7 +42,7 @@ p{
 .switch input{
     display: none;
 }
-
+/*Espaço do botão*/
 .slider{
     position: absolute;
     cursor: pointer;
@@ -53,7 +54,7 @@ p{
     border-radius: 34px;
     transition: .4s;
 }
-
+/*Animação do switch*/
 .slider::before{
     content: '';
     position: absolute;
@@ -65,44 +66,44 @@ p{
     border-radius: 50%;
     transition: .4s;
 }
-
+/*Quando o botão estiver "ligado", o fundo vai ficar azul*/
 input:checked + .slider {
     background: #5865f2;
 }
-
+/*Animação do botão quando for "ligado"*/
 input:checked +.slider::before{
     transform: translateX(26px);
 }
-
+/*Classe dark mode do site*/
 .dark-mode{
     background: #23272a;
 }
-
+/*Estilizazação da tag de texto h1*/
 .dark-mode h1{
     color: #fff;
     transition: .4s;
 }
-
+/*Estilizazação da tag de texto h2*/
 .dark-mode h2{
     color: #fff;
     transition: .4s;
 }
-
+/*Estilizazação da tag de texto h3*/
 .dark-mode h3{
     color: #5865f2;
     transition: .4s;
 }
-
+/*Estilizazação da tag de texto h4*/
 .dark-mode h4{
     color: #fff;
     transition: .4s;
 }
-
+/*Estilizazação da tag de texto h5*/
 .dark-mode h5{
     color: #5865f2;
     transition: .4s;
 }
-
+/*Estilizazação da tag de texto p*/
 .dark-mode p{
     color: #fff;
     transition: .4s;
@@ -112,23 +113,23 @@ input:checked +.slider::before{
     color: #fff;
     transition: .4s;
 }
-
+/*Estilização da parte superior do site*/
 #top{
     display: flex;
     background-color: transparent;
     border:2px solid #f0f0f0;
 }
-
+/*Estilização  do texto da parte superior do site*/
 #top h1{
     font-size: 50px;
     width: 70%;
     margin-left: 20px;
 }
-
+/*Estilização da lista da parte superior do site*/
 #top li{
     font-size: 25px;
 }
-
+/*Estilização da imagem da parte superior do site*/
 #top img{
     margin-right: 150px;
     margin-top: 100px;
@@ -138,7 +139,7 @@ input:checked +.slider::before{
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
+/*Estilização do plano vip do site*/
 .plano_1{
     margin-top: 20px;
     margin-left: 150px;
@@ -151,7 +152,7 @@ input:checked +.slider::before{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     margin-bottom: 20px;
 }
-
+/*Estilização do botão plano vip do site*/
 .plano_1 button{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -165,14 +166,14 @@ input:checked +.slider::before{
     color: #333;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
+/*Animação do botão plano vip do site*/
 .plano_1 button:hover{
     background-color: grey;
     border:2px solid #fff;
     color: #f0f0f0;
     transition: .4s;
 }
-
+/*Estilização do plano Nitro do site*/
 .plano_2{
     margin-top: 20px;
     margin-left: 150px;
@@ -185,7 +186,7 @@ input:checked +.slider::before{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     margin-bottom: 20px;
 }
-
+/*Estilização do plano Nitro do site*/
 .plano_2 button{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -199,7 +200,7 @@ input:checked +.slider::before{
     color: #333;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
+/*Animação do botão do plano Nitro do site*/
 .plano_2 button:hover{
     background-color: grey;
     border:2px solid #fff;
@@ -207,24 +208,24 @@ input:checked +.slider::before{
     transition: .4s;
 }
 
-
+/*Estilização da parte do meio do site*/
 #middle{
     display: flex;
     background-color: transparent;
     border:2px solid #f0f0f0;
 
 }
-
+/*Estilização do article com display*/
 .display{
     display: flex;
 }
-
+/*Estilização de texto de título*/
 .title{
     text-align: center;
     font-size: 25px;
 }
 
-
+/*Estilização da parte inferior da página*/
 #bottom{
     background-color: transparent;
     font-family: 'Montserrat', sans-serif;
@@ -235,7 +236,7 @@ input:checked +.slider::before{
     margin: 30px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
+/*Estilização da parte dos comentários da página*/
 .comment{
     background-color: transparent;
     border: 2px solid #f0f0f0;
@@ -249,19 +250,19 @@ input:checked +.slider::before{
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
+/*Estilização do texto da parte dos comentários da página*/
 .comment_txt{
     height: 50px;
     width: 60%;
     padding: 10px;
 }
 
-
+/* Id para animação de rotação de imagem*/
 #image_ani{
     margin: auto;
     animation: mymove 3s infinite;
   }
-  
+    /*Animação de rotação da imagem com keyframe */
   @keyframes mymove {
     50% {transform: rotate(5deg);}
   }
