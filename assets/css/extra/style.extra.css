@@ -1,21 +1,122 @@
-body{
-    color: white;
-    margin: 0%;
-    background-color: #8D7B68;
+@font-face {
+    font-family: ginto;
+    src: url(../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+    color: #333;
+    margin: 0%;
+    background-color: #fff;
+    font-family: ginto;
+    transition: .4s;
+}
 
 h1, h2, h3, h4, p, a, li{
-    color: white;
+    color: #333;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ginto;
+}
+
+p{
+    font-size: 15px;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+
+}
+
+.switch input{
+    display: none;
+}
+
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333;
+    border-radius: 34px;
+    transition: .4s;
+}
+
+.slider::before{
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 4px;
+    bottom: 4px;
+    background: #fff;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background: #5865f2;
+}
+
+input:checked +.slider::before{
+    transform: translateX(26px);
+}
+
+.dark-mode{
+    background: #23272a;
+}
+
+.dark-mode h1{
+    color: #fff;
+    transition: .4s;
+}
+
+.dark-mode h2{
+    color: #fff;
+    transition: .4s;
+}
+
+.dark-mode h3{
+    color: #5865f2;
+    transition: .4s;
+}
+
+.dark-mode h4{
+    color: #fff;
+    transition: .4s;
+}
+
+.dark-mode h5{
+    color: #5865f2;
+    transition: .4s;
+}
+
+.dark-mode p{
+    color: #fff;
+    transition: .4s;
+}
+
+.dark-mode ul li{
+    color: #fff;
+    transition: .4s;
 }
 
 #top{
     display: flex;
-    background-color: #8D7B68;
-    border:2px solid #C8B6A6;
+    background-color: transparent;
+    border:2px solid #f0f0f0;
 }
 
 #top h1{
@@ -31,23 +132,23 @@ h1, h2, h3, h4, p, a, li{
 #top img{
     margin-right: 150px;
     margin-top: 100px;
-    background-color: #A4907C;
-    border:2px solid #C8B6A6;
-    border-left:5px solid #8D7B68;
+    background-color: transparent;
+    border:2px solid #f0f0f0;
+    border-left:5px solid grey;
     border-radius: 5px;
-    box-shadow: 7px 7px 5px rgb(35, 35, 35);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .plano_1{
     margin-top: 20px;
     margin-left: 150px;
-    background-color: #A4907C;
-    border:2px solid #C8B6A6;
-    border-left:5px solid #8D7B68;
+    background-color: transparent;
+    border:2px solid #f0f0f0;
+    border-left:5px solid grey;
     border-radius: 5px;
     width: 30%;
     height: 400px;
-    box-shadow: 7px 7px 5px rgb(35, 35, 35);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     margin-bottom: 20px;
 }
 
@@ -59,29 +160,29 @@ h1, h2, h3, h4, p, a, li{
     margin-top: 80px;
     margin-left: 80px;
     text-align: center;
-    background-color: #A4907C;
-    border:2px solid #C8B6A6;
-    color: white;
-    box-shadow: 7px 7px 5px rgb(35, 35, 35);
+    background-color: transparent;
+    border:2px solid #f0f0f0;
+    color: #333;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .plano_1 button:hover{
-    background-color: #8D7B68;
-    border: 2px solid #C8B6A6;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+    background-color: grey;
+    border:2px solid #fff;
+    color: #f0f0f0;
+    transition: .4s;
 }
 
 .plano_2{
     margin-top: 20px;
     margin-left: 150px;
-    background-color: #A4907C;
-    border:2px solid #C8B6A6;
-    border-left:5px solid #8D7B68;
+    background-color: transparent;
+    border:2px solid #f0f0f0;
+    border-left:5px solid grey;
     border-radius: 5px;
     width: 30%;
     height: 400px;
-    box-shadow: 7px 7px 5px rgb(35, 35, 35);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     margin-bottom: 20px;
 }
 
@@ -93,24 +194,24 @@ h1, h2, h3, h4, p, a, li{
     margin-top: 50px;
     margin-left: 80px;
     text-align: center;
-    background-color: #A4907C;
-    border:2px solid #C8B6A6;
-    color: var(--color-text);
-    box-shadow: 7px 7px 5px rgb(35, 35, 35);
+    background-color: transparent;
+    border:2px solid #f0f0f0;
+    color: #333;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .plano_2 button:hover{
-    background-color: #8D7B68;
-    border: 2px solid #C8B6A6;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+    background-color: grey;
+    border:2px solid #fff;
+    color: #f0f0f0;
+    transition: .4s;
 }
 
 
 #middle{
     display: flex;
-    background-color: #8D7B68;
-    border:2px solid #C8B6A6;
+    background-color: transparent;
+    border:2px solid #f0f0f0;
 
 }
 
@@ -125,27 +226,28 @@ h1, h2, h3, h4, p, a, li{
 
 
 #bottom{
-    background-color: #A4907C;
+    background-color: transparent;
     font-family: 'Montserrat', sans-serif;
     height: 525px;
     border-radius: 5px;
-    border: 2px solid #C8B6A6;
-    border-left: 5px solid #8D7B68;
+    border:2px solid #f0f0f0;
+    border-left:5px solid grey;
     margin: 30px;
-    box-shadow: 7px 7px 5px rgb(35, 35, 35);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .comment{
-    background-color: #A4907C;
-    border: 2px solid #C8B6A6;
+    background-color: transparent;
+    border: 2px solid #f0f0f0;
     border-radius: 5px;
-    background-color: var(--background-color5);
+    background-color: transparent;
+
     width: 33%;
     height: 300px;
     margin: 20px;
     font-family: 'Montserrat', sans-serif;
     display: flex;
-    box-shadow: 7px 7px 5px rgb(35, 35, 35);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .comment_txt{
@@ -163,4 +265,4 @@ h1, h2, h3, h4, p, a, li{
   @keyframes mymove {
     50% {transform: rotate(5deg);}
   }
-  
+

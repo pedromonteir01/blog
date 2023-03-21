@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../assets/css//extra/style.formplanos.css">
+    <link rel="stylesheet" href="../assets/css/style.formplanos.css">
     <link rel="icon" type="image/x-icon" href="">
     <title>Document</title>
 </head>
@@ -13,6 +13,19 @@
         <iframe src="../layouts/header.html" frameborder="0" scrolling="no" width="100%" height="100%"></iframe>
     </header>
     <main>
+        <div id="container">
+            <h3>Light / Dark Mode Toggle</h3>
+            <label class="switch">
+                <input type="checkbox" onclick="changeMode()">
+                <span class="slider"></span>
+            </label>
+            <script>
+                function changeMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode")
+}
+            </script>
+
         <h1>Faça seu cadastro</h1>
         <article>
             <section class="cadastro">
@@ -73,6 +86,8 @@
             </section>
 
         </article>
+    </div>
+
     </main>
     <footer> 
         <iframe src="../layouts/footer.html" frameborder="0" scrolling="no" width="100%" height="100%"></iframe> 

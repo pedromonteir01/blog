@@ -3,16 +3,27 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../assets/css/extra/style.extra.css">
+    <link rel="stylesheet" href="../assets/css/style.extra.css">
     <link rel="icon" type="image/x-icon" href="">
     <title>Blog</title>
 </head>
 
 <body>
-    <header>
+    <script src="assets/js/extra.js"></script>
         <iframe src="../layouts/header.html" frameborder="0" scrolling="no" width="100%" height="100%"></iframe>
-    </header>
     <main>
+        <div id="container">
+            <h3>Light / Dark Mode Toggle</h3>
+            <label class="switch">
+                <input type="checkbox" onclick="changeMode()">
+                <span class="slider"></span>
+            </label>
+            <script>
+                function changeMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode")
+}
+            </script>
         <article>
             <section id="top">
                 <div>
@@ -35,10 +46,10 @@
                 <h2>Plano VIP</h2>
                 <div>
                     <form action="formplanos.html">
-                        <p>+ Mais 25 Notícias</p>
-                        <p>+ Acessibilidade</p>
-                        <p>+ Comentários com Destaque</p>
-                        <p>+ Notícias mais atualizadas</p>
+                        <h5>+ Mais 25 Notícias</h5>
+                        <h5>+ Acessibilidade</h5>
+                        <h5>+ Comentários com Destaque</h5>
+                        <h5>+ Notícias mais atualizadas</h5>
                 </div>
                 <button>Assinar</button>
                 </form>
@@ -47,11 +58,11 @@
                 <h2>Plano Nitro</h2>
                 <div>
                     <form action="formplanos.html">
-                        <p>+ Mais 50 Notícias</p>
-                        <p>+ Acessibilidade</p>
-                        <p>+ Comentários com os maios Destaques</p>
-                        <p>+ Notícias mais atualizadas</p>
-                        <p>+ Maior velocidade na visualização de notícias novas</p>
+                        <h5>+ Mais 50 Notícias</h5>
+                        <h5>+ Acessibilidade</h5>
+                        <h5>+ Comentários com os maios Destaques</h5>
+                        <h5>+ Notícias mais atualizadas</h5>
+                        <h5>+ Maior velocidade na visualização de notícias novas</h5>
                 </div>
                 <button>Assinar</button>
                 </form>
@@ -90,11 +101,10 @@
             </div>
             </section>
         </article>
+    </div>
     </main>
 
-    <footer> 
         <iframe src="../layouts/footer.html" frameborder="0" scrolling="no" width="100%" height="100%"></iframe> 
-    </footer>
 </body>
 
 </html>
