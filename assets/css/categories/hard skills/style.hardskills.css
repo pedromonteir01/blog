@@ -119,17 +119,19 @@ h2:hover {
 
 @font-face {
     font-family: title;
-    src: url(../../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: content;
-    src: url(../../../../fonts/paragrafo/Lato-Regular.ttf);
+    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
 }
 
 #text_maincontent {
     padding-left: 15px;
     padding-right: 15px;
+    font-family: paragrafo;
+    font-size: 20px;
 }
 
 h3 {
@@ -252,6 +254,7 @@ a {
     transition: all 0.2s;
     cursor: pointer;
   }
+
   .stars_avaliation .star_avaliations:hover {
     transform: scale(1.1);
     color: #ffe600;
