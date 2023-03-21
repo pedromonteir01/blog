@@ -241,6 +241,7 @@ input:checked +.slider::before{
     border: 2px solid #f0f0f0;
     border-radius: 5px;
     background-color: transparent;
+
     width: 33%;
     height: 300px;
     margin: 20px;
@@ -264,3 +265,4 @@ input:checked +.slider::before{
   @keyframes mymove {
     50% {transform: rotate(5deg);}
   }
+
