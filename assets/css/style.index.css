@@ -67,41 +67,47 @@ input:checked +.slider::before{
     background: #23272a;
 }
 
-.dark-mode-main{
-    background: #2c2f33;
-}
-
 .dark-mode h1{
     color: #fff;
     transition: .4s;
 }
 
-.dark-mode h2{
-    color: #fff;
-    transition: .4s;
-}
-
-.dark-mode h3{
+.dark-mode a h2{
     color: #5865f2;
     transition: .4s;
 }
 
-.dark-mode h4{
+.dark-mode a h3{
+    color: #5865f2;
+    transition: .4s;
+}
+
+.dark-mode a h4{
     color: #fff;
     transition: .4s;
 }
 
+.dark-mode a h5{
+    color: #fff;
+    transition: .4s;
+}
+
+.dark-mode p{
+    color: #fff;
+    transition: .4s;
+}
 
 main h1{
     text-align: center;
     margin: 50px;
 }
 
-#top h2, h3{
+#top h2, h3, p{
     text-align: left;
+    margin-left: 50px;
 }
 
-h1, h2, h3, h4, p, a{
+h1, h2, h3, h4, h6, a{
     font-family: ginto;
     color: #333;
     text-decoration: none;
@@ -111,9 +117,6 @@ h1, h2, h3, h4, p, a{
     color: #5865f2;
 }
 
-main{
-    font-size: 30px;
-}
 
 #top{
     background-color: transparent;
@@ -132,12 +135,15 @@ main{
 .display{
     display: flex;
     background-color: transparent;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .card_top{
     margin-top: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 50%;
 }
 
 .card_top img{
@@ -147,15 +153,17 @@ main{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.card_top h5{
+.card_top h2{
+    margin-left: 40px;
     font-family: ginto;
     color: #333;
 }
 
-.card_top h4:hover{
+.card_top h2:hover{
     color: #5865f2;
     text-decoration: underline;
     cursor: pointer;
+    transition: .4s;
 }
 
 .card_middle{
@@ -170,17 +178,23 @@ main{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.card_middle h5{
+.card_middle h2{
     font-family: ginto;
     color: #333;
 }
 
-.card_middle h4:hover{
+.card_middle h2:hover{
     color: #5865f2;
     text-decoration: underline;
     cursor: pointer;
+    transition: .4s;
 }
 
 #aside_art{
     display: flex;
+}
+
+#ad{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
