@@ -9,17 +9,22 @@
 </head>
 
 <body>
+    <!--Importação do JavaScript no html-->
     <script src="assets/js/home.js"></script>
+    <!--Importação da header com o iframe-->
     <iframe id="menu" src="layouts/header.html" frameborder="0" scrolling="no" width="100%"></iframe>
 
     <main>
+        <!--Container com botão de dark mode-->
         <div id="container">
             <h3 class="blue">Light / Dark Mode Toggle</h3>
             <label class="switch">
                 <input type="checkbox" onclick="changeMode()">
                 <span class="slider"></span>
             </label>
+            <!--Título do Site e nome da equipe-->
             <h1>Ember Diamond</h1>
+            <!--Banner-->
             <article id="top">
                 <section class="side">
                     <div class="banner">
@@ -29,6 +34,7 @@
                     </div>
                 </section>
             </article>
+            <!--Cards de noticía do topo do site-->
             <div class="display">
                 <article>
                     <section class="card_top">
@@ -50,6 +56,7 @@
                     </section>
                 </article>
                 <article>
+                <!--Cards de noticía do topo do site-->
                     <section class="card_top">
                         <img src="assets/images/hard-skills.png" alt="hard-skills" width="400px" height="200px">
                         <a href="pages/categories/skills/skillshome.html" target="_parent">
@@ -60,6 +67,7 @@
                     </section>
                 </article>
             </div>
+            <!--Cards de noticía da parte do meio da site-->
             <article id="aside_article">
                 <article class="display">
                     <section class="card_middle">
@@ -72,6 +80,7 @@
                             <p>São habilidades que envolvem aspectos relacionais e emocionais das pessoas, e que são
                                 fundamentais para o sucesso no trabalho.</p>
                     </section>
+                    <!--Cards de noticía da parte do meio da site-->
                     <section class="card_middle">
                         <img src="assets/images/investimentos.jpg" alt="investimentos" width="350px" height="200px">
                         <a href="#" target="_parent">
@@ -82,6 +91,7 @@
                             <p>São habilidades que envolvem aspectos relacionais e emocionais das pessoas, e que são
                                 fundamentais para o sucesso no trabalho.</p>
                     </section>
+                    <!--Cards de noticía da parte do meio da site-->
                     <section class="card_middle">
                         <img src="assets/images/empresas.jpg" alt="empresas" width="350px" height="200px">
                         <a href="#" target="_parent">
@@ -94,13 +104,14 @@
                     </section>
                 </article>
                 <article>
+                <!--Espaço do anúncio do site-->
                     <section id="ad">
                         <img src="assets/images/banner_ad.png" alt="banner" width="1260px" height="125px">
                     </section>
                 </article>
         </div>
     </main>
-
+<!--Importação do footer com o iframe-->
     <iframe src="layouts/footer.html" frameborder="0" scrolling="no" height="100%" width="100%"></iframe>
 
 </body>
