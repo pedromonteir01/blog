@@ -1,16 +1,112 @@
+/*Importação da fonte Ginto Nord*/
 @font-face {
-    font-family: montserrat;
-    src: url(../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+    font-family: ginto;
+    src: url(../../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
 }
 
 body{
     margin: 0%;
     background-color: #A4907C;
+    font-family: ginto;
+    transition: .4s;
 }
 
 main{
-    font-family: montserrat;
+    font-family: ginto;
     color: white;
+}
+
+/*Espaço do botão de Dark Mode*/
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Tamanho do switch do botão*/
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+
+}
+
+.switch input{
+    display: none;
+}
+/*Espaço do botão*/
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333;
+    border-radius: 34px;
+    transition: .4s;
+}
+/*Animação do switch*/
+.slider::before{
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 4px;
+    bottom: 4px;
+    background: #fff;
+    border-radius: 50%;
+    transition: .4s;
+}
+/*Quando o botão estiver "ligado", o fundo vai ficar azul*/
+input:checked + .slider {
+    background: #5865f2;
+}
+/*Animação do botão quando for "ligado"*/
+input:checked +.slider::before{
+    transform: translateX(26px);
+}
+/*Classe dark mode do site*/
+.dark-mode{
+    background: #23272a;
+}
+/*Estilizazação da tag de texto h1*/
+.dark-mode h1{
+    color: #fff;
+    transition: .4s;
+}
+/*Estilizazação da tag de texto h2*/
+.dark-mode h2{
+    color: #fff;
+    transition: .4s;
+}
+/*Estilizazação da tag de texto h3*/
+.dark-mode h3{
+    color: #5865f2;
+    transition: .4s;
+}
+/*Estilizazação da tag de texto h4*/
+.dark-mode h4{
+    color: #fff;
+    transition: .4s;
+}
+/*Estilizazação da tag de texto h5*/
+.dark-mode h5{
+    color: #5865f2;
+    transition: .4s;
+}
+/*Estilizazação da tag de texto p*/
+.dark-mode p{
+    color: #fff;
+    transition: .4s;
+}
+
+.dark-mode ul li{
+    color: #fff;
+    transition: .4s;
 }
 
 main h1{
@@ -18,7 +114,6 @@ main h1{
 }
 
 .image{
-    margin-left: 275px;
     text-align: center;
     border: 2px solid #C8B6A6;
     width: fit-content;
@@ -28,7 +123,7 @@ main h1{
 .list{
     text-align: left;
     color: white;
-    font-family: montserrat;
+    font-family: ginto;
     margin-left: 30px;
     font-size: 25px;
 }
@@ -36,8 +131,8 @@ main h1{
 .middle{
     margin: 30px;
     display: flex;
-    border: 2px solid #C8B6A6;
-    border-left: 5px solid #8D7B68;
+    border: 2px solid #f0f0f0;
+    border-left: 5px solid grey;
     border-radius: 5px;
 }
 
@@ -56,10 +151,11 @@ main h1{
 }
 
 .bottom{
+    font-family: ginto;
     text-align: center;
     display: flex;
-    border: 2px solid #C8B6A6;
-    border-left: 5px solid #8D7B68;
+    border: 2px solid #f0f0f0;
+    border-left: 5px solid grey;
     border-radius: 5px;
     margin: 30px;
 
@@ -74,13 +170,12 @@ main h1{
 }
 
 button{
-    margin-left: 575px;
     margin-bottom: 25px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: montserrat;
-    background-color: #8D7B68;
-    border: 2px solid #C8B6A6;
+    font-family: ginto;
+    background-color: transparent;
+    border: 2px solid #f0f0f0;
 }
