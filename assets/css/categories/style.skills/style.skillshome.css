@@ -4,20 +4,112 @@
     bottom: 0;
 }
 
+/*Importação da fonte Ginto Nord*/
+@font-face {
+    font-family: ginto;
+    src: url(../../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
+}
+
+
 body {
     margin: 0;
     padding: 0;
     background-color: #e1dcd5;
+    font-family: ginto;
 }
 
-@font-face {
-    font-family: title;
-    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+
+/*Espaço do botão de Dark Mode*/
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Tamanho do switch do botão*/
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+
 }
 
-@font-face {
-    font-family: paragrafo;
-    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
+.switch input{
+    display: none;
+}
+/*Espaço do botão*/
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333;
+    border-radius: 34px;
+    transition: .4s;
+}
+/*Animação do switch*/
+.slider::before{
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 4px;
+    bottom: 4px;
+    background: #fff;
+    border-radius: 50%;
+    transition: .4s;
+}
+/*Quando o botão estiver "ligado", o fundo vai ficar azul*/
+input:checked + .slider {
+    background: #5865f2;
+}
+/*Animação do botão quando for "ligado"*/
+input:checked +.slider::before{
+    transform: translateX(26px);
+}
+/*Classe dark mode do site*/
+.dark-mode{
+    background: #23272a;
+}
+/*Estilizazação da tag de texto h1*/
+.dark-mode h1{
+    color: #fff;
+    transition: .4s;
+}
+/*Estilizazação da tag de texto h2*/
+.dark-mode h2{
+    color: #fff;
+    transition: .4s;
+}
+/*Estilizazação da tag de texto h3*/
+.dark-mode h3{
+    color: #5865f2;
+    transition: .4s;
+}
+/*Estilizazação da tag de texto h4*/
+.dark-mode h4{
+    color: #fff;
+    transition: .4s;
+}
+/*Estilizazação da tag de texto h5*/
+.dark-mode h5{
+    color: #5865f2;
+    transition: .4s;
+}
+/*Estilizazação da tag de texto p*/
+.dark-mode p{
+    color: #fff;
+    transition: .4s;
+}
+
+.dark-mode ul li{
+    color: #fff;
+    transition: .4s;
 }
 
 iframe {
@@ -34,8 +126,8 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     font-family: title;
-    border: solid 2px #8D7B68;
-    background-color: #8D7B68;
+    border: solid 2px #f0f0f0;
+    background-color: transparent;
     color: white;
     border-width: 5px;
 }
@@ -52,12 +144,12 @@ article {
 }
 
 a {
-    border: solid 2px #8D7B68;
+    border: solid 2px #f0f0f0;
     padding: 5px;
     margin: 30px;
     height: 100px;
     border-radius: 5px;
-    background-color: #A4907C;
+    background-color: transparent;
     color: black;
     display: flex;
     width: 33%;
@@ -103,9 +195,9 @@ i {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    border: #8D7B68 2px solid;
-    border-left: 10px #8D7B68 solid;
-    border-top: 1px #8D7B68 solid ;
+    border: #f0f0f0 2px solid;
+    border-left: 10px grey solid;
+    border-top: 1px grey solid ;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-bottom: 60px;
@@ -142,7 +234,7 @@ box-shadow: 7px 8px 10px -2px rgba(0,0,0,0.75);
 }
 
 aside {
-    background-color: #8D7B68;
+    background-color: transparent;
     margin: 15px;
     border-radius: 5px;
     padding: 15px;
@@ -155,7 +247,7 @@ aside {
 
 .coments {
     width: 350px;
-    border: #938475 solid 5px;
+    border: #f0f0f0 solid 5px;
     border-radius: 4px;
     padding: 10px;
     padding-top: 20px;

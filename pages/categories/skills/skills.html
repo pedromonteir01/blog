@@ -18,6 +18,20 @@
 
     <div id="article_aside">
         <main>
+                    <!--Espaço com o botão do dark mode-->
+        <div id="container">
+            <h3>Light / Dark Mode Toggle</h3>
+            <label class="switch">
+                <input type="checkbox" onclick="changeMode()">
+                <span class="slider"></span>
+            </label>
+            <!--Importação e programação do JavaScript diretamente no html-->
+            <script>
+                function changeMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode")
+}
+            </script>
             <div class="posted">
                 <img id="posted_byP" src="../../../assets/images/icon2.png" alt="professor">
                 <p>Professor Garibaldo</p>

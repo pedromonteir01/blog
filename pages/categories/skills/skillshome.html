@@ -15,6 +15,20 @@
     <iframe src="../../../layouts/header.html" scrolling="no" frameborder="0"></iframe>
     <div class="content_main">
         <main>
+                    <!--Espaço com o botão do dark mode-->
+        <div id="container">
+            <h3>Light / Dark Mode Toggle</h3>
+            <label class="switch">
+                <input type="checkbox" onclick="changeMode()">
+                <span class="slider"></span>
+            </label>
+            <!--Importação e programação do JavaScript diretamente no html-->
+            <script>
+                function changeMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode")
+}
+            </script>
             <article>
                 <h1 class="title_card">competencias socioemocionais</h1>
                 <div class="banner">
