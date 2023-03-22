@@ -1,12 +1,118 @@
+/*Importação da fonte Ginto Nord*/
+@font-face {
+    font-family: ginto;
+    src: url(../../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
+}
+
 body{
     margin: 0%;
     background-color: #F1DEC9;
+    font-family: ginto;
 }
 article{
-    background-color: #F1DEC9;
+    background-color: transparent;
 }
 h1{
     text-align: center;
+}
+/*Estilização das tags de texto do site*/
+h1, h2, h3, h4, p, a, li{
+    color: #333;
+    text-decoration: none;
+    font-family: ginto;
+}
+
+/*Espaço do botão de Dark Mode*/
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Tamanho do switch do botão*/
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+
+}
+
+.switch input{
+    display: none;
+}
+/*Espaço do botão*/
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333;
+    border-radius: 34px;
+    transition: .4s;
+}
+/*Animação do switch*/
+.slider::before{
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 4px;
+    bottom: 4px;
+    background: #fff;
+    border-radius: 50%;
+    transition: .4s;
+}
+/*Quando o botão estiver "ligado", o fundo vai ficar azul*/
+input:checked + .slider {
+    background: #5865f2;
+}
+/*Animação do botão quando for "ligado"*/
+input:checked +.slider::before{
+    transform: translateX(26px);
+}
+/*Classe dark mode do site*/
+.dark-mode{
+    background: #23272a;
+}
+/*Estilizazação da tag de texto h1*/
+.dark-mode h1{
+    color: #fff;
+    transition: .4s;
+}
+/*Estilizazação da tag de texto h2*/
+.dark-mode h2{
+    color: #fff;
+    transition: .4s;
+}
+/*Estilizazação da tag de texto h3*/
+.dark-mode h3{
+    color: #5865f2;
+    transition: .4s;
+}
+/*Estilizazação da tag de texto h4*/
+.dark-mode h4{
+    color: #fff;
+    transition: .4s;
+}
+/*Estilizazação da tag de texto h5*/
+.dark-mode h5{
+    color: #5865f2;
+    transition: .4s;
+}
+/*Estilizazação da tag de texto p*/
+.dark-mode p{
+    color: #fff;
+    transition: .4s;
+}
+
+.dark-mode ul li{
+    color: #fff;
+    transition: .4s;
 }
 
 #article_aside{
@@ -14,11 +120,13 @@ h1{
 }
 /*card grade*/
 #card_grande{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transition: 0.3s; 
     width: 60%;
     margin-left: 20%;
-    background-color: white;
+    background-color: transparent;
+    border: 2px solid #f0f0f0;
+    border-left: 5px solid grey;
 }
 #container_grande{
     padding: 2px 16px;
@@ -28,11 +136,13 @@ h1{
     display: flex;
 }
 .cards{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transition: 0.3s; 
     width: 30%;
     margin: 5%;
-    background-color: white;
+    background-color: transparent;
+    border: 2px solid #f0f0f0;
+    border-left: 5px solid grey;
 }
 .container{
     padding: 2px 16px;
@@ -41,7 +151,9 @@ h1{
 aside{
     padding: 5%;
     border: 0%;
-    background-color: #A4907C;
+    background-color: transparent;
+    border: 2px solid #f0f0f0;
+    border-left: 5px solid grey;
 }
 .patrocinadores{
     display: flex;
