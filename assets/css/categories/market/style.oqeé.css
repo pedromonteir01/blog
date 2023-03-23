@@ -213,6 +213,8 @@ a {
 .card_img {
     border: 2px solid #A4907C;
     border-radius: 5px ;
+    width: 100px;
+    height: 66px;
 }
 
 .stars {
@@ -256,5 +258,9 @@ a {
   }
   .stars_avaliation .star_avaliations.selected {
     color: #ffcc00;
+  }
+  .imagemprincipal {
+    width: 300px;
+    height: 200px;
   }
   
