@@ -1,97 +1,27 @@
-/*Importação da fonte Ginto Nord*/
+/*Importação da fonte de título*/
 @font-face {
-    font-family: ginto;
-    src: url(../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
+    font-family: title;
+    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
-
+/*Importação da fonte de parágrafo*/
+@font-face {
+    font-family: content;
+    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
+}
 body{
     margin: 0%;
-    font-family: ginto;
     background-color: #fff;
     transition: .4s;
 }
-/*Espaço do botão de Dark Mode*/
-#container{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-/*Tamanho do switch do botão*/
-.switch{
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-
-}
-
-.switch input{
-    display: none;
-}
-/*Espaço do botão*/
-.slider{
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #333;
-    border-radius: 34px;
-    transition: .4s;
-}
-/*Animação do switch*/
-.slider::before{
-    content: '';
-    position: absolute;
-    width: 26px;
-    height: 26px;
-    left: 4px;
-    bottom: 4px;
-    background: #fff;
-    border-radius: 50%;
-    transition: .4s;
-}
-/*Quando o botão estiver "ligado", o fundo vai ficar azul*/
-input:checked + .slider {
-    background: #5865f2;
-}
-/*Animação do botão quando for "ligado"*/
-input:checked +.slider::before{
-    transform: translateX(26px);
-}
-/*Classe dark mode do site*/
-.dark-mode{
-    background: #23272a;
-}
-/*Estilizazação da tag de texto h1*/
-.dark-mode h1{
-    color: #fff;
-    transition: .4s;
-}
-/*Estilizazação da tag de texto h2*/
-.dark-mode h2{
-    color: #fff;
-    transition: .4s;
-}
-/*Estilizazação da tag de texto h3*/
-.dark-mode h3{
-    color: #5865f2;
-    transition: .4s;
-}
-/*Estilizazação da tag de texto h4*/
-.dark-mode h4{
-    color: #fff;
-    transition: .4s;
-}
 /*Estilização das tags de texto do site*/
-h1, h2, h4, p, a, li{
+h1, h2, h4, a, li{
     color: #333;
     text-decoration: none;
-    font-family: ginto;
+    font-family: title;
+}
+
+p{
+    font-family: content;
 }
 /*Estilização de alinhamento da main*/
 main{
@@ -108,16 +38,16 @@ main{
     padding-bottom: 5px;
     font-size: 20px;
     text-align: center;
-    background-color: #333;
-    border: 2px solid #f0f0f0;
-    color: white;
+    background-color: transparent;
+    border: 2px solid #938475;
+    color: #333;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    font-family: montserrat;
+    font-family: title;
 }
 /*Animação no botão para voltar para a página home*/
 .button:hover{
-    background-color: #f0f0f0;
-    border: 2px solid #333;
+    background-color: #8D7B68;
+    border: 2px solid #938475;
     color: #333;
 
 }

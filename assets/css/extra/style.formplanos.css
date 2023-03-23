@@ -3,94 +3,26 @@ body{
     font-family: ginto;
     background-color: #fff;
 }
-/*Importação da fonte Ginto Nord*/
+/*Importação da fonte de título*/
 @font-face {
-    font-family: ginto;
-    src: url(../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
+    font-family: title;
+    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
+/*Importação da fonte de parágrafo*/
+@font-face {
+    font-family: content;
+    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
+}
+
 /*Estilização das tags de texto do site*/
-h1, h2, h3, h4, p, a, li{
+h1, h2, h3, h4, a, li{
     color: #333;
     text-decoration: none;
-    font-family: ginto;
-}
-/*Espaço do botão de Dark Mode*/
-#container{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-/*Tamanho do switch do botão*/
-.switch{
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-
+    font-family: title;
 }
 
-.switch input{
-    display: none;
-}
-/*Espaço do botão*/
-.slider{
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #333;
-    border-radius: 34px;
-    transition: .4s;
-}
-/*Animação do switch*/
-.slider::before{
-    content: '';
-    position: absolute;
-    width: 26px;
-    height: 26px;
-    left: 4px;
-    bottom: 4px;
-    background: #fff;
-    border-radius: 50%;
-    transition: .4s;
-}
-/*Quando o botão estiver "ligado", o fundo vai ficar azul*/
-input:checked + .slider {
-    background: #5865f2;
-}
-/*Animação do botão quando for "ligado"*/
-input:checked +.slider::before{
-    transform: translateX(26px);
-}
-/*Classe dark mode do site*/
-.dark-mode{
-    background: #23272a;
-}
-
-/*Estilizazação da tag de texto h1*/
-.dark-mode h1{
-    color: #fff;
-    transition: .4s;
-}
-/*Estilizazação da tag de texto h2*/
-.dark-mode h2{
-    color: #fff;
-    transition: .4s;
-}
-/*Estilizazação da tag de texto h3*/
-.dark-mode h3{
-    color: #5865f2;
-    transition: .4s;
-}
-/*Estilizazação da tag de texto h4*/
-.dark-mode h4{
-    color: #fff;
-    transition: .4s;
+p{
+    font-family: content;
 }
 /*Alinhamento, centralização e margem da tag h1 da main*/
 main h1{
@@ -104,7 +36,7 @@ main h1{
 /*Partes de informações pessoais no cadastro da extra*/
 .personal{
     display: flex;
-    border: 2px solid #f0f0f0;
+    border: 2px solid #938475;
     border-radius: 5px;
     margin: 20px;
     padding-bottom: 20px;
@@ -146,13 +78,13 @@ input{
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: transparent;
-    border: 2px solid #f0f0f0;
+    border: 2px solid #938475;
 
 }
 /*Animação no botão do cadastro*/
 .button:hover{
-    background-color: grey;
-    border: 2px solid #fff;
+    background-color: #8D7B68;
+    border: 2px solid #938475;
 }
 /*Partes de informações do cartão no cadastro da extra*/
 .cartao{
@@ -161,7 +93,7 @@ input{
 }
 /*Estilização da imagem do cartão*/
 .img_card{
-    border: 2px solid #f0f0f0;
+    border: 2px solid #938475;
     border-radius: 5px;
     margin: 30px;
     padding: 50px;
