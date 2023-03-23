@@ -16,6 +16,11 @@ body{
     transition: .4s;
 }
 
+iframe{
+    height: 100%;
+    width: 100%;
+}
+
 /*Estilização das tags de texto do site*/
 h1, h2, h3, h4, a, li{
     color: #333;
@@ -39,6 +44,11 @@ main h1{
     width: fit-content;
     height: 400px;
     margin-left: 275px;
+}
+
+.image img{
+    width: 700px;
+    height: 400px;
 }
 
 .list{
@@ -85,6 +95,11 @@ main h1{
 
 .img{
     margin-left: 250px;
+}
+
+.img img{
+    width: 75px;
+    height: 75px;
 }
 
 .title{
