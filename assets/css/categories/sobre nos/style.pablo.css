@@ -1,13 +1,4 @@
-/*Importação da fonte de título*/
-@font-face {
-    font-family: title;
-    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
-}
-/*Importação da fonte de parágrafo*/
-@font-face {
-    font-family: content;
-    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body{
     margin: 0%;
@@ -22,19 +13,17 @@ iframe{
 }
 
 /*Estilização das tags de texto do site*/
-h1, h2, h3, h4, a, li{
+h2, h3, h4, h6, a{
+    font-family: 'Montserrat', sans-serif;
     color: #333;
     text-decoration: none;
-    font-family: title;
-}
-/*Estilização do tamanho da fonte das tag p*/
-p{
-    font-size: 15px;
-    font-family: content;
 }
 
+p{
+    font-family: 'Montserrat', sans-serif;;
+}
 main h1{
-    font-family: title;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 

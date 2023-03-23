@@ -1,12 +1,12 @@
 /*Importação da fonte Ginto Nord*/
 @font-face {
     font-family: title;
-    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+    src: url("../fonts/titulo/Montserrat-VariableFont_wght.ttf");
 }
 
 @font-face {
     font-family: content;
-    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
+    src: url("../fonts/paragrafo/Lato-Regular.ttf");
 }
 
 body{
@@ -22,6 +22,7 @@ iframe{
 
 /*Alinhamento, centralização e margem da tag h1 da main*/
 main h1{
+    font-family: title;
     text-align: center;
     margin: 50px;
     font-size: 50px;
@@ -32,7 +33,7 @@ main h1{
     margin-left: 50px;
 }
 /*Estilização das tags de texto do site*/
-h1, h2, h3, h4, h6, a{
+h2, h3, h4, h6, a{
     font-family: title;
     color: #333;
     text-decoration: none;
