@@ -20,9 +20,10 @@ main h1{
     font-size: 50px;
 }
 /*Estilização das tags de texto, da parte superior do site*/
-#top h2, h3, p{
+#top h2, h3{
     text-align: left;
     margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 /*Estilização das tags de texto do site*/
 h4, h6, a{
@@ -32,8 +33,11 @@ h4, h6, a{
 }
 
 p{
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 50px;
 }
+
 main h1{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -41,6 +45,7 @@ main h1{
 /*Classe para colocar cor nas tags de texto*/
 .blue{
     color: #5865f2;
+    font-family: 'Montserrat', sans-serif;
 }
 /*Cor de fundo transparente da parte superior do site*/
 #top{
@@ -84,7 +89,7 @@ main h1{
 /*Estilização do texto dos cards do topo do site*/
 .card_top h2{
     margin-left: 40px;
-    font-family: ginto;
+    font-family: 'Montserrat', sans-serif;
     color: #333;
 }
 /*Estilização do texto com animação*/
@@ -110,7 +115,7 @@ main h1{
 }
 /*Estilização do texto dos cards do meio do site*/
 .card_middle h2{
-    font-family: ginto;
+    font-family: 'Montserrat', sans-serif;
     color: #333;
 }
 /*Estilização do texto com animação*/
@@ -124,6 +129,8 @@ main h1{
 #aside_art{
     display: flex;
 }
+
+
 /*Estilização do anúncio*/
 #ad{
     margin-top: 50px;
