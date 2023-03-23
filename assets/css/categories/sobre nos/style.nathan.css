@@ -1,22 +1,35 @@
-/*Importação da fonte Ginto Nord*/
+/*Importação da fonte de título*/
 @font-face {
-    font-family: ginto;
-    src: url(../../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
+    font-family: title;
+    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+}
+/*Importação da fonte de parágrafo*/
+@font-face {
+    font-family: content;
+    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
 }
 
 body{
     margin: 0%;
     background-color: #A4907C;
-    font-family: ginto;
+    font-family: title;
     transition: .4s;
 }
 
-main{
-    font-family: ginto;
-    color: white;
+/*Estilização das tags de texto do site*/
+h1, h2, h3, h4, a, li{
+    color: #333;
+    text-decoration: none;
+    font-family: title;
+}
+/*Estilização do tamanho da fonte das tag p*/
+p{
+    font-size: 15px;
+    font-family: content;
 }
 
 main h1{
+    font-family: title;
     text-align: center;
 }
 
@@ -25,21 +38,23 @@ main h1{
     border: 2px solid #C8B6A6;
     width: fit-content;
     height: 400px;
+    margin-left: 275px;
 }
 
 .list{
+    font-family: title;
     text-align: left;
     color: white;
-    font-family: ginto;
     margin-left: 30px;
     font-size: 25px;
 }
 
 .middle{
+    font-family: title;
     margin: 30px;
     display: flex;
-    border: 2px solid #f0f0f0;
-    border-left: 5px solid grey;
+    border:2px solid #938475;
+    border-left:5px solid #8D7B68;
     border-radius: 5px;
 }
 
@@ -50,6 +65,7 @@ main h1{
 }
 
 .txt{
+    font-family: title;
     margin: 20px;
     margin-top: 100px;
     padding-left: 20px;
@@ -58,11 +74,10 @@ main h1{
 }
 
 .bottom{
-    font-family: ginto;
     text-align: center;
     display: flex;
-    border: 2px solid #f0f0f0;
-    border-left: 5px solid grey;
+    border:2px solid #938475;
+    border-left:5px solid #8D7B68;
     border-radius: 5px;
     margin: 30px;
 
@@ -78,11 +93,12 @@ main h1{
 
 button{
     margin-bottom: 25px;
+    margin-left: 575px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: ginto;
+    font-family: content;
     background-color: transparent;
-    border: 2px solid #f0f0f0;
+    border: 2px solid #938475;
 }
