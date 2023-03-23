@@ -1,4 +1,3 @@
-
 body {
     padding: 0;
     margin: 0;
@@ -11,8 +10,8 @@ body {
 }
 
 button {
-    border: solid, 3px, rgb(141, 123, 104);
-    background-color:rgb(200, 182, 166);
+    border: solid, 3px, #8D7B68;
+    background-color:#F1DEC9;
     cursor: pointer;
     width: 200px;
     margin: 20px;
@@ -20,7 +19,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(200, 182, 166);
+    background-color: #C8B6A6;
     transition: 0.2s linear;
     scale: 1.05;
 }
