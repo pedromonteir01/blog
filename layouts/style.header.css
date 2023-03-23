@@ -46,6 +46,9 @@
     text-transform: uppercase;
     font-family: content;
     display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
 }
 
 .bar_menu .menu li:hover {
@@ -65,8 +68,9 @@
     text-decoration: none;
 }
 
+
 /* estilização do get started */
-.menu #vip {
+.menu .vip_li {
     background-color: #F1DEC9;
     color: #8D7B68;
     padding: 0.5rem 1rem;
