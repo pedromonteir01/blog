@@ -259,4 +259,8 @@ a {
   .stars_avaliation .star_avaliations.selected {
     color: #ffcc00;
   }
+  .imagemprincipal {
+    width: 500px;
+    height: 192px;
+  }
   
