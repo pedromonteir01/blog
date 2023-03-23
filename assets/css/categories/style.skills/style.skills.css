@@ -1,15 +1,7 @@
-/*Importação da fonte Ginto Nord*/
-@font-face {
-    font-family: ginto;
-    src: url(../../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
-}
-
 body {
-    width: 100%;
     margin: 0%;
     padding: 0;
     background-color: #f7f6f6;
-    font-family: ginto;
 }
 
 .buttons {
@@ -18,9 +10,8 @@ body {
 }
 
 button {
-    font-family: ginto;
-    border: solid 3px #f0f0f0;
-    background-color: transparent;
+    border: solid 3px #8D7B68;
+    background-color: #F1DEC9;
     cursor: pointer;
     width: 200px;
     margin: 20px;
@@ -28,13 +19,13 @@ button {
 }
 
 button:hover {
-    background-color: #fff;
+    background-color: #C8B6A6;
     transition: 0.2s linear;
     scale: 1.05;
 }
 
 button:active {
-    background-color: grey;
+    background-color: #8D7B68;
 }
 
 
@@ -49,16 +40,14 @@ button:active {
 }
 
 aside {
-    font-family: ginto;
-    width: 40%;
-    background-color: transparent;
+    background-color: #8D7B68;
     margin: 15px;
     border-radius: 5px;
     padding: 15px;
     -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
     box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
-    height: 1050px;
+    height: 780px;
     display: flex;
     flex-direction: column;
     vertical-align: middle;
@@ -66,9 +55,8 @@ aside {
 }
 
 .coments {
-    font-family: ginto;
-    width: 250px;
-    border: #f0f0f0 solid 5px;
+    width: 400px;
+    border: #938475 solid 5px;
     border-radius: 4px;
     padding: 10px;
     padding-top: 20px;
@@ -89,26 +77,22 @@ aside {
     color: rgba(0, 0, 0, 0.3);
     padding-left: 10px;
     font-style: italic;
-    width: 30px;
 }
 
 main {
-    width: 70%;
-    font-family: ginto;
     padding: 20px;
 }
 
 p {
-    font-size: 15px;
-    font-family: ginto;
+    font-family: content;
     text-align: justify;
 }
 
 h1 {
-    font-family: ginto;
+    font-family: title;
     margin-bottom: 50px;
-    border: solid 10px #f0f0f0;
-    background-color: transparent;
+    border: solid 10px #8D7B68;
+    background-color: #8D7B68;
     border-radius: 5px;
     margin-top: 0;
     -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
@@ -118,7 +102,7 @@ h1 {
 }
 
 h1:hover {
-    color: grey;
+    color: white;
     transition: 0.5s ease-in;
     transition: 0.5s ease-out;
 }
@@ -133,11 +117,21 @@ h2:hover {
     transition: 0.5s ease-out;
 }
 
+@font-face {
+    font-family: title;
+    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: content;
+    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
+}
+
 .text_maincontent {
     padding-left: 15px;
     padding-right: 15px;
-    font-family: ginto;
-    font-size: 15px;
+    font-family: paragrafo;
+    font-size: 20px;
 }
 
 a {
@@ -155,8 +149,8 @@ a {
 .cards {
     padding: 15px;
     border-radius: 15px;
-    border: solid 5px #f0f0f0;
-    background-color: transparent;
+    border: solid 5px #8D7B68;
+    background-color: #A4907C;
     margin: 20px;
     margin-top: 30px;
     width: 200px;
@@ -170,7 +164,7 @@ a {
     scale: 1.05;
     transition: 0.3s ease-in-out;
     cursor: pointer;
-    background-color: grey;
+    background-color: #938475;
 }
 
 .card_texts {
@@ -178,7 +172,7 @@ a {
 }
 
 #break {
-    background-color: transparent;
+    background-color: rgba(141, 123, 104, 0.3);
     height: 15px;
     margin-top: 30px;
 }
@@ -197,7 +191,7 @@ a {
 #posted_byH {
     width: 20px;
     height: 20px;
-    padding-left: 10px;
+    padding-left: 7px;
 }
 
 #posted_byH:hover {
@@ -217,7 +211,7 @@ a {
 }
 
 .card_img {
-    border: 2px solid #f0f0f0;
+    border: 2px solid #A4907C;
     border-radius: 5px ;
 }
 
