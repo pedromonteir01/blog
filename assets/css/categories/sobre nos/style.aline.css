@@ -1,4 +1,4 @@
-/*Importação da fonte Ginto Nord*/
+/*Importação da fonte de texto*/
 @font-face {
     font-family: title;
     src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
@@ -6,13 +6,11 @@
 
 @font-face {
     font-family: content;
-    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
+    src: url(../../../fonts/paragrafo/Lato-Black.ttf);
 }
-
 body{
     margin: 0%;
     background-color: #A4907C;
-    font-family: title;
     transition: .4s;
 }
 
@@ -22,11 +20,37 @@ iframe{
 }
 
 /*Estilização das tags de texto do site*/
-h1, h2, h3, h4, a, li{
+h1{
     color: #333;
     text-decoration: none;
     font-family: title;
 }
+h2{
+    color: #333;
+    text-decoration: none;
+    font-family: title;
+}
+h3{
+    color: #333;
+    text-decoration: none;
+    font-family: title;
+}
+h4{
+    color: #333;
+    text-decoration: none;
+    font-family: title;
+}
+a{
+    color: #333;
+    text-decoration: none;
+    font-family: title;
+}
+ul li{
+    color: #333;
+    text-decoration: none;
+    font-family: title;
+}
+
 /*Estilização do tamanho da fonte das tag p*/
 p{
     font-size: 15px;
