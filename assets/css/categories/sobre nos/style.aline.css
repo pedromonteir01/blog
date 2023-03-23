@@ -1,9 +1,9 @@
-/*Importação da fonte de título*/
+/*Importação da fonte Ginto Nord*/
 @font-face {
     font-family: title;
     src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
-/*Importação da fonte de parágrafo*/
+
 @font-face {
     font-family: content;
     src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
