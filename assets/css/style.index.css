@@ -1,13 +1,17 @@
 /*Importação da fonte Ginto Nord*/
 @font-face {
-    font-family: ginto;
-    src: url(../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
+    font-family: title;
+    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: content;
+    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
 }
 
 body{
     margin: 0%;
-    font-family: ginto;
-    background-color: #F1DEC9;
+    background-color: #f7f6f6;
     transition: .4s;
 }
 
@@ -24,9 +28,13 @@ main h1{
 }
 /*Estilização das tags de texto do site*/
 h1, h2, h3, h4, h6, a{
-    font-family: ginto;
+    font-family: title;
     color: #333;
     text-decoration: none;
+}
+
+p{
+    font-family: content;
 }
 /*Classe para colocar cor nas tags de texto*/
 .blue{

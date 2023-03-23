@@ -1,20 +1,27 @@
-/*Importação da fonte Ginto Nord*/
+/*Importação da fonte de título*/
 @font-face {
-    font-family: ginto;
-    src: url(../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
+    font-family: title;
+    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
-
+/*Importação da fonte de parágrafo*/
+@font-face {
+    font-family: content;
+    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
+}
 body{
     margin: 0%;
-    font-family: ginto;
     background-color: #fff;
     transition: .4s;
 }
 /*Estilização das tags de texto do site*/
-h1, h2, h4, p, a, li{
+h1, h2, h4, a, li{
     color: #333;
     text-decoration: none;
-    font-family: ginto;
+    font-family: title;
+}
+
+p{
+    font-family: content;
 }
 /*Estilização de alinhamento da main*/
 main{
@@ -31,16 +38,16 @@ main{
     padding-bottom: 5px;
     font-size: 20px;
     text-align: center;
-    background-color: #333;
-    border: 2px solid #f0f0f0;
-    color: white;
+    background-color: transparent;
+    border: 2px solid #938475;
+    color: #333;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    font-family: montserrat;
+    font-family: title;
 }
 /*Animação no botão para voltar para a página home*/
 .button:hover{
-    background-color: #f0f0f0;
-    border: 2px solid #333;
+    background-color: #8D7B68;
+    border: 2px solid #938475;
     color: #333;
 
 }

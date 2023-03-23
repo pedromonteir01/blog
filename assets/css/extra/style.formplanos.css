@@ -3,16 +3,26 @@ body{
     font-family: ginto;
     background-color: #fff;
 }
-/*Importação da fonte Ginto Nord*/
+/*Importação da fonte de título*/
 @font-face {
-    font-family: ginto;
-    src: url(../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
+    font-family: title;
+    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
+/*Importação da fonte de parágrafo*/
+@font-face {
+    font-family: content;
+    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
+}
+
 /*Estilização das tags de texto do site*/
-h1, h2, h3, h4, p, a, li{
+h1, h2, h3, h4, a, li{
     color: #333;
     text-decoration: none;
-    font-family: ginto;
+    font-family: title;
+}
+
+p{
+    font-family: content;
 }
 /*Alinhamento, centralização e margem da tag h1 da main*/
 main h1{
@@ -26,7 +36,7 @@ main h1{
 /*Partes de informações pessoais no cadastro da extra*/
 .personal{
     display: flex;
-    border: 2px solid #f0f0f0;
+    border: 2px solid #938475;
     border-radius: 5px;
     margin: 20px;
     padding-bottom: 20px;
@@ -68,13 +78,13 @@ input{
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: transparent;
-    border: 2px solid #f0f0f0;
+    border: 2px solid #938475;
 
 }
 /*Animação no botão do cadastro*/
 .button:hover{
-    background-color: grey;
-    border: 2px solid #fff;
+    background-color: #8D7B68;
+    border: 2px solid #938475;
 }
 /*Partes de informações do cartão no cadastro da extra*/
 .cartao{
@@ -83,7 +93,7 @@ input{
 }
 /*Estilização da imagem do cartão*/
 .img_card{
-    border: 2px solid #f0f0f0;
+    border: 2px solid #938475;
     border-radius: 5px;
     margin: 30px;
     padding: 50px;
