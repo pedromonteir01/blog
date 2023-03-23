@@ -213,6 +213,8 @@ a {
 .card_img {
     border: 2px solid #A4907C;
     border-radius: 5px ;
+    width: 100px;
+    height: 100px;
 }
 
 .stars {
@@ -258,3 +260,12 @@ a {
     color: #ffcc00;
   }
   
+  .imagemprincipal {
+    height: 200px;
+    width: 500px;
+  }
+
+  .coments_img {
+    width: 50px;
+    height: 50px;
+  }
