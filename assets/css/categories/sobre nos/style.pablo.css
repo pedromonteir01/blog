@@ -1,15 +1,18 @@
+/*Importação da fonte Ginto Nord*/
 @font-face {
-    font-family: montserrat;
-    src: url(../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+    font-family: ginto;
+    src: url(../../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
 }
 
 body{
     margin: 0%;
     background-color: #A4907C;
+    font-family: ginto;
+    transition: .4s;
 }
 
 main{
-    font-family: montserrat;
+    font-family: ginto;
     color: white;
 }
 
@@ -18,7 +21,6 @@ main h1{
 }
 
 .image{
-    margin-left: 275px;
     text-align: center;
     border: 2px solid #C8B6A6;
     width: fit-content;
@@ -28,7 +30,7 @@ main h1{
 .list{
     text-align: left;
     color: white;
-    font-family: montserrat;
+    font-family: ginto;
     margin-left: 30px;
     font-size: 25px;
 }
@@ -36,8 +38,8 @@ main h1{
 .middle{
     margin: 30px;
     display: flex;
-    border: 2px solid #C8B6A6;
-    border-left: 5px solid #8D7B68;
+    border: 2px solid #f0f0f0;
+    border-left: 5px solid grey;
     border-radius: 5px;
 }
 
@@ -56,10 +58,11 @@ main h1{
 }
 
 .bottom{
+    font-family: ginto;
     text-align: center;
     display: flex;
-    border: 2px solid #C8B6A6;
-    border-left: 5px solid #8D7B68;
+    border: 2px solid #f0f0f0;
+    border-left: 5px solid grey;
     border-radius: 5px;
     margin: 30px;
 
@@ -74,13 +77,12 @@ main h1{
 }
 
 button{
-    margin-left: 575px;
     margin-bottom: 25px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: montserrat;
-    background-color: #8D7B68;
-    border: 2px solid #C8B6A6;
+    font-family: ginto;
+    background-color: transparent;
+    border: 2px solid #f0f0f0;
 }
