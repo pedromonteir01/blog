@@ -15,6 +15,10 @@ body{
     background-color: #f7f6f6;
     transition: .4s;
 }
+iframe{
+    width: 100%;
+    height: 100%;
+}
 /*Estilização das tags de texto do site*/
 h1, h2, h3, h4, a, li{
     color: #333;
@@ -44,6 +48,8 @@ p{
 }
 /*Estilização da imagem da parte superior do site*/
 #top img{
+    width: 480px;
+    height: 435px;
     margin-right: 150px;
     margin-top: 100px;
     background-color: transparent;
@@ -148,6 +154,11 @@ p{
     margin: 30px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+#bottom img{
+    width: 100px;
+    height: 100px;
+}
 /*Estilização da parte dos comentários da página*/
 .comment{
     background-color: transparent;
@@ -156,7 +167,7 @@ p{
     background-color: transparent;
 
     width: 33%;
-    height: 300px;
+    height: 250px;
     margin: 20px;
     font-family: title;
     display: flex;
@@ -171,6 +182,8 @@ p{
 
 /* Id para animação de rotação de imagem*/
 #image_ani{
+    width: 100px;
+    height: 100px;
     margin: auto;
     animation: mymove 3s infinite;
   }
