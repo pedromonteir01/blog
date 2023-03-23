@@ -1,22 +1,29 @@
 /*Importação da fonte Ginto Nord*/
-@font-face {
-    font-family: ginto;
-    src: url(../../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body{
     margin: 0%;
     background-color: #A4907C;
-    font-family: ginto;
     transition: .4s;
 }
+iframe{
+    width: 100%;
+    height: 100%;
+}
 
-main{
-    font-family: ginto;
-    color: white;
+/*Estilização das tags de texto do site*/
+h2, h3, h4, h5, h6, a{
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
 }
 
 main h1{
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
@@ -25,12 +32,17 @@ main h1{
     border: 2px solid #C8B6A6;
     width: fit-content;
     height: 400px;
+    margin-left: 275px;
+}
+
+.image img{
+    width: 700px;
+    height: 400px;
 }
 
 .list{
     text-align: left;
     color: white;
-    font-family: ginto;
     margin-left: 30px;
     font-size: 25px;
 }
@@ -38,8 +50,8 @@ main h1{
 .middle{
     margin: 30px;
     display: flex;
-    border: 2px solid #f0f0f0;
-    border-left: 5px solid grey;
+    border:2px solid #938475;
+    border-left:5px solid #8D7B68;
     border-radius: 5px;
 }
 
@@ -58,11 +70,10 @@ main h1{
 }
 
 .bottom{
-    font-family: ginto;
     text-align: center;
     display: flex;
-    border: 2px solid #f0f0f0;
-    border-left: 5px solid grey;
+    border:2px solid #938475;
+    border-left:5px solid #8D7B68;
     border-radius: 5px;
     margin: 30px;
 
@@ -72,17 +83,23 @@ main h1{
     margin-left: 250px;
 }
 
+.img img{
+    width: 75px;
+    height: 75px;
+}
+
 .title{
     margin-left: 50px;
 }
 
 button{
     margin-bottom: 25px;
+    margin-left: 575px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: ginto;
+    font-family: content;
     background-color: transparent;
-    border: 2px solid #f0f0f0;
+    border: 2px solid #938475;
 }
