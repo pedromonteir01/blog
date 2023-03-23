@@ -10,18 +10,19 @@
     src: url(../../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
 }
 
-
+/*corpo*/
 body {
     margin: 0;
     padding: 0;
     background-color: #f7f6f6;
     font-family: ginto;
 }
-
+/*estilizacao iframe*/
 iframe {
     width: 100%;
     height: 100%;
 }
+/*footer*/
 #footer_ {
     height: 200px;
     margin-bottom: -5px;
@@ -37,7 +38,7 @@ h1 {
     color: white;
     border-width: 5px;
 }
-
+/*estilizacao main*/
 main {
     padding-left: 40px;
     padding-right: 40px;
@@ -139,7 +140,7 @@ box-shadow: 7px 8px 10px -2px rgba(0,0,0,0.75);
 #article_aside {
     display: flex;
 }
-
+/*estilizacao aside*/
 aside {
     background-color: transparent;
     margin: 15px;
