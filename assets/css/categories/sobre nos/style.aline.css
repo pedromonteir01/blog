@@ -31,19 +31,19 @@ main h1{
     text-align: center;
     border: 2px solid #579BB1;
     width: fit-content;
-    height: 400px;
+    height: 62vh;
     margin-left: 275px;
 }
 
 .image img{
-    width: 700px;
-    height: 400px;
+    width: 108vh;
+    height: 62vh;
 }
 
 .list{
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    color: rgb(0, 0, 0);
+    color: white;
     margin-left: 30px;
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
@@ -88,8 +88,8 @@ main h1{
 }
 
 .img img{
-    width: 75px;
-    height: 75px;
+    width: 12vh;
+    height: 12vh;
 }
 
 .title{
@@ -103,7 +103,7 @@ button{
     padding-right: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: content;
+    font-family: 'Montserrat', sans-serif;
     background-color: transparent;
     border: 2px solid #579BB1;
 }

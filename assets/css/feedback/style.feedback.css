@@ -1,33 +1,25 @@
-@font-face {
-    font-family: titulo;
-    src: url(../fonts/titulo/Montserrat-VariableFont_wght.ttf);
-}
-
-
-@font-face {
-    font-family: paragrafo;
-    src: url(../fonts/paragrafo/Lato-Regular.ttf);
-}
+/*Importação da fonte de título*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 .artigo {
-    background-color: #A4907C;
+    background-color: #F8F4EA;
     text-align: justify;
-    height: 340px;
-    width: 250px;
+    height: 52vh;
+    width: 39vh;
     padding: 150px;
     flex-direction: column;
-    color: white;
-    font-family: paragrafo;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .artigo1 {
     background-color: #C8B6A6;
     text-align: justify;
-    height: 355px;
-    width: 430px;
+    height: 55vh;
+    width: 66vh;
     padding: 135px;
     flex-direction: column;
-    font-family: paragrafo;
+    font-family: 'Montserrat', sans-serif;
 }
 
 div {
@@ -56,7 +48,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    font-family: paragrafo;
+    font-family: 'Montserrat', sans-serif;
 }
 
 button {
@@ -67,9 +59,9 @@ button {
     font-weight: bold;
     color: black;
     border: solid black;
-    width: 130px;
+    width: 20vh;
     border-radius: 5px;
-    font-family: titulo;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #comentario {
@@ -82,23 +74,22 @@ button {
 input {
     padding-top: 8px;
     padding-bottom: 8px;
-    width: 450px;
+    width: 70vh;
     border: solid white;
     font-size: 15px;
-    font-family: titulo;
-    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
     border-radius: 5px;
 }
 
 h1 {
-    font-family: titulo;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
 }
 
 p {
     text-align: left;
     font-size: 20px;
-    font-family: titulo;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {

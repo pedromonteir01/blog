@@ -1,15 +1,41 @@
+/*Importação da fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body {
     margin: 0%;
     padding: 0;
     background-color: #f7f6f6;
 }
+
+/*Importação do header pelo iframe*/
+header iframe{
+    width: 100%;
+    height: 100%;
+}
+/*Importação do footer pelo iframe*/
+footer iframe{
+    width: 100%;
+    height: 40vh;
+}
+
 main{
     padding: 20px;
 }
+
+#top img{
+    width: 46vh;
+    height: 31vh;
+}
+
 #article_aside{
     display: flex;
 }
 
+h3, h4, h6, a{
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    text-decoration: none;
+}
 .posted{
     display: flex;
     font-size: 14px;
@@ -41,7 +67,7 @@ main{
     color: rgb(165, 165, 165);
 }
 h1 {
-    font-family: title;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 50px;
     border: solid 10px #8D7B68;
     background-color: #8D7B68;
@@ -59,7 +85,7 @@ h1:hover {
 }
 
 h2 {
-    font-family: title;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2:hover {
@@ -68,18 +94,8 @@ h2:hover {
     transition: 0.5s ease-out;
 }
 p {
-    font-family: content;
+    font-family: 'Montserrat', sans-serif;
     text-align: justify;
-}
-
-@font-face {
-    font-family: title;
-    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
-}
-
-@font-face {
-    font-family: content;
-    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
 }
 
 .text_maincontent{
@@ -155,6 +171,11 @@ a {
     display: flex;
 }
 
+.coments_content img{
+    width: 8vh;
+    height: 8vh;
+}
+
 .user {
     padding-left: 10px;
     font-style: italic;
@@ -198,7 +219,7 @@ a {
 
 #break {
     background-color: rgba(141, 123, 104, 0.3);
-    height: 15px;
+    height: 2vh;
     margin-top: 30px;
 }
 
