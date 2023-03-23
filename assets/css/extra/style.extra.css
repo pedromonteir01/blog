@@ -1,13 +1,5 @@
 /*Importação da fonte de título*/
-@font-face {
-    font-family: title;
-    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
-}
-/*Importação da fonte de parágrafo*/
-@font-face {
-    font-family: content;
-    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body{
     color: #333;
@@ -15,20 +7,25 @@ body{
     background-color: #f7f6f6;
     transition: .4s;
 }
-iframe{
+header iframe{
     width: 100%;
     height: 100%;
 }
+
+footer iframe{
+    width: 100%;
+    height: 40vh;
+}
 /*Estilização das tags de texto do site*/
-h1, h2, h3, h4, a, li{
+h1, h2, h3, h4, h5, a, li{
     color: #333;
     text-decoration: none;
-    font-family: title;
+    font-family: 'Montserrat', sans-serif;
 }
 /*Estilização do tamanho da fonte das tag p*/
 p{
     font-size: 15px;
-    font-family: content;
+    font-family: 'Montserrat', sans-serif;
 }
 /*Estilização da parte superior do site*/
 #top{
@@ -48,8 +45,8 @@ p{
 }
 /*Estilização da imagem da parte superior do site*/
 #top img{
-    width: 480px;
-    height: 435px;
+    width: 74vh;
+    height: 67vh;
     margin-right: 150px;
     margin-top: 100px;
     background-color: transparent;
@@ -67,7 +64,7 @@ p{
     border-left:5px solid #8D7B68;
     border-radius: 5px;
     width: 30%;
-    height: 400px;
+    height: 62vh;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     margin-bottom: 20px;
 }
@@ -101,7 +98,7 @@ p{
     border-left:5px solid #8D7B68;
     border-radius: 5px;
     width: 30%;
-    height: 400px;
+    height: 62vh;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     margin-bottom: 20px;
 }
@@ -147,7 +144,7 @@ p{
 #bottom{
     background-color: transparent;
     font-family: 'Montserrat', sans-serif;
-    height: 525px;
+    height: 81vh;
     border-radius: 5px;
     border:2px solid #938475;
     border-left:5px solid #8D7B68;
@@ -167,7 +164,7 @@ p{
     background-color: transparent;
 
     width: 33%;
-    height: 250px;
+    height: 39vh;
     margin: 20px;
     font-family: title;
     display: flex;
@@ -182,8 +179,8 @@ p{
 
 /* Id para animação de rotação de imagem*/
 #image_ani{
-    width: 100px;
-    height: 100px;
+    width: 15vh;
+    height: 15vh;
     margin: auto;
     animation: mymove 3s infinite;
   }
