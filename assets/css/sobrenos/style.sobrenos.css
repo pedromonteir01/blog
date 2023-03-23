@@ -1,19 +1,33 @@
+/*Importação da fonte de título*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    transition: .4s;
     margin: 0;
     background-color: rgb(200, 182, 166);
 }
+
+/*Estilização das tags de texto do site*/
+h2, h3, h4, h6, a{
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
 .quemsomos {
     text-align: center;
 }
 html {
     box-sizing: border-box;
-}
-
-/*tirando decoração de um link*/
-a{
-    text-decoration: none;
-    color: black;
 }
 
 *, *:before, *:after {
@@ -30,21 +44,30 @@ a{
 /*personalização dos cards*/
 .card {
     margin: 8px;
-    border: 2px solid #A4907C;
+    border: 2px solid #938475;
     border-left: 5px solid #8D7B68;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card a img{
+    width: 100%;
+    height: 100%;
+}
+
+.card:hover{
+    border: 2px solid #f0f0f0;
+    border-left: 5px solid grey;
 }
 
 .sobrenos {
     padding: 50px;
     text-align: center;
-    background-color: rgb(141, 123, 104);
+    background-color: transparent;
     color: white;
 }
 
-
-(max-width: 650px)
-.column {
-    width:100%;
-    display: block;
+.sobrenos h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }

@@ -1,9 +1,21 @@
+
 /*estilizção do body*/
 body {
     padding: 0; /*preenchimento 0*/
     margin: 0; /*margem 0*/
     background-color: #f7f6f6; /*cor de fundo*/
-} 
+
+/*Importação da fonte Ginto Nord*/
+@font-face {
+    font-family: ginto;
+    src: url(../../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(241, 222, 201);
+    font-family: ginto;
 
 .buttons {
     align-items: center; /*centralizar itens*/
@@ -12,22 +24,41 @@ body {
 
 /*estilização do botão*/
 button {
+
     border: solid, 3px, #8D7B68; /*borda solida, 3 px e cor*/
     background-color:#F1DEC9;  /*cor de fundo*/
+
+    border: solid, 3px, #f0f0f0;
+    background-color:transparent;
+    border-left: 5px solid grey;
+
     cursor: pointer;
     width: 200px;  /*largura 200px*/
     margin: 20px;
+
     height: 30px;  /*altura 200px*/
 }
 
 button:hover {
     background-color: #C8B6A6; /*cor de fundo*/
     transition: 0.2s linear; /*transiçao 0.2 segundos*/
+
+    font-family: ginto;
+}
+
+button:hover {
+    background-color: transparent;
+    transition: 0.2s linear;
+
     scale: 1.05;
 }
 
 button:active {
+
     background-color: #8D7B68; /*cor de fundo*/
+
+    background-color: transparent;
+
 }
 
 #top {
@@ -41,8 +72,15 @@ button:active {
 
 /*estilizaçao do aside*/
 aside {
+
     background-color: #8D7B68; /*cor de fundo*/
     margin: 15px; /*margem 15px*/
+
+    background-color: transparent;
+    border: 2px solid #f0f0f0;
+    border-left: 5px solid grey;
+    margin: 15px;
+
     border-radius: 5px;
     padding: 15px;
     -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
@@ -87,16 +125,23 @@ main {
 
 /*estilizaçao do paragrafo*/
 p {
-    font-family: content;
+    font-family: ginto;
     text-align: justify;
 }
 
 /*estilizaçao do titulo 1*/
 h1 {
+
     font-family: title;
     margin-bottom: 50px; 
     border: solid 10px #8D7B68;
     background-color: #8D7B68; /*cor de fundo*/
+
+    font-family: ginto;
+    margin-bottom: 50px;
+    border: solid, 10px, #f0f0f0;
+    background-color: transparent;
+
     border-radius: 5px;
     margin-top: 0;
     -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
@@ -122,6 +167,7 @@ h2:hover {
     transition: 0.5s ease-out;
 }
 
+
 /*fonte para titulo*/
 @font-face {
     font-family: title;
@@ -134,6 +180,7 @@ h2:hover {
     src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
 }
 
+
 #text_maincontent {
     padding-left: 15px;
     padding-right: 15px;
@@ -143,7 +190,7 @@ h2:hover {
 
 /*estilizaçao do titulo 3*/
 h3 {
-    font-family: title;
+    font-family: ginto;
 }
 
 a {

@@ -1,44 +1,65 @@
 body{
-    background-color: #A4907C;
     margin: 0%;
+    font-family: ginto;
+    background-color: #fff;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+iframe{
+    width: 100%;
+    height: 100%;
+}
+/*Importação da fonte de título*/
+@font-face {
+    font-family: title;
+    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+}
+/*Importação da fonte de parágrafo*/
+@font-face {
+    font-family: content;
+    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
+}
 
-h1, h2, h3, h4, p, a, li{
-    color: white;
+/*Estilização das tags de texto do site*/
+h1, h2, h3, h4, a, li{
+    color: #333;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: title;
 }
 
+p{
+    font-family: content;
+}
+/*Alinhamento, centralização e margem da tag h1 da main*/
 main h1{
     text-align: center;
     padding: 20px;
 }
-
+/*Estilização para separar duas sections*/
 .decoration{
     display: flex;
 }
-
+/*Partes de informações pessoais no cadastro da extra*/
 .personal{
     display: flex;
-    border: 2px solid #C8B6A6;
+    border: 2px solid #938475;
     border-radius: 5px;
     margin: 20px;
     padding-bottom: 20px;
     
 }
-
+/*Estilização das caixas de texto e seleção do cadastro*/
 .personal input{
     width: 45%;
 }
+/*Estruturação, tamanhos e cor de fundo dos cadastros*/
 .cadastro{
     padding-top: 20px;
     height: 700px;
     text-align: center;
-    background-color: #8D7B68;
-}
+    background-color: transparent;
 
+}
+/*Edição das caixas de texto e seleção do cadastro*/
 input{
     padding-left: 70px;
     padding-right: 70px;
@@ -46,7 +67,7 @@ input{
     padding-bottom: 5px;
     border-radius: 5px;
 }
-
+/*Estilização da caixa de seleção das bandeiras de cartões*/
 #flag{
     font-size: 15px;
     padding-right: 100px;
@@ -54,42 +75,45 @@ input{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
+/*Estilização do botão*/
 .button{
     margin-top: 10px;
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #C8B6A6;
-    border: 2px solid #A4907C;
-    color: white;
-}
+    background-color: transparent;
+    border: 2px solid #938475;
 
+}
+/*Animação no botão do cadastro*/
 .button:hover{
     background-color: #8D7B68;
-    border: 2px solid #C8B6A6;
-    color: white;
+    border: 2px solid #938475;
 }
-
+/*Partes de informações do cartão no cadastro da extra*/
 .cartao{
     width: 60%;
     text-align: center;
 }
-
+/*Estilização da imagem do cartão*/
 .img_card{
-    border: 2px solid #C8B6A6;
+    width: 250px;
+    height: 225px;
+    border: 2px solid #938475;
     border-radius: 5px;
     margin: 30px;
     padding: 50px;
     height: 225px;
 }
-
+/* Id para animação de rotação de imagem*/
 #image_ani{
+    width: 250px;
+    height: 225px;
     margin: auto;
     animation: mymove 3s infinite;
   }
-  
+  /*Animação de rotação da imagem com keyframe */
   @keyframes mymove {
     50% {transform: rotate(5deg);}
   }

@@ -191,7 +191,7 @@ a {
 #posted_byH {
     width: 20px;
     height: 20px;
-    padding-left: 10px;
+    padding-left: 7px;
 }
 
 #posted_byH:hover {
@@ -212,7 +212,9 @@ a {
 
 .card_img {
     border: 2px solid #A4907C;
-    border-radius: 5px ;
+    border-radius: 5px;
+    width: 100px;
+    height: 66px;
 }
 
 .stars {
@@ -258,3 +260,32 @@ a {
     color: #ffcc00;
   }
   
+  .abertura_img {
+    width: 300px;
+    height: 200px;
+  }
+
+.resiliencia_img  {
+    width: 300px;
+    height: 225px;
+  }
+
+.consciencia_img {
+    width: 300px;
+    height: 200px;
+}
+
+.autogestao_img {
+    width: 300px;
+    height: 170px;
+}
+
+.amabilidade_img {
+    width: 300px;
+    height: 200px;
+}
+
+.img_coment {
+    width: 50px;
+    height: 50px;
+}

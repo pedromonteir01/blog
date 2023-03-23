@@ -3,101 +3,117 @@
 
 <head>
     <meta charset="UTF-8">
+    <!--Importação do css da página home-->
     <link rel="stylesheet" href="assets/css/style.index.css">
+    <!--Icone do site-->
     <link rel="icon" type="image/x-icon" href="assets/images/logoblog.png">
+    <!--Título do site-->
     <title>Blog</title>
 </head>
 
 <body>
+    <!--Importação da header com o iframe-->
     <iframe id="menu" src="layouts/header.html" frameborder="0" scrolling="no"></iframe>
 
     <main>
-        <h1>Notice's Zer01</h1>
-        <article id="top">
-            <h2>Principais Notícias</h2>
-            <section class="side">
-                <div class="card">
-                    <img src="https://i.pinimg.com/originals/24/fd/3c/24fd3c89fe481c670fe98c499f2d543e.jpg" alt="kazuma"
-                        width="400px" height="300px">
-                    <p class="desc">Kazuma Satou- Konosuba</p>
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui velit nihil temporibus consequatur,
-                        similique molestias unde, exercitationem ipsam iste atque nostrum enim labore numquam
-                        repudiandae alias deleniti aliquam libero. Placeat.</h4>
-                </div>
-            </section>
-        </article>
-        <div class="style_card">
-            <article id="middle">
-                <section class="props">
-                    <a class="line_1" href="https://google.com" target="_blank">
-                        <div class="props">
-                            <img src="https://i.pinimg.com/originals/a6/a0/7b/a6a07b879f97989ae6f2a8b196ba267f.jpg"
-                                alt="picture" width="100px" height="100px">
-                            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, blanditiis id,
-                                expedita
-                                veritatis beatae atque repellendus mollitia impedit optio enim quo, unde distinctio sit
-                                laudantium. Fugiat praesentium quasi molestiae veritatis!</h3>
-                        </div>
-                    </a>
-                    <a class="line_1" href="https://google.com" target="_blank">
-                        <div class="props">
-                            <img src="https://i.pinimg.com/originals/a6/a0/7b/a6a07b879f97989ae6f2a8b196ba267f.jpg"
-                                alt="picture" width="100px" height="100px">
-                            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, blanditiis id,
-                                expedita
-                                veritatis beatae atque repellendus mollitia impedit optio enim quo, unde distinctio sit
-                                laudantium. Fugiat praesentium quasi molestiae veritatis!</h3>
-                        </div>
-                    </a>
-                </section>
-                <section class="props">
-                    <a class="line_2" href="https://google.com" target="_blank">
-                        <div>
-                            <img src="https://i.pinimg.com/originals/a6/a0/7b/a6a07b879f97989ae6f2a8b196ba267f.jpg"
-                                alt="picture" width="200px" height="150px">
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, blanditiis id,
-                                expedita
-                                veritatis beatae atque repellendus mollitia impedit optio enim quo, unde distinctio sit
-                                laudantium. Fugiat praesentium quasi molestiae veritatis!</h3>
-                        </div>
-                    </a>
-                    <a class="line_2" href="https://google.com" target="_blank">
-                        <div>
-                            <img src="https://i.pinimg.com/originals/a6/a0/7b/a6a07b879f97989ae6f2a8b196ba267f.jpg"
-                                alt="picture" width="200px" height="150px">
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, blanditiis id,
-                                expedita
-                                veritatis beatae atque repellendus mollitia impedit optio enim quo, unde distinctio sit
-                                laudantium. Fugiat praesentium quasi molestiae veritatis!</h3>
-                        </div>
-                    </a>
-                    <a class="line_2" href="https://google.com" target="_blank">
-                        <div>
-                            <img src="https://i.pinimg.com/originals/a6/a0/7b/a6a07b879f97989ae6f2a8b196ba267f.jpg"
-                                alt="picture" width="200px" height="150px">
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, blanditiis id,
-                                expedita
-                                veritatis beatae atque repellendus mollitia impedit optio enim quo, unde distinctio sit
-                                laudantium. Fugiat praesentium quasi molestiae veritatis!</h3>
-                        </div>
-                    </a>
-                </section>
+            <!--Título do Site e nome da equipe-->
+            <h1>Ember Diamond</h1>
+            <!--Banner-->
+            <article id="top">
                 <section class="side">
-                    <a class="card_bottom" href="https://google.com" target="_blank">
-                        <div>
-                            <img src="https://i.pinimg.com/originals/24/fd/3c/24fd3c89fe481c670fe98c499f2d543e.jpg"
-                                alt="kazuma" width="400px" height="300px">
-                            <p class="desc">Kazuma Satou- Konosuba</p>
-                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui velit nihil temporibus
-                                consequatur,
-                                similique molestias unde, exercitationem ipsam iste atque nostrum enim labore numquam
-                                repudiandae alias deleniti aliquam libero. Placeat.</h4>
-                        </div>
-                    </a>
+                    <div class="banner">
+                        <img src="assets/images/vestibular.jpg" alt="banner">
+                        <h3 class="blue">Vestibular</h3>
+                        <h2 class="blue">Principais notícias sobre empressas.</h2>
+                    </div>
                 </section>
-        </div>
-        </article>
+            </article>
+            <!--Cards de noticía do topo do site-->
+            <div class="display">
+                <article>
+                    <section class="card_top">
+                        <img src="assets/images/soft-skills.jpg" alt="soft-skills">
+                        <a href="pages/categories/skills/skillshome.html" target="_parent">
+                            <h2>Oque é Soft Skills?</h2>
+                        </a>
+                        <p>São habilidades que envolvem aspectos relacionais e emocionais das pessoas, e que são
+                            fundamentais para o sucesso no trabalho.</p>
+                        <a href="pages/categories/skills/autogestao/autogestao.html">
+                            <h2>Autogestão</h2>
+                        </a>
+                        <p>Autogestão pessoal é um conceito que se refere ao processo de gerenciamento de si mesmo</p>
+                        <a href="pages/categories/skills/amabilidade/amabilidade.html">
+                            <h2>Amabilidade</h2>
+                        </a>
+                        <p>Amabilidade é quando criamos um ambiente acolhedor e positivo ao nosso redor, que é propício
+                            para a construção de relacionamentos saudáveis e duradouros.</p>
+                    </section>
+                </article>
+                <article>
+                <!--Cards de noticía do topo do site-->
+                    <section class="card_top">
+                        <img src="assets/images/hard-skills.png" alt="hard-skills">
+                        <a href="pages/categories/skills/skillshome.html" target="_parent">
+                            <h2>Oque é Soft Skills?</h2>
+                        </a>
+                        <p>São habilidades que envolvem aspectos relacionais e emocionais das pessoas, e que são
+                            fundamentais para o sucesso no trabalho.</p>
+                    </section>
+                </article>
+            </div>
+            <!--Cards de noticía da parte do meio da site-->
+            <article id="aside_article">
+                <article class="display">
+                    <section class="card_middle">
+                        <img src="assets/images/marketing.jpg" alt="marketing">
+                        <a href="#" target="_parent">
+                            <h3 class="blue">Marketing</h3>
+                            <a href="pages/categories/skills/skillshome.html" target="_parent">
+                                <h2>Oque é Soft Skills?</h2>
+                            </a>
+                            <p>São habilidades que envolvem aspectos relacionais e emocionais das pessoas, e que são
+                                fundamentais para o sucesso no trabalho.</p>
+                    </section>
+                    <!--Cards de noticía da parte do meio da site-->
+                    <section class="card_middle">
+                        <img src="assets/images/investimentos.jpg" alt="investimentos"
+                        <a href="#" target="_parent">
+                            <h3 class="blue">Investimentos</h3>
+                            <a href="pages/categories/skills/skillshome.html" target="_parent">
+                                <h2>Oque é Soft Skills?</h2>
+                            </a>
+                            <p>São habilidades que envolvem aspectos relacionais e emocionais das pessoas, e que são
+                                fundamentais para o sucesso no trabalho.</p>
+                    </section>
+                    <!--Cards de noticía da parte do meio da site-->
+                    <section class="card_middle">
+                        <img src="assets/images/empresas.jpg" alt="empresas">
+                        <a href="#" target="_parent">
+                            <h3 class="blue">Empresas</h3>
+                            <a href="pages/categories/skills/skillshome.html" target="_parent">
+                                <h2>Oque é Soft Skills?</h2>
+                            </a>
+                            <p>São habilidades que envolvem aspectos relacionais e emocionais das pessoas, e que são
+                                fundamentais para o sucesso no trabalho.</p>
+                    </section>
+                </article>
+                <article>
+                <!--Espaço do anúncio do site-->
+                    <section id="ad">
+                        <img src="assets/images/banner_ad.png" alt="banner">
+                    </section>
+                </article>
+                <article id="ads">
+                    <section id="banners">
+                        <img id="sp" src="assets/images/ad south park.gif" alt="south park ad">
+                        <img id="kuat" src="assets/images/kuat ad.gif" alt="kuat ad">
+                        <img id="ifood" src="assets/images/ifood_ad.gif" alt="ifood ad">
+                    </section>
+                </article>
     </main>
-        <iframe id="footer_" src="layouts/footer.html" frameborder="0" scrolling="no" height="200px"></iframe>
+<!--Importação do footer com o iframe-->
+    <iframe src="layouts/footer.html" frameborder="0" scrolling="no"></iframe>
+
 </body>
+
 </html>

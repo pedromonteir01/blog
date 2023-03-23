@@ -1,202 +1,174 @@
+/*Importação da fonte Ginto Nord*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body{
     margin: 0%;
-    background-color: #A4907C;
+    background-color: #f7f6f6;
+    transition: .4s;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+/*Alinhamento, centralização e margem da tag h1 da main*/
+main h1{
+    font-family: title;
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+}
+/*Estilização das tags de texto, da parte superior do site*/
+#top h2, h3{
+    text-align: left;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Estilização das tags de texto do site*/
+h4, h6, a{
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 50px;
 }
 
 main h1{
-    text-align: center;
-    margin: 50px;
-}
-
-#top h2{
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
-
-h1, h2, h3, h4, p, a{
-    color: white;
-    text-decoration: none;
+/*Classe para colocar cor nas tags de texto*/
+.blue{
+    color: #5865f2;
     font-family: 'Montserrat', sans-serif;
 }
-
-main{
-    color: white;
-    position: relative;
-}
-
+/*Cor de fundo transparente da parte superior do site*/
 #top{
-    background-color: #A4907C;
+    background-color: transparent;
  }
-
-.card{
-    display: flex;
+/*Estilização da parte do banner do site*/
+.banner{
     margin: 20px;
-    padding: 10px;
-    background-color: #A4907C;
-    border: 2px solid #C8B6A6;
-    border-left:5px solid #8D7B68;
+    text-align: center;
+}
+/*Borda, e efeito de sombra no banner inicial do site*/
+.banner img{
+    width: 1000px;
+    height: 500px;
     border-radius: 5px;
-    box-shadow: 10px 10px 5px rgb(49, 49, 49);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
-.card h4{
-    width: 40%;
-    padding-left: 10px;
-    padding-top: 50px;
-    text-decoration: none;
-}
-
-.card p{
-    padding: 10px;
-    width: 10%;
-}
-
-#middle{
-    background-color: #8D7B68;
-    padding-top: 50px;
-    width: 100%;
-    height: 950px;
-}
-
-.props{
+/*Estilização de um article, section e de div*/
+.display{
     display: flex;
+    background-color: transparent;
+    margin-left: 30px;
+    margin-right: 30px;
 }
-
-.line_1{
-    display: flex;
-    margin: 20px;
-    padding: 20px;
-    block-size: fit-content;
-    background-color: #A4907C;
-    border: 2px solid #C8B6A6;
-    border-left:5px solid #8D7B68;
-    border-radius: 5px;
+/*Cards de noticía da parte superior do site*/
+.card_top{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     width: 50%;
-    height: 100px;
-    box-shadow: 10px 10px 5px rgb(49, 49, 49);
 }
-
-.line_1 div h5{
-    padding-left: 20px;
-}
-
-.line_2{
-    display: flex;
-    margin: 20px;
-    padding: 20px;
-    font-size: 13px;
-    background-color: #A4907C;
-    border: 2px solid #C8B6A6;
-    border-left:5px solid #8D7B68;
-    border-radius: 5px;
-    width: 33%;
-    height: fit-content;
-    box-shadow: 10px 10px 5px rgb(49, 49, 49);
-
-}
-
-.line_2 div{
-    display: flex;
-    box-sizing: fit-content;
-}
-
-.line_2 p{
-    width: 20%;
-}
-
-.line_2 div h3{
-    padding-left: 20px;
-}
-
-.style_card{
-    border: 2px solid #C8B6A6;
-    border-radius: 5px;    
-    margin: 10px;
-}
-
-.line_1:hover{
-    display: flex;
-    margin: 20px;
-    padding: 20px;
-    block-size: fit-content;
-    background-color: #C8B6A6;
-    border: 2px solid #A4907C;
-    border-left:5px solid #8D7B68;
-    border-radius: 5px;
-    width: 50%;
-    height: 100px;
-    box-shadow: 10px 10px 5px rgb(49, 49, 49);
-}
-
-.line_2:hover{
-    display: flex;
-    margin: 20px;
-    padding: 20px;
-    font-size: 13px;
-    background-color: #C8B6A6;
-    border: 2px solid #A4907C;
-    border-left:5px solid #8D7B68;
-    border-radius: 5px;
-    width: 33%;
-    height: fit-content;
-    box-shadow: 10px 10px 5px rgb(49, 49, 49);
-
-}
-
-.card_bottom{
-    display: flex;
-    margin: 20px;
-    padding: 10px;
-    background-color: #A4907C;
-    border: 2px solid #C8B6A6;
-    border-left:5px solid #8D7B68;
-    border-radius: 5px;
-    box-shadow: 10px 10px 5px rgb(49, 49, 49);
-}
-
-.card_bottom div{
-    display: flex;
-}
-
-.card_bottom:hover{
-    display: flex;
-    margin: 20px;
-    padding: 10px;
-    background-color: #C8B6A6;
-    border: 2px solid #A4907C;
-    border-left:5px solid #8D7B68;
-    border-radius: 5px;
-    box-shadow: 10px 10px 5px rgb(49, 49, 49);
-}
-
-iframe { 
-    width: 100%;
-    top: 0;
-    height: 100px;
-    bottom: 0;
-    padding: 0;
-    margin: 0;
-}
-
-.icon {
-	background-color: #8D7B68;
-	color: #fff;
-	cursor: pointer;
-	font-size: 30px;
-	height: 60px;
-	line-height: 60px;
-	position: fixed;
-	text-align: center;
-	top: 0;
-	width: 60px;
-}
-
-#footer_ {
-    width: 100%;
-    top: 0;
+/*Estilização da imagem dos cards do topo do site*/
+.card_top img{
+    width: 400px;
     height: 200px;
-    bottom: 0;
-    padding: 0;
-    margin: 0;
+    margin-left: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/*Estilização do texto dos cards do topo do site*/
+.card_top h2{
+    margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+/*Estilização do texto com animação*/
+.card_top h2:hover{
+    color: #5865f2;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .4s;
+}
+/*Cards de noticía do meio do site*/
+.card_middle{
+    margin: 20px;
+    margin-top: 50px;
+    width: 33%;
+}
+/*Estilização da imagem dos cards do meio do site*/
+.card_middle img{
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/*Estilização do texto dos cards do meio do site*/
+.card_middle h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+/*Estilização do texto com animação*/
+.card_middle h2:hover{
+    color: #5865f2;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#aside_art{
+    display: flex;
+}
+
+
+/*Estilização do anúncio*/
+#ad{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#ad img{
+    width: 1260px;
+    height: 125px;
+}
+
+
+/*Carrosel*/
+
+#ads{
+    margin-left: 150px;
+}
+
+#banners #sp{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#banners #kuat{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#banners #ifood{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
