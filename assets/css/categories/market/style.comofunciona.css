@@ -1,3 +1,5 @@
+/*corpo*/
+
 body {
     margin: 0%;
     padding: 0;
@@ -8,7 +10,7 @@ body {
     align-items: center;
     text-align: center;
 }
-
+/*estilizacao botao*/
 button {
     border: solid 3px #8D7B68;
     background-color: #F1DEC9;
@@ -38,7 +40,7 @@ button:active {
 #article_aside {
     display: flex;
 }
-
+/*estilizacao aside*/
 aside {
     background-color: #8D7B68;
     margin: 15px;
