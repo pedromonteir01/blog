@@ -21,13 +21,13 @@ button {
 }
 
 button:hover {
-    background-color: #C8B6A6;
-    transition: 0.2s linear;
+    background-color: #C8B6A6; /*cor de fundo*/
+    transition: 0.2s linear; /*transiçao 0.2 segundos*/
     scale: 1.05;
 }
 
 button:active {
-    background-color: #8D7B68;
+    background-color: #8D7B68; /*cor de fundo*/
 }
 
 #top {
@@ -36,13 +36,13 @@ button:active {
 
 #article_aside {
     display: flex;
-    align-items: center;
+    align-items: center; /*centralizar itens*/
 }
 
 /*estilizaçao do aside*/
 aside {
     background-color: #8D7B68; /*cor de fundo*/
-    margin: 15px; 
+    margin: 15px; /*margem 15px*/
     border-radius: 5px;
     padding: 15px;
     -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
@@ -52,14 +52,14 @@ aside {
     display: flex;
     flex-direction: column;
     vertical-align: middle;
-    align-items: center;
+    align-items: center; /*centralizar itens*/
 }
 
 .coments {
-    width: 400px;
-    border: #938475 solid 5px;
+    width: 400px; /*largura 400px*/
+    border: #938475 solid 5px; /*borda sólida 5 px/
     border-radius: 4px;
-    padding: 10px;
+    padding: 10px; /*preenchimento 10px*/
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 10px;
@@ -94,7 +94,7 @@ p {
 /*estilizaçao do titulo 1*/
 h1 {
     font-family: title;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
     border: solid 10px #8D7B68;
     background-color: #8D7B68; /*cor de fundo*/
     border-radius: 5px;
@@ -107,7 +107,7 @@ h1 {
 
 h1:hover {
     color: white; /*cor do texto*/
-    transition: 0.5s ease-in;
+    transition: 0.5s ease-in; /*transiçao da cor 0.5 segundos*/
     transition: 0.5s ease-out;
 }
 
@@ -118,7 +118,7 @@ h2 {
 
 h2:hover {
     color: white;
-    transition: 0.5s ease-in; 
+    transition: 0.5s ease-in;  /*transiçao da cor 0.5 segundos*/
     transition: 0.5s ease-out;
 }
 
@@ -272,7 +272,7 @@ a {
   .stars_avaliation .star_avaliations.selected {
     color: #ffcc00;
   }
-  
+
   .imagemprincipal {
     width: 300px;
     height: 209px;
