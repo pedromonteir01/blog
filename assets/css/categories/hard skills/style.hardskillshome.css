@@ -171,3 +171,18 @@ aside {
     padding-left: 10px;
     font-style: italic;
 }
+
+.stars {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+.star {
+    color: #ffe600;
+}
+
+.posted_byU {
+    color: rgba(0, 0, 0, 0.3);
+    padding-left: 10px;
+    font-style: italic;
+}
