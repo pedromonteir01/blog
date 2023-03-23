@@ -1,100 +1,17 @@
 /*Importação da fonte Ginto Nord*/
 @font-face {
-    font-family: ginto;
-    src: url(../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
+    font-family: title;
+    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: content;
+    src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
 }
 
 body{
     margin: 0%;
-    font-family: ginto;
-    background-color: #fff;
-    transition: .4s;
-}
-/*Espaço do botão de Dark Mode*/
-#container{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-/*Tamanho do switch do botão*/
-.switch{
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-
-}
-
-.switch input{
-    display: none;
-}
-/*Espaço do botão*/
-.slider{
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #333;
-    border-radius: 34px;
-    transition: .4s;
-}
-/*Animação do switch*/
-.slider::before{
-    content: '';
-    position: absolute;
-    width: 26px;
-    height: 26px;
-    left: 4px;
-    bottom: 4px;
-    background: #fff;
-    border-radius: 50%;
-    transition: .4s;
-}
-/*Quando o botão estiver "ligado", o fundo vai ficar azul*/
-input:checked + .slider {
-    background: #5865f2;
-}
-/*Animação do botão quando for "ligado"*/
-input:checked +.slider::before{
-    transform: translateX(26px);
-}
-/*Classe dark mode do site*/
-.dark-mode{
-    background: #23272a;
-}
-/*Estilizazação da tag de texto h1*/ 
-.dark-mode h1{
-    color: #fff;
-    transition: .4s;
-}
-/*Estilizazação da tag de texto h2*/
-.dark-mode a h2{
-    color: #fff;
-    transition: .4s;
-}
-/*Estilizazação da tag de texto h3*/
-.dark-mode a h3{
-    color: #5865f2;
-    transition: .4s;
-}
-/*Estilizazação da tag de texto h4*/
-.dark-mode a h4{
-    color: #fff;
-    transition: .4s;
-}
-/*Estilizazação da tag de texto h5*/
-.dark-mode a h5{
-    color: #fff;
-    transition: .4s;
-}
-/*Estilizazação da tag de texto p*/
-.dark-mode p{
-    color: #fff;
+    background-color: #f7f6f6;
     transition: .4s;
 }
 /*Alinhamento, centralização e margem da tag h1 da main*/
@@ -110,9 +27,13 @@ main h1{
 }
 /*Estilização das tags de texto do site*/
 h1, h2, h3, h4, h6, a{
-    font-family: ginto;
+    font-family: title;
     color: #333;
     text-decoration: none;
+}
+
+p{
+    font-family: content;
 }
 /*Classe para colocar cor nas tags de texto*/
 .blue{
