@@ -1,0 +1,17 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e1dcd5;
+}
+
+@font-face {
+    font-family: title;
+    src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+}
