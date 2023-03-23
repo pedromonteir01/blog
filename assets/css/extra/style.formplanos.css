@@ -3,6 +3,11 @@ body{
     font-family: ginto;
     background-color: #fff;
 }
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
 /*Importação da fonte de título*/
 @font-face {
     font-family: title;
@@ -93,6 +98,8 @@ input{
 }
 /*Estilização da imagem do cartão*/
 .img_card{
+    width: 250px;
+    height: 225px;
     border: 2px solid #938475;
     border-radius: 5px;
     margin: 30px;
@@ -101,6 +108,8 @@ input{
 }
 /* Id para animação de rotação de imagem*/
 #image_ani{
+    width: 250px;
+    height: 225px;
     margin: auto;
     animation: mymove 3s infinite;
   }
