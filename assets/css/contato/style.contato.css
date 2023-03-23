@@ -10,7 +10,6 @@ body {
     background-color: #F8F4EA;
     transition: .4s;
 }
-
 .article {
     background-color: transparent;
     text-align: justify;
@@ -21,7 +20,7 @@ body {
     color: #333;
     font-family: 'Montserrat', sans-serif;
 }
-
+/*Article com conteudo1*/
 .article1 {
     background-color: #C8B6A6;
     text-align: justify;
@@ -33,8 +32,7 @@ body {
     margin: 0%;
     margin-top: 0%;
 }
-
-
+/*div de organizacao*/
 div {
     display: flex;
 }
@@ -47,15 +45,13 @@ div {
     font-family: 'Montserrat', sans-serif;
 
 }
-
-
+/*formulario*/
 form {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
-
-
+/*div com comteudo*/
 .div {
     display: flex;
     flex-direction: column;
@@ -63,6 +59,7 @@ form {
     font-family: 'Montserrat', sans-serif;
     margin: 12px;
 }
+/*div com conteudo*/
 .div1 {
     display: flex;
     flex-direction: column;
@@ -70,6 +67,7 @@ form {
     font-family: 'Montserrat', sans-serif;
     margin: 12px;
 }
+/*estilizacao do botao*/
 button {
     margin-top: 20px;
     padding: 10px;
@@ -81,13 +79,13 @@ button {
     width: 20vh;
     border-radius: 5px;
 }
-
+/*estilizacao do comentario*/
 #comentário {
     padding-top: 12px;
     padding-bottom: 50px;
     border: solid white;
 }
-
+/*estilizazcao do input*/
 input {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -98,26 +96,30 @@ input {
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
 }
-
+/*estilizacao do titulo*/
 h1 {
 
     font-family: 'Montserrat', sans-serif;
 }
-
+/*estilizacao do paragtrafo*/
 p {
     text-align: left;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
-
+/*estilizacao do link*/
 a {
     text-decoration: none;
 }
-
+/*ajeitando o footer*/
 #felipe {
     margin-top: -32px;
 }
-
+/*footer*/
 #iframe_footer {
     margin-bottom: -5px;
+}
+.img1 {
+    width: 50px;
+    height: 50px;
 }

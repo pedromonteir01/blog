@@ -1,5 +1,9 @@
+
 /*Importação da fonte*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+/**corpo**/
 
 body {
     margin: 0%;
@@ -66,6 +70,7 @@ h3, h4, h6, a{
 #none{
     color: rgb(165, 165, 165);
 }
+/**conteudo**/
 h1 {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 50px;
@@ -104,6 +109,7 @@ p {
     font-family: paragrafo;
     font-size: 20px;
 }
+/**botões navegação**/
 button {
     border: solid 3px #8D7B68;
     background-color: #F1DEC9;
@@ -120,6 +126,7 @@ a {
     text-decoration: none;
     color: black;
 }
+/**avaliação**/
 .stars_avaliation {
     font-size: 24px;
     color: #ccc;
@@ -142,6 +149,7 @@ a {
   .stars_avaliation .star_avaliations.selected {
     color: #ffcc00;
   }
+  /**comentarios**/
   aside {
     background-color: #8D7B68;
     margin: 15px;
@@ -223,20 +231,14 @@ a {
     margin-top: 30px;
 }
 
+/**footer**/
 #footer_ {
     width: 100%;
     margin: -5px;
 }
-#italic {
-    padding-left: 10px;
-    font-style: italic;
-    opacity: 0.5;
-}
 
-.card_img {
-    border: 2px solid #A4907C;
-    border-radius: 5px ;
-}
+
+/**avaliação**/
 #text_avaliation {
     font-size: 16px;
     padding-right: 5px;

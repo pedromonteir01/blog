@@ -1,5 +1,13 @@
+
 /*Importação da fonte*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/titulo/Montserrat-VariableFont_wght.ttf);
+}
+/*corpo*/
 
 body {
     background-color: #F8F4EA;
@@ -35,6 +43,7 @@ img {
     height: 100px;
     width: 100px;
 }
+/*estilizacao do boato*/
 button {
     margin-top: 20px;
     padding: 10px;
@@ -47,13 +56,13 @@ button {
     font-family: montserrat;
     border-radius: 5px;
 }
+/*estilizacao da section*/
 section {
     margin: 100px;
     border: 50px;
     padding: 25px;
     font-family: montserrat;
 }
-
 #iframe_footer {
     margin-bottom: -5px;
 }
