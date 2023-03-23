@@ -2,16 +2,18 @@
     font-family: montserrat;
     src: url(../fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
-
+/*corpo*/
 body {
     background-color: #A4907C;
     text-align: center;
     margin: 0;
 }
+/*estilizacao da img*/
 img {
     height: 100px;
     width: 100px;
 }
+/*estilizacao do boato*/
 button {
     margin-top: 20px;
     padding: 10px;
@@ -24,16 +26,19 @@ button {
     font-family: montserrat;
     border-radius: 5px;
 }
+/*estilizacao da section*/
 section {
     margin: 100px;
     border: 50px;
     padding: 25px;
     font-family: montserrat;
 }
+/*estilizacao do titulo*/
 h1 {
     font-size: 30px;
     color: white;
 }
+/*footer*/
 #iframe_footer {
     margin-bottom: -5px;
 }

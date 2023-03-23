@@ -6,6 +6,7 @@
     font-family: paragrafo;
     src: url(../fonts/paragrafo/Lato-Regular.ttf);
 }
+/*Article com conteudo*/
 .article {
     background-color: #A4907C;
     text-align: justify;
@@ -16,7 +17,7 @@
     color: white;
     font-family: title;
 }
-
+/*Article com conteudo1*/
 .article1 {
     background-color: #C8B6A6;
     text-align: justify;
@@ -28,14 +29,11 @@
     margin: 0%;
     margin-top: 0%;
 }
-
-
+/*div de organizacao*/
 div {
     display: flex;
 }
-
-
-
+/*corpo*/
 body {
     margin: 0;
     flex-direction: column;
@@ -43,23 +41,19 @@ body {
     padding: 0px;
     background-color: #C8B6A6;
 }
-
-
 .label {
     font-size: 16px;
     padding-top: 10px;
     font-weight: bold;
 
 }
-
-
+/*formulario*/
 form {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
-
-
+/*div com comteudo*/
 .div {
     display: flex;
     flex-direction: column;
@@ -67,6 +61,7 @@ form {
     font-family: title;
     margin: 12px;
 }
+/*div com conteudo*/
 .div1 {
     display: flex;
     flex-direction: column;
@@ -74,6 +69,7 @@ form {
     font-family: title;
     margin: 12px;
 }
+/*estilizacao do botao*/
 button {
     margin-top: 20px;
     padding: 10px;
@@ -85,13 +81,13 @@ button {
     width: 130px;
     border-radius: 5px;
 }
-
+/*estilizacao do comentario*/
 #comentário {
     padding-top: 12px;
     padding-bottom: 50px;
     border: solid white;
 }
-
+/*estilizazcao do input*/
 input {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -102,25 +98,29 @@ input {
     border-radius: 5px;
     font-style: italic;
 }
-
+/*estilizacao do titulo*/
 h1 {
 
     font-family: title;
 }
-
+/*estilizacao do paragtrafo*/
 p {
     text-align: left;
     font-size: 20px;
 }
-
+/*estilizacao do link*/
 a {
     text-decoration: none;
 }
-
+/*ajeitando o footer*/
 #felipe {
     margin-top: -32px;
 }
-
+/*footer*/
 #iframe_footer {
     margin-bottom: -5px;
+}
+.img1 {
+    width: 50px;
+    height: 50px;
 }

@@ -3,12 +3,13 @@
     font-family: ginto;
     src: url(../../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
 }
-
+/*corpo*/
 body{
     margin: 0%;
     background-color: #F1DEC9;
     font-family: ginto;
 }
+/*estilizacao article*/
 article{
     background-color: transparent;
 }
@@ -44,12 +45,12 @@ h1{
 .container{
     padding: 2px 16px;
 }
-/*aside*/
+/*footer*/
 
 #iframe_footer {
     margin-bottom: -5px;
 }
-
+/*estilizacao botao*/
 #bottom{
     background-color: transparent;
     font-family: 'Montserrat', sans-serif;
@@ -100,7 +101,7 @@ h1{
     align-items: center;
     text-align: center;
 }
-
+/*estilizacao botao*/
 button {
     border: solid 3px grey;
     background-color: #f0f0f0;
