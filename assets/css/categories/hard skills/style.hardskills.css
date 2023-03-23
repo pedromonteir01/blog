@@ -1,21 +1,23 @@
+/*estilizção do body*/
 body {
-    padding: 0;
-    margin: 0;
-    background-color: #f7f6f6;
+    padding: 0; /*preenchimento 0*/
+    margin: 0; /*margem 0*/
+    background-color: #f7f6f6; /*cor de fundo*/
 } 
 
 .buttons {
-    align-items: center;
-    text-align: center;
+    align-items: center; /*centralizar itens*/
+    text-align: center; /*centralizar texto*/
 }
 
+/*estilização do botão*/
 button {
-    border: solid, 3px, #8D7B68;
-    background-color:#F1DEC9;
+    border: solid, 3px, #8D7B68; /*borda solida, 3 px e cor*/
+    background-color:#F1DEC9;  /*cor de fundo*/
     cursor: pointer;
-    width: 200px;
+    width: 200px;  /*largura 200px*/
     margin: 20px;
-    height: 30px;
+    height: 30px;  /*altura 200px*/
 }
 
 button:hover {
@@ -37,9 +39,10 @@ button:active {
     align-items: center;
 }
 
+/*estilizaçao do aside*/
 aside {
-    background-color: rgb(141, 123, 104);
-    margin: 15px;
+    background-color: #8D7B68; /*cor de fundo*/
+    margin: 15px; 
     border-radius: 5px;
     padding: 15px;
     -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
@@ -50,7 +53,6 @@ aside {
     flex-direction: column;
     vertical-align: middle;
     align-items: center;
-}
 }
 
 .coments {
@@ -69,7 +71,7 @@ aside {
 
 .user {
     padding-left: 10px;
-    font-style: italic;
+    font-style: italic; /*estilo da fonte*/
 }
 
 .posted_byU {
@@ -78,20 +80,23 @@ aside {
     font-style: italic;
 }
 
+/*estilizaçao da main*/
 main {
     padding: 20px;
 }
 
+/*estilizaçao do paragrafo*/
 p {
     font-family: content;
     text-align: justify;
 }
 
+/*estilizaçao do titulo 1*/
 h1 {
     font-family: title;
     margin-bottom: 50px;
     border: solid 10px #8D7B68;
-    background-color: #8D7B68;
+    background-color: #8D7B68; /*cor de fundo*/
     border-radius: 5px;
     margin-top: 0;
     -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
@@ -101,26 +106,29 @@ h1 {
 }
 
 h1:hover {
-    color: white;
+    color: white; /*cor do texto*/
     transition: 0.5s ease-in;
     transition: 0.5s ease-out;
 }
 
+/*estilizaçao do titulo 2*/
 h2 {
     font-family: title;
 }
 
 h2:hover {
     color: white;
-    transition: 0.5s ease-in;
+    transition: 0.5s ease-in; 
     transition: 0.5s ease-out;
 }
 
+/*fonte para titulo*/
 @font-face {
     font-family: title;
     src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
 
+/*fonte para paragrafo*/
 @font-face {
     font-family: content;
     src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
@@ -133,6 +141,7 @@ h2:hover {
     font-size: 20px;
 }
 
+/*estilizaçao do titulo 3*/
 h3 {
     font-family: title;
 }
@@ -216,6 +225,8 @@ a {
 .card_img {
     border: 2px solid #A4907C;
     border-radius: 5px ;
+    height: 66px;
+    width: 100px;
 }
 
 .stars {
@@ -260,4 +271,14 @@ a {
   }
   .stars_avaliation .star_avaliations.selected {
     color: #ffcc00;
+  }
+  
+  .imagemprincipal {
+    width: 300px;
+    height: 209px;
+  } 
+
+  .coments_img {
+    width: 50px;
+    height: 50px;
   }
