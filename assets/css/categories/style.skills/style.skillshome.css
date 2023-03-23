@@ -14,7 +14,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #e1dcd5;
+    background-color: #f7f6f6;
     font-family: ginto;
 }
 
@@ -32,8 +32,8 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     font-family: title;
-    border: solid 2px #f0f0f0;
-    background-color: transparent;
+    border: solid 2px #8D7B68;
+    background-color: #8D7B68;
     color: white;
     border-width: 5px;
 }
@@ -50,12 +50,12 @@ article {
 }
 
 a {
-    border: solid 2px #f0f0f0;
+    border: solid 2px #8D7B68;
     padding: 5px;
     margin: 30px;
     height: 100px;
     border-radius: 5px;
-    background-color: transparent;
+    background-color: #A4907C;
     color: black;
     display: flex;
     width: 33%;
@@ -101,9 +101,10 @@ i {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    border: #f0f0f0 2px solid;
-    border-left: 10px grey solid;
-    border-top: 1px grey solid ;
+    border: #8D7B68 2px solid;
+    background-color: #C8B6A6;
+    border-left: 10px solid #8D7B68;
+    border-top: 10px solid #8D7B68;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-bottom: 60px;
@@ -183,5 +184,10 @@ aside {
     color: rgba(0, 0, 0, 0.3);
     padding-left: 10px;
     font-style: italic;
+}
+
+.img_coment {
+    width: 50px;
+    height: 50px;
 }
 
