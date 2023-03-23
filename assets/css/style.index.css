@@ -1,13 +1,5 @@
 /*Importação da fonte Ginto Nord*/
-@font-face {
-    font-family: title;
-    src: url("../fonts/titulo/Montserrat-VariableFont_wght.ttf");
-}
-
-@font-face {
-    font-family: content;
-    src: url("../fonts/paragrafo/Lato-Regular.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body{
     margin: 0%;
@@ -33,14 +25,18 @@ main h1{
     margin-left: 50px;
 }
 /*Estilização das tags de texto do site*/
-h2, h3, h4, h6, a{
-    font-family: title;
+h4, h6, a{
+    font-family: 'Montserrat', sans-serif;
     color: #333;
     text-decoration: none;
 }
 
 p{
-    font-family: content;
+    font-family: 'Montserrat', sans-serif;;
+}
+main h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 /*Classe para colocar cor nas tags de texto*/
 .blue{
