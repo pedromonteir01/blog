@@ -61,8 +61,8 @@ html {
 /*personalização dos cards*/
 .card {
     margin: 8px;
-    border: 2px solid #938475;
-    border-left: 5px solid #8D7B68;
+    border: 2px solid #579BB1;
+    border-left: 5px solid #579BB1;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -73,8 +73,8 @@ html {
 }
 
 .card:hover{
-    border: 2px solid #8D7B68;
-    border-left: 5px solid #F1DEC9;
+    border: 2px solid white;
+    border-left: 5px solid grey;
 }
 
 .sobrenos {
