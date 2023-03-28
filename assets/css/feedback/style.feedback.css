@@ -16,20 +16,24 @@ footer iframe{
     text-align: justify;
     height: 52vh;
     width: 39vh;
-    padding: 150px;
+    margin-top: 27px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
     flex-direction: column;
     color: #333;
     font-family: 'Montserrat', sans-serif;
 }
 
 .artigo1 {
-    background-color: #C8B6A6;
+    background-color: #579BB1;
     text-align: justify;
-    height: 55vh;
     width: 66vh;
-    padding: 135px;
     flex-direction: column;
+    margin-top: 40px;
     font-family: 'Montserrat', sans-serif;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 div {
@@ -39,7 +43,7 @@ div {
 body {
     margin: 0;
     padding: 0px;
-    background-color: #C8B6A6;
+    background-color: #579BB1;
 }
 
 .rain1 {
@@ -64,7 +68,7 @@ form {
 button {
     margin-top: 20px;
     padding: 10px;
-    background-color: #C8B6A6;
+    background-color: #579BB1;
     font-size: 15px;
     font-weight: bold;
     color: black;
@@ -112,4 +116,6 @@ a {
 
 #iframe_footer{
     margin-bottom: -5px;
+    width: 100%;
+    height: 35vh;
 }
