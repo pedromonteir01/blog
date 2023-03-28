@@ -1,86 +1,46 @@
-
-/*estilizção do body*/
 body {
-    padding: 0; /*preenchimento 0*/
-    margin: 0; /*margem 0*/
-    background-color: #f7f6f6; /*cor de fundo*/
-
-/*Importação da fonte Ginto Nord*/
-@font-face {
-    font-family: ginto;
-    src: url(../../../fonts/titulo/ABCGintoNord-Medium-Trial.otf);
-}
-
-body {
+    margin: 0%;
     padding: 0;
-    margin: 0;
-    background-color: rgb(241, 222, 201);
-    font-family: ginto;
+    background-color: #f7f6f6;
+}
 
 .buttons {
-    align-items: center; /*centralizar itens*/
-    text-align: center; /*centralizar texto*/
+    align-items: center;
+    text-align: center;
 }
 
-/*estilização do botão*/
 button {
-
-    border: solid, 3px, #8D7B68; /*borda solida, 3 px e cor*/
-    background-color:#F1DEC9;  /*cor de fundo*/
-
-    border: solid, 3px, #f0f0f0;
-    background-color:transparent;
-    border-left: 5px solid grey;
-
+    border: solid 3px #8D7B68;
+    background-color: #F1DEC9;
     cursor: pointer;
-    width: 200px;  /*largura 200px*/
+    width: 200px;
     margin: 20px;
-
-    height: 30px;  /*altura 200px*/
+    height: 30px;
 }
 
 button:hover {
-    background-color: #C8B6A6; /*cor de fundo*/
-    transition: 0.2s linear; /*transiçao 0.2 segundos*/
-
-    font-family: ginto;
-}
-
-button:hover {
-    background-color: transparent;
+    background-color: #C8B6A6;
     transition: 0.2s linear;
-
     scale: 1.05;
 }
 
 button:active {
-
-    background-color: #8D7B68; /*cor de fundo*/
-
-    background-color: transparent;
-
+    background-color: #8D7B68;
 }
 
 #top {
     display: flex;
+    align-items: center;
 }
 
 #article_aside {
     display: flex;
-    align-items: center; /*centralizar itens*/
 }
 
 /*estilizaçao do aside*/
 aside {
-
-    background-color: #8D7B68; /*cor de fundo*/
-    margin: 15px; /*margem 15px*/
-
-    background-color: transparent;
-    border: 2px solid #f0f0f0;
-    border-left: 5px solid grey;
+    background-color: #8D7B68;
     margin: 15px;
-
     border-radius: 5px;
     padding: 15px;
     -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
@@ -90,14 +50,14 @@ aside {
     display: flex;
     flex-direction: column;
     vertical-align: middle;
-    align-items: center; /*centralizar itens*/
+    align-items: center;
 }
 
 .coments {
-    width: 400px; /*largura 400px*/
-    border: #938475 solid 5px; /*borda sólida 5 px/
+    width: 400px;
+    border: #938475 solid 5px;
     border-radius: 4px;
-    padding: 10px; /*preenchimento 10px*/
+    padding: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 10px;
@@ -109,7 +69,7 @@ aside {
 
 .user {
     padding-left: 10px;
-    font-style: italic; /*estilo da fonte*/
+    font-style: italic;
 }
 
 .posted_byU {
@@ -118,30 +78,20 @@ aside {
     font-style: italic;
 }
 
-/*estilizaçao da main*/
 main {
     padding: 20px;
 }
 
-/*estilizaçao do paragrafo*/
 p {
-    font-family: ginto;
+    font-family: content;
     text-align: justify;
 }
 
-/*estilizaçao do titulo 1*/
 h1 {
-
     font-family: title;
-    margin-bottom: 50px; 
-    border: solid 10px #8D7B68;
-    background-color: #8D7B68; /*cor de fundo*/
-
-    font-family: ginto;
     margin-bottom: 50px;
-    border: solid, 10px, #f0f0f0;
-    background-color: transparent;
-
+    border: solid 10px #8D7B68;
+    background-color: #8D7B68;
     border-radius: 5px;
     margin-top: 0;
     -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
@@ -151,51 +101,41 @@ h1 {
 }
 
 h1:hover {
-    color: white; /*cor do texto*/
-    transition: 0.5s ease-in; /*transiçao da cor 0.5 segundos*/
+    color: white;
+    transition: 0.5s ease-in;
     transition: 0.5s ease-out;
 }
 
-/*estilizaçao do titulo 2*/
 h2 {
     font-family: title;
 }
 
 h2:hover {
     color: white;
-    transition: 0.5s ease-in;  /*transiçao da cor 0.5 segundos*/
+    transition: 0.5s ease-in;
     transition: 0.5s ease-out;
 }
 
-
-/*fonte para titulo*/
 @font-face {
     font-family: title;
     src: url(../../../fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
 
-/*fonte para paragrafo*/
 @font-face {
     font-family: content;
     src: url(../../../fonts/paragrafo/Lato-Regular.ttf);
 }
 
-
-#text_maincontent {
+.text_maincontent {
     padding-left: 15px;
     padding-right: 15px;
     font-family: paragrafo;
     font-size: 20px;
 }
 
-/*estilizaçao do titulo 3*/
-h3 {
-    font-family: ginto;
-}
-
 a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 .articles_blog {
@@ -250,7 +190,7 @@ a {
 #posted_byH {
     width: 20px;
     height: 20px;
-    padding-left: 10px;
+    padding-left: 7px;
 }
 
 #posted_byH:hover {
@@ -271,9 +211,9 @@ a {
 
 .card_img {
     border: 2px solid #A4907C;
-    border-radius: 5px ;
-    height: 66px;
+    border-radius: 5px;
     width: 100px;
+    height: 66px;
 }
 
 .stars {
@@ -311,7 +251,6 @@ a {
     transition: all 0.2s;
     cursor: pointer;
   }
-
   .stars_avaliation .star_avaliations:hover {
     transform: scale(1.1);
     color: #ffe600;
@@ -320,12 +259,12 @@ a {
     color: #ffcc00;
   }
 
-  .imagemprincipal {
-    width: 300px;
-    height: 209px;
-  } 
+.img_coment {
+    width: 50px;
+    height: 50px;
+}
 
-  .coments_img {
+.coments_img {
     width: 50px;
     height: 50px;
   }
