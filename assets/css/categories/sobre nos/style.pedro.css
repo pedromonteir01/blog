@@ -29,7 +29,7 @@ main h1{
 
 .image{
     text-align: center;
-    border: 2px solid #579BB1;
+    border: 2px solid #938475;
     width: fit-content;
     height: 62vh;
     margin-left: 275px;
@@ -41,24 +41,24 @@ main h1{
 }
 
 .list{
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
     text-align: left;
-    color: rgb(0, 0, 0);
+    color: #333;
     margin-left: 30px;
     font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .middle{
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
     margin: 30px;
     display: flex;
-    border:2px solid #579BB1;
-    border-left:5px solid #579BB1;
+    border: 2px solid #938475;
+    border-left: 5px solid #8D7B68;
     border-radius: 5px;
 }
 
 .list{
-    font-family: 'Montserrat', sans-serif;;
     margin: 20px;
     width: 40%;
     margin-left: 10%;
@@ -76,8 +76,8 @@ main h1{
 .bottom{
     text-align: center;
     display: flex;
-    border:2px solid #579BB1;
-    border-left:5px solid #579BB1;
+    border: 2px solid #938475;
+    border-left: 5px solid #8D7B68;
     border-radius: 5px;
     margin: 30px;
 
@@ -105,7 +105,7 @@ button{
     padding-bottom: 5px;
     font-family: 'Montserrat', sans-serif;
     background-color: transparent;
-    border: 2px solid #579BB1;
+    border: 2px solid #938475;
 }
 
 #footer_{
