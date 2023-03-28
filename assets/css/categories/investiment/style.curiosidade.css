@@ -1,7 +1,11 @@
 body {
     margin: 0%;
     padding: 0;
-    background-color: #f7f6f6;
+    background-color: #f5f5f5;
+}
+
+#header_ {
+    width: 100%;
 }
 
 .buttons {
@@ -10,22 +14,22 @@ body {
 }
 
 button {
-    border: solid 3px #8D7B68;
-    background-color: #F1DEC9;
+    border: solid 3px #E1D7C6;
+    background-color: #ECE8DD;
     cursor: pointer;
-    width: 200px;
+    width: 31vh;
     margin: 20px;
     height: 30px;
 }
 
 button:hover {
-    background-color: #C8B6A6;
+    background-color: #E1D7C6;
     transition: 0.2s linear;
     scale: 1.05;
 }
 
 button:active {
-    background-color: #8D7B68;
+    background-color: #579BB1;
 }
 
 
@@ -40,28 +44,28 @@ button:active {
 }
 
 aside {
-    background-color: #8D7B68;
-    margin: 15px;
+    background-color: #ECE8DD;
+    margin: 0.7vh;
     border-radius: 5px;
+    border: solid 5px #579BB1;
     padding: 15px;
     -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
     box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
-    height: 780px;
+    height: 120vh;
+    width: 40%;
     display: flex;
     flex-direction: column;
-    vertical-align: middle;
+    justify-content: center;
     align-items: center;
 }
 
 .coments {
-    width: 400px;
-    border: #938475 solid 5px;
+    border: #579BB1 solid 5px;
     border-radius: 4px;
-    padding: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 10px;
+    padding: 20px;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
 }
 
 .coments_content {
@@ -81,6 +85,7 @@ aside {
 
 main {
     padding: 20px;
+    width: 60%;
 }
 
 p {
@@ -90,9 +95,9 @@ p {
 
 h1 {
     font-family: title;
-    margin-bottom: 50px;
-    border: solid 10px #8D7B68;
-    background-color: #8D7B68;
+    margin-bottom: 7.7vh;
+    border: solid 10px #579BB1;
+    background-color: #579BB1;
     border-radius: 5px;
     margin-top: 0;
     -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
@@ -149,11 +154,11 @@ a {
 .cards {
     padding: 15px;
     border-radius: 15px;
-    border: solid 5px #8D7B68;
-    background-color: #A4907C;
+    border: solid 5px #579BB1;
+    background-color: #E1D7C6;
     margin: 20px;
     margin-top: 30px;
-    width: 200px;
+    width: 31vh;
     -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
     box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
@@ -164,7 +169,7 @@ a {
     scale: 1.05;
     transition: 0.3s ease-in-out;
     cursor: pointer;
-    background-color: #938475;
+    background-color: #579BB1;
 }
 
 .card_texts {
@@ -173,7 +178,7 @@ a {
 
 #break {
     background-color: rgba(141, 123, 104, 0.3);
-    height: 15px;
+    height: 2.3vh;
     margin-top: 30px;
 }
 
@@ -185,11 +190,11 @@ a {
 .posted {
     display: flex;
     font-size: 14px;
+    justify-content: center;
     align-items: center;
 }
 
 #posted_byH {
-    width: 20px;
     height: 20px;
     padding-left: 7px;
 }
@@ -199,7 +204,6 @@ a {
 }
 
 #posted_byP {
-    width: 20px;
     height: 20px;
 
 }
@@ -211,15 +215,15 @@ a {
 }
 
 .card_img {
-    border: 2px solid #A4907C;
+    border: 2px solid #579BB1;
     border-radius: 5px;
-    width: 100px;
+    width: 15.4vh;
     height: 66px;
 }
 
 .stars {
     font-size: 24px;
-    margin-left: 500px;
+    margin-left: 50%;
     display: flex;
     align-items: center;
   }
@@ -265,7 +269,7 @@ a {
     height: 200px;
   }
 
-.resiliencia_img  {
+.imagemprincipal  {
     width: 300px;
     height: 225px;
   }
