@@ -3,7 +3,7 @@
 
 header iframe{
     width: 100%;
-    height: 100%;
+    height: 19.8vh;
 }
 
 footer iframe{
@@ -28,9 +28,9 @@ footer iframe{
 .artigo1 {
     background-color: #579BB1;
     text-align: justify;
+    padding-top: 60px;
     width: 66vh;
     flex-direction: column;
-    margin-top: 40px;
     font-family: 'Montserrat', sans-serif;
     padding-left: 150px;
     padding-right: 150px;
@@ -43,7 +43,7 @@ div {
 body {
     margin: 0;
     padding: 0px;
-    background-color: #579BB1;
+    background-color: #F8F4EA;
 }
 
 .rain1 {
@@ -117,5 +117,5 @@ a {
 #iframe_footer{
     margin-bottom: -5px;
     width: 100%;
-    height: 35vh;
+    height: 40vh;
 }
