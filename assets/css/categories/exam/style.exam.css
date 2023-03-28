@@ -368,4 +368,17 @@ button:active {
 .card_texts {
     text-align: left;
 }
+.card_img {
+    border: 2px solid #A4907C;
+    border-radius: 5px ;
+    height: 96px;
+    width: 130px;
+}
+
+
+#break {
+    background-color: rgba(141, 123, 104, 0.3);
+    height: 2vh;
+    margin-top: 30px;
+}
 
