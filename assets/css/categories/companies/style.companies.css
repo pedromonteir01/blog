@@ -18,7 +18,7 @@ header iframe{
 /*Importação do footer pelo iframe*/
 footer iframe{
     width: 100%;
-    height: 40vh;
+    height: 60vh;
 }
 
 main{
@@ -157,7 +157,7 @@ a {
     -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
     box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
-    height: 780px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     vertical-align: middle;
@@ -181,6 +181,13 @@ a {
 .coments_content img{
     width: 8vh;
     height: 8vh;
+}
+.img_coment{
+    width: 50px;
+}
+.img_comentP{
+    width: 50px;
+    height: 50px;
 }
 
 .user {
@@ -223,6 +230,19 @@ a {
 .card_texts {
     text-align: left;
 }
+#italic {
+    padding-left: 10px;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+.card_img {
+    border: 2px solid #A4907C;
+    border-radius: 5px ;
+    height: 96px;
+    width: 130px;
+}
+
 
 #break {
     background-color: rgba(141, 123, 104, 0.3);
