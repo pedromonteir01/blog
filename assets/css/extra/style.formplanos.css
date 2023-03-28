@@ -51,7 +51,7 @@ main h1{
 /*Estruturação, tamanhos e cor de fundo dos cadastros*/
 .cadastro{
     padding-top: 20px;
-    height: 108vh;
+    height: 125vh;
     text-align: center;
     background-color: transparent;
 
@@ -95,7 +95,7 @@ input{
 }
 /*Estilização da imagem do cartão*/
 .img_card{
-    width: 39vh;
+    width: 30%;
     height: 35vh;
     border: 2px solid #938475;
     border-radius: 5px;
