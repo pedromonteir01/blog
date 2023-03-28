@@ -337,4 +337,35 @@ button:hover {
 button:active {
     background-color: #8D7B68;
 }
+.articles_blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.cards {
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 5px #8D7B68;
+    background-color: #A4907C;
+    margin: 20px;
+    margin-top: 30px;
+    width: 200px;
+    -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    text-align: center;
+}
+
+.cards:hover {
+    scale: 1.05;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: #938475;
+}
+
+.card_texts {
+    text-align: left;
+}
 
