@@ -10,7 +10,7 @@ header iframe{
 
 footer iframe{
     width: 100%;
-    height: 43vh;
+    height: 40vh;
 }
 /*Importação da fonte de título*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
@@ -30,7 +30,6 @@ p{
 main h1{
     text-align: center;
     padding: 20px;
-    width: 100%;
 }
 /*Estilização para separar duas sections*/
 .decoration{
@@ -96,7 +95,7 @@ input{
 }
 /*Estilização da imagem do cartão*/
 .img_card{
-    width: 39vh;
+    width: 30%;
     height: 35vh;
     border: 2px solid #938475;
     border-radius: 5px;
