@@ -12,7 +12,7 @@ body {
 /*botões navegação*/
 button {
     border: solid 3px #579BB1;
-    background-color: lightblue;
+    background-color: #F1DEC9;
     cursor: pointer;
     width: 200px;
     margin: 20px;
@@ -20,13 +20,13 @@ button {
 }
 
 button:hover {
-    background-color: lightblue;
+    background-color: #F1DEC9;
     transition: 0.2s linear;
     scale: 1.05;
 }
 
 button:active {
-    background-color: #579BB1;
+    background-color: #F1DEC9;
 }
 
 #top {
@@ -149,8 +149,8 @@ a {
 .cards {
     padding: 15px;
     border-radius: 15px;
-    border: solid 5px lightblue;
-    background-color: #579BB1;
+    border: solid 5px #579BB1;
+    background-color: #F1DEC9;
     margin: 20px;
     margin-top: 30px;
     width: 200px;
@@ -164,7 +164,7 @@ a {
     scale: 1.05;
     transition: 0.3s ease-in-out;
     cursor: pointer;
-    background-color: lightblue;
+    background-color: #579BB1;
 }
 
 .card_texts {
@@ -254,10 +254,12 @@ a {
     transition: all 0.2s;
     cursor: pointer;
   }
+
   .stars_avaliation .star_avaliations:hover {
     transform: scale(1.1);
     color: #ffe600;
   }
+  
   .stars_avaliation .star_avaliations.selected {
     color: #ffcc00;
   }
@@ -272,7 +274,7 @@ a {
     height: 50px;
   }
 
-  .imagemprincipal {
+.imagemprincipal {
     width: 300px;
     height: 209px;
   }
