@@ -38,7 +38,7 @@ main h1{
 /*Partes de informações pessoais no cadastro da extra*/
 .personal{
     display: flex;
-    border: 2px solid #938475;
+    border: 2px solid #579BB1;
     border-radius: 5px;
     margin: 20px;
     padding-bottom: 20px;
@@ -80,13 +80,13 @@ input{
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: transparent;
-    border: 2px solid #938475;
+    border: 2px solid #579BB1;
 
 }
 /*Animação no botão do cadastro*/
 .button:hover{
-    background-color: #8D7B68;
-    border: 2px solid #938475;
+    background-color: white;
+    border: 2px solid grey;
 }
 /*Partes de informações do cartão no cadastro da extra*/
 .cartao{
@@ -97,7 +97,7 @@ input{
 .img_card{
     width: 30%;
     height: 35vh;
-    border: 2px solid #938475;
+    border: 2px solid #579BB1;
     border-radius: 5px;
     margin: 30px;
     padding: 50px;
