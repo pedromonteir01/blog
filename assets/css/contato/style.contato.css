@@ -1,6 +1,15 @@
 /*Importação da fonte*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+header iframe{
+    width: 100%;
+    height: 100%;
+}
+
+footer iframe{
+    width: 100%;
+    height: 40vh;
+}
 
 body {
     margin: 0;
@@ -13,9 +22,10 @@ body {
 .article {
     background-color: transparent;
     text-align: justify;
-    height: 52vh;
-    width: 39vh;
-    padding: 150px;
+    height: 35vh;
+    width: 40vh;
+    padding: 175px;
+    margin-bottom: 70px;
     flex-direction: column;
     color: #333;
     font-family: 'Montserrat', sans-serif;
