@@ -9,9 +9,10 @@ body {
     text-align: center;
 }
 
+/*botões navegação*/
 button {
-    border: solid 3px #8D7B68;
-    background-color: #F1DEC9;
+    border: solid 3px #579BB1;
+    background-color: lightblue;
     cursor: pointer;
     width: 200px;
     margin: 20px;
@@ -19,13 +20,13 @@ button {
 }
 
 button:hover {
-    background-color: #C8B6A6;
+    background-color: lightblue;
     transition: 0.2s linear;
     scale: 1.05;
 }
 
 button:active {
-    background-color: #8D7B68;
+    background-color: #579BB1;
 }
 
 #top {
@@ -37,9 +38,9 @@ button:active {
     display: flex;
 }
 
-/*estilizaçao do aside*/
+/*estilizaçao do aside comentários*/
 aside {
-    background-color: #8D7B68;
+    background-color: #579BB1;
     margin: 15px;
     border-radius: 5px;
     padding: 15px;
@@ -55,7 +56,7 @@ aside {
 
 .coments {
     width: 400px;
-    border: #938475 solid 5px;
+    border: lightblue solid 5px;
     border-radius: 4px;
     padding: 10px;
     padding-top: 20px;
@@ -90,8 +91,8 @@ p {
 h1 {
     font-family: title;
     margin-bottom: 50px;
-    border: solid 10px #8D7B68;
-    background-color: #8D7B68;
+    border: solid 10px #579BB1;
+    background-color: #579BB1;
     border-radius: 5px;
     margin-top: 0;
     -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
@@ -148,8 +149,8 @@ a {
 .cards {
     padding: 15px;
     border-radius: 15px;
-    border: solid 5px #8D7B68;
-    background-color: #A4907C;
+    border: solid 5px lightblue;
+    background-color: #579BB1;
     margin: 20px;
     margin-top: 30px;
     width: 200px;
@@ -163,7 +164,7 @@ a {
     scale: 1.05;
     transition: 0.3s ease-in-out;
     cursor: pointer;
-    background-color: #938475;
+    background-color: lightblue;
 }
 
 .card_texts {
@@ -231,11 +232,13 @@ a {
     color: rgb(165, 165, 165);
 }
 
+/*avaliação texto*/
 #text_avaliation {
     font-size: 16px;
     padding-right: 5px;
 }
 
+/*avaliação estrelas*/
 .stars_avaliation {
     font-size: 24px;
     color: #ccc;
