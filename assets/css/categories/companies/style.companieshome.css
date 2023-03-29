@@ -17,7 +17,7 @@ body{
 #footer_{
     width: 100%;
     height: 40vh;
-    margin-bottom: -3vh;
+    margin-bottom: -2.2vh;
 }
 
 /*Alinhamento, centralização e margem da tag h1 da main*/
@@ -147,7 +147,7 @@ main h1{
 }
 /*Tamanho das imagens das propagandas*/
 #ad img{
-    width: 100%;
+    width: 194vh;
     height: 20vh;
 }
 

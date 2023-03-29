@@ -10,10 +10,15 @@
     transition: all 0.3s linear;
     display: flex;
     margin: 0;
-    height: 100px;
+    height: 100px; 
+}
+
+.bar_menu .menu {
+    justify-content: center;
+    align-items: center;
 }
 /* estilização do título do menu */
-.box_menu .bar_title {
+.bar_menu .bar_title {
     height: 60px;
     font-family: title;
     text-align: center;
