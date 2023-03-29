@@ -69,6 +69,11 @@ h3, h4, h6, a{
 #none{
     color: rgb(165, 165, 165);
 }
+#img_começo{
+    width: 300px;
+    height: 300px;
+
+}
 /**conteudo**/
 h1 {
     font-family: 'Montserrat', sans-serif;
