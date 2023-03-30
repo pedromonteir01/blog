@@ -138,6 +138,8 @@ main h1{
 /*Estilização com diplay flex*/
 #aside_art{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
