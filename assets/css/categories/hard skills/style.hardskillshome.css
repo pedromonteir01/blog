@@ -88,6 +88,12 @@ main h1{
     margin-right: 4.5vh;
 }
 
+.display1 {
+  display: flex;
+  background-color: transparent;
+  margin-left: 12vh;
+}
+
 /*Cards de noticía da parte superior do site*/
 .card_top{
     margin-top: 3vh;
