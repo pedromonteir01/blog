@@ -78,6 +78,7 @@ main h1{
     background-color: transparent;
     margin-left: 4.5vh;
     margin-right: 4.5vh;
+    text-align: center;
 }
 /*Cards de noticía da parte superior do site*/
 .card_top{
