@@ -286,3 +286,208 @@ h1.heading {
     border-radius: 15px;
     transition: 0.5s;
 }
+
+/*Media*/
+
+@media (max-width: 600px) {
+  body{
+    margin: 0%;
+    padding: 0%;
+  }
+
+  #menu{
+    width: 1550px;
+    height: 15vh;
+}
+/*Importação do footer pelo iframe*/
+#footer_{
+  width: 1550px;
+  height: 40vh;
+  margin-bottom: -2.2vh;
+}
+
+/*Alinhamento, centralização e margem da tag h1 da main*/
+main h1{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 75px;
+  width: 500px;
+  margin-left: 550px;
+  border-bottom: rgba(51, 51, 51, 0.7) solid 0.7vh;
+}
+/*Estilização das tags de texto, da parte superior do site*/
+#top h2, h3{
+  text-align: left;
+  margin-left: 55px;
+  width: 1000px;
+  font-family: 'Montserrat', sans-serif;
+}
+/*Estilização das tags de texto do site*/
+h4, h6, a{
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  font-size: 45px;
+  width: 1000px;
+}
+
+main h1{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  width: 1000px;
+  margin-left: 300px;
+}
+/*Classe para colocar cor nas tags de texto*/
+.blue{
+  color: #579BB1;
+  font-family: 'Montserrat', sans-serif;
+}
+/*Cor de fundo transparente da parte superior do site*/
+#top{
+  background-color: transparent;
+}
+/*Estilização da parte do banner do site*/
+.banner{
+  margin: 10px;
+  text-align: center;
+}
+/*Borda, e efeito de sombra no banner inicial do site*/
+.banner img{
+  width:1050px;
+  height: 550px;
+  margin-left: 250px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/*Estilização de um article, section e de div*/
+.display{
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  margin-left: 4.5vh;
+  margin-right: 4.5vh;
+}
+/*Cards de noticía da parte superior do site*/
+.card_top{
+  margin-left: 7.4vh;
+  margin-right: 7.4vh;
+  margin-top: 150px;
+  margin-bottom: -150px;
+}
+/*Estilização da imagem dos cards do topo do site*/
+.card_top img{
+  width: 750px;
+  height: 450px;
+  margin-left: 6vh;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/*Estilização do texto dos cards do topo do site*/
+.card_top h2{
+  margin-left: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  width: 1000px;
+}
+/*Estilização do texto com animação*/
+.card_top h2:hover{
+  color: #579BB1;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: .4s;
+}
+/*Cards de noticía do meio do site*/
+.card_middle{
+  margin-right: 450px;
+  margin-left: 150px;
+  margin-top: 350px;
+  margin-bottom: 200px;
+  width: 750px;
+  height: 450px;
+
+}
+/*Estilização da imagem dos cards do meio do site*/
+.card_middle img{
+  width: 750px;
+  height: 450px;
+  margin-top: 200px ;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/*Estilização do texto dos cards do meio do site*/
+.card_middle h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  width: 1000px;
+}
+/*Estilização do texto com animação*/
+.card_middle h2:hover{
+  color: #579BB1;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: .4s;
+}
+/*Estilização com diplay flex*/
+#aside_art{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*Estilização do anúncio*/
+#ad{
+  margin-top: 750px;
+  margin-bottom: 15px;
+}
+/*Tamanho das imagens das propagandas*/
+#ad img{
+  width: 1550px;
+  height: 20vh;
+}
+
+
+/*Propagandas*/
+
+#ads{
+  margin-left: 150px;
+}
+/*Propaganda de South Park*/
+#banners #sp{
+  margin: 15px;
+  margin-left: 250px;
+  width: 700px;
+  height: 400px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/*Propaganda da Kuat*/
+#banners #kuat{
+  margin: 15px;
+  width: 700px;
+  height: 400px;
+  padding: 15px;
+  margin-left: 250px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/*Propaganda do ifood*/
+#banners #ifood{
+  margin: 15px;
+  width: 700px;
+  height: 400px;
+  padding: 15px;
+  margin-left: 250px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+  
+}
