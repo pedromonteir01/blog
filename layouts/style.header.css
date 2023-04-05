@@ -103,6 +103,9 @@
     src: url(../assets/fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
 
+
+/*Media*/
+
 @media (max-width: 600px) {
     /* estilização do menu e da barra de navegação */
 .bar_menu {
@@ -163,7 +166,7 @@
 
 .bar_menu .menu a {
     color: #fff;
-    font-size: 11px;
+    font-size: 10px;
     width: 65px;
     margin-right: 25px;
     text-decoration: none;
