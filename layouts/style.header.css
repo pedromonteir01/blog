@@ -142,12 +142,12 @@
 
 .bar_menu .menu li {
     margin-right: 6px;
-    padding: 12px;
+    padding: 20px;
     transition: 0.3s;
     text-transform: uppercase;
     font-family: content;
     display: flex;
-    width: 70px;
+    width: 100px;
     justify-content: center;
 }
 
@@ -159,15 +159,15 @@
 
 .bar_menu .menu i {
     color: #fff;
-    font-size: 30px;
-    padding: 20px;
+    font-size: 60px;
+    padding: 40px;
 }
 
 .bar_menu .menu a {
     color: #fff;
-    font-size: 30px;
+    font-size: 60px;
     width: 65px;
-    margin: 20px;
+    margin: 40px;
     text-decoration: none;
 }
 

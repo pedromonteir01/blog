@@ -331,7 +331,7 @@ h1.heading {
   }
 
   #menu{
-    width: 100rem;
+    width: 1400px;
     height:150px;
     background-color: #2c2a29;
     padding-left: 200px;
@@ -340,7 +340,7 @@ h1.heading {
 
   /*Importação do footer pelo iframe*/
   #footer_ {
-    width: 100rem;
+    width: 1600px;
     height: 40vh;
     margin-bottom: -2.2vh;
   }
