@@ -493,17 +493,4 @@ main h1{
   margin-left: 300px;
 }
 
-@media screen and (max-width: 600px) {
-  iframe {
-      max-width: 2000px !important;
-      width: 1550px !important;
-      height: 200px !important;
-  }
-
-  footer{
-    max-width: 2000px !important;
-    width: 1550px !important;
-    height: 200px !important;
-  }
-}
 }
