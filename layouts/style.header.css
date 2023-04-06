@@ -113,7 +113,7 @@
     background-color: #2c2a29;
     transition: all 0.3s linear;
     display: flex;
-    height: 200px;
+    height: 225px;
     }
 /* estilização do título do menu */
 .box_menu .bar_title {
@@ -159,15 +159,15 @@
 
 .bar_menu .menu i {
     color: #fff;
-    font-size: 60px;
-    padding: 20px;
+    font-size: 10px;
+    padding: 5px;
 }
 
 .bar_menu .menu a {
     color: #fff;
-    font-size: 60px;
-    width: 65px;
-    margin: 20px;
+    font-size: 10px;
+    width: 70px;
+    margin: 5px;
     text-decoration: none;
 }
 
@@ -195,5 +195,11 @@
 
 #vip {
     margin-right: 50px;
+}
+
+#btn_extra{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
 }
 }
