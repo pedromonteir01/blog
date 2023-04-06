@@ -117,14 +117,14 @@
     }
 /* estilização do título do menu */
 .box_menu .bar_title {
-    height: 60px;
+    height: 100px;
     font-family: title;
     text-align: center;
 }
 
 .box_menu .bar_title a {
     color: #fff;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 500;
     text-decoration: none;
     line-height: 60px;
@@ -147,7 +147,7 @@
     text-transform: uppercase;
     font-family: content;
     display: flex;
-    width: 100px;
+    width: 70px;
     justify-content: center;
 }
 
@@ -160,14 +160,14 @@
 .bar_menu .menu i {
     color: #fff;
     font-size: 60px;
-    padding: 40px;
+    padding: 20px;
 }
 
 .bar_menu .menu a {
     color: #fff;
     font-size: 60px;
     width: 65px;
-    margin: 40px;
+    margin: 20px;
     text-decoration: none;
 }
 
