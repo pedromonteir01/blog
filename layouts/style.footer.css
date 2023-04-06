@@ -105,3 +105,36 @@ i {
     margin: 10px;
 }
 
+@media (max-width: 600px) {
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+    .copyright{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-left: 75px;
+        width: 250px;
+    }
+    #content_1{
+        width: 300px;
+        text-align: center;
+        margin-left: 60px;
+    }
+    .icons ul{
+        margin-top: 0px;
+        margin-left: 110px;
+    }
+    .all{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_{
+        flex-direction: column;
+    }
+    #logo_icon{
+        text-align: center;
+        margin-left: 170px;
+    }
+}
